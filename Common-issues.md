@@ -12,6 +12,10 @@ Go to 'model' tab in the tracker settings, and input your clip's dimensions.
 
 Set up the Accela filter. It has its own wiki page.
 
+- I don't want to make a LED clip!
+
+Then track a piece of paper as per [[aruco tracker]] wiki page.
+
 - There are no Linux binaries!
 
 It's assumed Linux users are software developers, support for the platform's provided for their convenience only.
