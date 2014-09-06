@@ -6,7 +6,7 @@ The page describes concepts used throughout the software.
 
 **Filter** ensures that data received from the tracker is [idempotent](http://en.wiktionary.org/wiki/idempotent) enough when the user doesn't command any particular change in input. It's necessary for webcam-based trackers, as these process image frames and compute the pose using numerical methods. In that case, software operation without a filter is commonly referred throughout the userbase as "jumping all over".
 
-Please note that in the case of inertial numerical-integration trackers (Rift, Hydra, gyro/mag/acc), filters aren't that much, or at all necessary. This is because the range of input is much larger. If it's 360 deg, with webcam trackers limited to 80, there's less noise by virtue of higher input range. Typical sensor amount, hardware quality, software implementation caveats apply.
+Please note that in the case of inertial numerical-integration trackers (Rift, Hydra, gyro/mag/acc), filters aren't that much, or at all necessary. This is because the range of input is much larger. If it's 360 deg, with webcam trackers limited to 80, there's less noise by virtue of higher input range. Typical sensor amount, hardware quality, software implementation correctness, magnetometer calibration and interference, caveats apply.
 
 **Protocol** transmits data from the software to whichever game/simulation software the user decides to use. Since the target software doesn't have any idea of opentrack running, some glue code must be used. As such, selecting a protocol is required for the tracking process.
 
