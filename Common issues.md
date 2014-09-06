@@ -14,7 +14,7 @@ Set up the Accela filter. It has its own wiki page.
 
 - There are no Linux binaries!
 
-It's assumed Linux users are developers, support for the platform's provided for their convenience only.
+It's assumed Linux users are software developers, support for the platform's provided for their convenience only.
 
 You can provide your own unofficial binaries.
 
@@ -22,7 +22,7 @@ You can provide your own unofficial binaries.
 
 This is on purpose. The project won't include that platform-specific file system layout.
 
-If this concerns you that much, move all to $prefix/libexec/opentrack, and $prefix/bin/opentrack should be a shell script executing $prefix/libexec/opentrack "$@".
+If this concerns you that much, move all to $prefix/libexec/opentrack, and $prefix/bin/opentrack should be a shell script executing $prefix/libexec/opentrack/opentrack "$@".
 
 - No binaries for OSX!
 
