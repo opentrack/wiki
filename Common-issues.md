@@ -16,6 +16,8 @@ Set up the Accela filter. It has its own wiki page.
 
 Then track a piece of paper as per [[aruco tracker]] wiki page.
 
+***The following are non-Windows exclusive issues***
+
 - There are no Linux binaries!
 
 It's assumed Linux users are software developers, support for the platform's provided for their convenience only.
