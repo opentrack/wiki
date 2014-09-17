@@ -18,9 +18,7 @@ Then track a piece of paper as per [[aruco tracker]] wiki page.
 
 - Keystrokes won't work in games!
 
-Game running as administrator with opentrack as regular user.
-
-Run both as administrator or both as user.
+Game running as administrator with opentrack as regular user. Run both as administrator or both as user.
 
 ***The following are non-Windows exclusive issues***
 
