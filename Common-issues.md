@@ -4,6 +4,8 @@ Go to the 'mapping' window, look at rectangles with blue background, and ensure 
 
 You can add a control point with left mouse button. Right button removes a control point. Existing points move by dragging with left button.
 
+Note: prior to 20141023, included in next release after 2.2, mapping will default to 1:1 from 0 to 180.
+
 - PT tracker doesn't work!
 
 Go to 'model' tab in the tracker settings, and input your clip's dimensions.
