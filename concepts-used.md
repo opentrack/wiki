@@ -24,12 +24,12 @@ filter is commonly referred throughout the userbase as "jumping all
 over".
 
 Please note that in the case of inertial numerical-integration trackers
-(Rift, Hydra, gyro/mag/acc), filters aren't that much, or at all
-necessary. This is because the range of input is much larger. If it's
-360 deg, with webcam trackers limited to 80, there's less noise by
-virtue of higher input range. Typical sensor amount, hardware quality,
-software implementation correctness, magnetometer calibration and
-interference, caveats apply.
+(Rift, Hydra, [EDTracker](http://edtracker.org.uk/)), filters aren't
+that much, or at all necessary. This is because the range of input is
+much larger. If it's 360 deg, with webcam trackers limited to 80,
+there's less noise by virtue of higher input range. Typical sensor
+amount, hardware quality, software implementation correctness,
+magnetometer calibration and interference, caveats apply.
 
 ***
 
