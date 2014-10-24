@@ -7,6 +7,12 @@ the main module of the program.
 receives data and processes it. Typically it's a webcam or some kind of
 inertial measurement device.
 
+**Protocol** transmits data from the software to whichever
+game/simulation software the user decides to use. Since the target
+software doesn't have any idea of opentrack running, some glue code must
+be used. As such, selecting a protocol is required for the tracking
+process.
+
 ***
 
 **Filter** ensures that data received from the tracker is
@@ -24,14 +30,6 @@ necessary. This is because the range of input is much larger. If it's
 virtue of higher input range. Typical sensor amount, hardware quality,
 software implementation correctness, magnetometer calibration and
 interference, caveats apply.
-
-***
-
-**Protocol** transmits data from the software to whichever
-game/simulation software the user decides to use. Since the target
-software doesn't have any idea of opentrack running, some glue code must
-be used. As such, selecting a protocol is required for the tracking
-process.
 
 ***
 
