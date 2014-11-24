@@ -1,7 +1,7 @@
 **1.**
 We need to connect our PC and android smartphone to the same network (it could be wifi or usb)
 
-**2. Install Opentrack 2.3 on your PC **
+**2. Install Opentrack 2.3 on your PC**
 
 You need to set up mapping in opentrack. You need to do it in yaw, pitch and roll as below.
 
@@ -38,5 +38,5 @@ Click start in Freepie on smartphone
 Start Game
 Use defined before center button.
 
-6.
+**6**.
 Enjoy!
