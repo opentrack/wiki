@@ -4,6 +4,9 @@ You can use OpenTrack to make custom VR helmet similar to Oculus Rift with your 
 - 1080p (4,5-6" depending of gogles) screen (on 720p will too bad)
 - gyroscope sensor
 - Android operating system
+- Samsung galaxy note 4 or LG G3 preffered for Colorcross googles
+- Nexus 5 or Samsung Galaxy S4 prefferred for Cardboard googles.
+- ... more DPI on screen is always better.
 
 **Hardware requirements:**
 - smartphone PC USB cable.
@@ -76,7 +79,7 @@ a) Start Opentrack
 b) start Freepie Tracker on your smartphone
 c) start streaming game in correct resolution
 d) put helmet on head
-phone should be in headset mounted in the same position as below (dont laugh):
+phone should be mounted in headset at the same position as below (don't laugh):
 ![](http://i.imgur.com/MLRiiEPl.jpg)
 
 **8) Enjoy VR!**
