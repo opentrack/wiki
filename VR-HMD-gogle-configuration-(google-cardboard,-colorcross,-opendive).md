@@ -18,7 +18,7 @@ You can use OpenTrack to make custom VR helmet similar to Oculus Rift with your 
 - ... and all similar
 
 From left: Open Dive, Colorcross, Google Cardboard
-![](hhttps://dl.dropboxusercontent.com/u/73783868/opentrack_vr_tutorial/20141124_235553.jpg)
+![](https://dl.dropboxusercontent.com/u/73783868/opentrack_vr_tutorial/20141124_235553.jpg)
 
 **1) Connect smartphone and PC to the same network.**
 Please use USB connection - is should support 30-60 fps with 1080p video image. Wifi will be too slow.
