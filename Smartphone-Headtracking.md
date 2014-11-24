@@ -34,7 +34,7 @@ And configure it as below:
 
 ![](https://dl.dropboxusercontent.com/u/73783868/freepie/4.png)
 
-**4.You can mount smartphone on head to headset ;) You can use a girl head decorations ;)**
+**4.You can mount smartphone on head to headset or use a girl head decorations ;)** (this is red, not pink...)
 
 ![](http://i.imgur.com/2fbKtfQ.jpg?1)
 
