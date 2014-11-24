@@ -36,7 +36,7 @@ Please use USB connection - is should support 30-60 fps with 1080p video image. 
 ![](https://dl.dropboxusercontent.com/u/73783868/opentrack_vr_tutorial/vr_roll.JPG)
 ![](https://dl.dropboxusercontent.com/u/73783868/opentrack_vr_tutorial/vr_yaw.JPG)
 
-**c)** set center button on keyboard/joystick/joypad
+**c)** set center button in Keys tab.
 
 **d)** enable 5555 UDP port in your PC firewall (for FreePie tracker)
 
