@@ -34,6 +34,7 @@ And configure it as below:
 ![](http://i.imgur.com/86Cs6wYl.jpg)
 
 **5. Engage!**
+
 Click start in Opentrack
 
 Click start in Freepie on smartphone
