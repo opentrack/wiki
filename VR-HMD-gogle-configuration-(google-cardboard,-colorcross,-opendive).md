@@ -91,6 +91,7 @@ http://www.wsgf.org/forums/viewtopic.php?t=21972&f=63
 **d)** put helmet on head
 
 phone should be mounted in headset at the same position as on image below (don't laugh):
+
 ![](http://i.imgur.com/MLRiiEPl.jpg)
 
 **e)** use your defined before center button
