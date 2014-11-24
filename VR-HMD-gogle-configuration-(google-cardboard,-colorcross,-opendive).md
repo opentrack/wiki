@@ -80,10 +80,15 @@ Example of standard SBS view with 50% horizontal squezze. Look at egg planets...
 http://www.wsgf.org/forums/viewtopic.php?t=21972&f=63
 
 **7) Run everything**
-a) Start Opentrack
-b) start Freepie Tracker on your smartphone
-c) start streaming game in correct resolution
-d) put helmet on head
+
+**a)** Start Opentrack
+
+**b)** start Freepie Tracker on your smartphone
+
+**c)** start streaming game in correct resolution
+
+**d)** put helmet on head
+
 phone should be mounted in headset at the same position as below (don't laugh):
 ![](http://i.imgur.com/MLRiiEPl.jpg)
 
