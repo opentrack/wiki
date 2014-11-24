@@ -12,12 +12,13 @@ You can use OpenTrack to make custom VR helmet similar to Oculus Rift with your 
 - smartphone PC USB cable.
 
 **VR gogles you can use:**
-- Chinavision ColorCross (best choice)
+- Chinavision ColorCross (best choice, they don't need lens correction, they have large lenses)
 - Google Cardboard
 - OpenDive / Durovis Dive
 - ... and all similar
 
-![](https://dl.dropboxusercontent.com/u/73783868/opentrack_vr_tutorial/20141124_234121.jpg)
+From left: Open Dive, Colorcross, Google Cardboard
+![](hhttps://dl.dropboxusercontent.com/u/73783868/opentrack_vr_tutorial/20141124_235553.jpg)
 
 **1) Connect smartphone and PC to the same network.**
 Please use USB connection - is should support 30-60 fps with 1080p video image. Wifi will be too slow.
