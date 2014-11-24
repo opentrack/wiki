@@ -1,7 +1,7 @@
 You can use OpenTrack to make custom VR helmet similar to Oculus Rift with your smartphone.
 
 **Smartphone requirements:**
-- 1080p (4,5-6" depending of gogles) screen (720p will be poor quality, but works too)
+- 1080p (4,5-6" depending of gogles) screen (720p will have poor quality, but works too)
 - gyroscope sensor
 - Android operating system
 - Samsung galaxy note 4 or LG G3 preffered for Colorcross gogles
@@ -28,24 +28,24 @@ Please use USB connection - is should support 30-60 fps with 1080p video image. 
 
 **2) Install OpenTrack 2.3 on your PC**
 
-**a)** set tracker to FreePie and configure is as below screen
+**a)** set tracker to FreePie and configure it as seen on image below
 ![](https://dl.dropboxusercontent.com/u/73783868/opentrack_vr_tutorial/ok_vr.JPG)
 
-**b)** set mappings as below
+**b)** set mappings as you see on images below
 ![](https://dl.dropboxusercontent.com/u/73783868/opentrack_vr_tutorial/vr_yaw.JPG)
 ![](https://dl.dropboxusercontent.com/u/73783868/opentrack_vr_tutorial/vr_roll.JPG)
 ![](https://dl.dropboxusercontent.com/u/73783868/opentrack_vr_tutorial/vr_yaw.JPG)
 
-**c)** set center button on button tab
+**c)** set center button on keyboard/joystick/joypad
 
-**d)** enable 5555 UDP port on your PC firewall (for freepie tracker)
+**d)** enable 5555 UDP port in your PC firewall (for FreePie tracker)
 
 **3) Install FreePie Android Client on Your smartphone**
 **a)** Freepie Client is located in your_OpenTrack_installation_directory\clientfiles\android-freepie
 Application name: com.freepie.android.imu-20141024.apk
-Remember to enable "allow installation from unknown sources" on your smartphone before install.
+Remember to enable "allow installation from unknown sources" on your smartphone before install.(You will be prompted with option to go to the settings if you haven't enabled this)
 
-**b)** configure FreePie  Android Client As below screen.
+**b)** configure FreePie  Android Client as you see on image below.
 Remember - target IP is your PC IP.
 ![](https://dl.dropboxusercontent.com/u/73783868/freepie/4.png)
 
@@ -73,7 +73,7 @@ Example of standard SBS view with 50% horizontal squezze. Look at egg planets...
 ![](http://i.imgur.com/pjjjC1il.jpg)
 1920x2160 resolution stream should correct it and it should look like non standard SBS in point **a)**.
 
-**6) setting non standard 1920x2160 in 8:9 resolution if game not support non standard SBS view.**
+**6) setting non standard 1920x2160 in 8:9 resolution if game don't support non standard SBS view.**
 **a)** if you have Nvidia card you can do this in Nvidia control panel
 ![](https://dl.dropboxusercontent.com/u/73783868/opentrack_vr_tutorial/nvidia.JPG)
 **b)** if you have ATI card you can make it in registry
@@ -89,7 +89,7 @@ http://www.wsgf.org/forums/viewtopic.php?t=21972&f=63
 
 **d)** put helmet on head
 
-phone should be mounted in headset at the same position as below (don't laugh):
+phone should be mounted in headset at the same position as on image below (don't laugh):
 ![](http://i.imgur.com/MLRiiEPl.jpg)
 
-**8) Enjoy VR!**
+**8) Enjoy your cheap homemade VR!**
