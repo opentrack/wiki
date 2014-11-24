@@ -1,7 +1,7 @@
 You can use OpenTrack to make custom VR helmet similar to Oculus Rift with your smartphone.
 
 **Smartphone requirements:**
-- 1080p (4,5-6" depending of gogles) screen (on 720p will too bad)
+- 1080p (4,5-6" depending of gogles) screen (720p will be poor quality, but works too)
 - gyroscope sensor
 - Android operating system
 - Samsung galaxy note 4 or LG G3 preffered for Colorcross gogles
