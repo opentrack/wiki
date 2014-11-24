@@ -31,6 +31,7 @@ Application name: com.freepie.android.imu-20141024.apk
 Remember to enable "allow installation from unknown sources" on your smartphone before install.
 
 And configure it as below:
+
 ![](https://dl.dropboxusercontent.com/u/73783868/freepie/4.png)
 
 **4.You can mount smartphone on head to headset ;) You can use a girl head decorations ;)**
