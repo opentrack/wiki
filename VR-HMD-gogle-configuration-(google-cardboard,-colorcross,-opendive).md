@@ -4,15 +4,15 @@ You can use OpenTrack to make custom VR helmet similar to Oculus Rift with your 
 - 1080p (4,5-6" depending of gogles) screen (on 720p will too bad)
 - gyroscope sensor
 - Android operating system
-- Samsung galaxy note 4 or LG G3 preffered for Colorcross googles
-- Nexus 5 or Samsung Galaxy S4 prefferred for Cardboard googles.
+- Samsung galaxy note 4 or LG G3 preffered for Colorcross gogles
+- Nexus 5 or Samsung Galaxy S4 prefferred for Cardboard gogles.
 - ... more DPI on screen is always better.
 
 **Hardware requirements:**
 - smartphone PC USB cable.
 
 **VR gogles you can use:**
-- Chinavision ColorCross
+- Chinavision ColorCross (best choice)
 - Google Cardboard
 - OpenDive / Durovis Dive
 - ... and all similar
