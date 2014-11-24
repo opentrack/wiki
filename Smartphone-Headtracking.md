@@ -20,6 +20,7 @@ Please select 'freepie tracker' and set there 5555 port. Remember to open this U
 ![](http://i.imgur.com/fyh8KWT.jpg)
 
 **3) Install FreePie Android Client on Your smartphone**
+
 **a)** Freepie Client is located in your_OpenTrack_installation_directory\clientfiles\android-freepie
 Application name: com.freepie.android.imu-20141024.apk
 Remember to enable "allow installation from unknown sources" on your smartphone before install.
