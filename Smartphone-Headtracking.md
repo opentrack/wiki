@@ -13,7 +13,8 @@ You need to set up mapping in opentrack. You need to do it in yaw, pitch and rol
 ![](http://i.imgur.com/PojOTBZ.jpg)
 ![](http://i.imgur.com/kHbpDQq.jpg)
 
-You need to invert two axis
+You need to invert two axis (this option can depend on your game)
+
 ![](http://i.imgur.com/FvYCwFF.jpg)
 
 I prefer to use Accela filter. You need to set up the 'center' key on keys tab.
