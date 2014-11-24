@@ -21,7 +21,7 @@ From left: Open Dive, Colorcross, Google Cardboard
 ![](https://dl.dropboxusercontent.com/u/73783868/opentrack_vr_tutorial/20141124_235553.jpg)
 
 **1) Connect smartphone and PC to the same network.**
-Please use USB connection - is should support 30-60 fps with 1080p video image. Wifi will be too slow.
+Please use USB connection - it should support 30-60 fps with 1080p video image. Wifi will be too slow.
 
 **a)** Disable Wifi and GSM data on smartphone
 
