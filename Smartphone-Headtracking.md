@@ -1,3 +1,7 @@
+**Smartphone requirements:**
+- gyroscope
+- wifi, bluetooth or USB network connection
+
 **1.**
 We need to connect our PC and android smartphone to the same network (it could be wifi or usb)
 
