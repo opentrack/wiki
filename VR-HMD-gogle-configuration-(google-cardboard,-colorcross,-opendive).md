@@ -41,7 +41,8 @@ Please use USB connection - is should support 30-60 fps with 1080p video image. 
 **d)** enable 5555 UDP port in your PC firewall (for FreePie tracker)
 
 **3) Install FreePie Android Client on Your smartphone**
-**a)** Freepie Client is located in your_OpenTrack_installation_directory\clientfiles\android-freepie
+**a)** Freepie Client is located in _your_OpenTrack_installation_directory\clientfiles\android-freepie_
+
 Application name: com.freepie.android.imu-20141024.apk
 Remember to enable "allow installation from unknown sources" on your smartphone before install.(You will be prompted with option to go to the settings if you haven't enabled this)
 
