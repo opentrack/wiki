@@ -17,6 +17,8 @@ You can use OpenTrack to make custom VR helmet similar to Oculus Rift with your 
 - OpenDive / Durovis Dive
 - ... and all similar
 
+![](https://dl.dropboxusercontent.com/u/73783868/opentrack_vr_tutorial/20141124_234121.jpg)
+
 **1) Connect smartphone and PC to the same network.**
 Please use USB connection - is should support 30-60 fps with 1080p video image. Wifi will be too slow.
 
