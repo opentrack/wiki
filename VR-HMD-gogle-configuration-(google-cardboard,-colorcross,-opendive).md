@@ -19,8 +19,11 @@ You can use OpenTrack to make custom VR helmet similar to Oculus Rift with your 
 
 **1) Connect smartphone and PC to the same network.**
 Please use USB connection - is should support 30-60 fps with 1080p video image. Wifi will be too slow.
+
 **a)** Disable Wifi and GSM data on smartphone
+
 **b)** enable USB tethering on smartphone
+
 **c)** make sure PC and smartphone are in the same subnet (you can ping your smartphone from PC).
 
 **2) Install OpenTrack 2.3 on your PC**
@@ -47,6 +50,7 @@ Remember - target IP is your PC IP.
 ![](https://dl.dropboxusercontent.com/u/73783868/freepie/4.png)
 
 **4) Configure Video stream.**
+
 **a)** If you have nVidia and GeForce experience software you can use limelight:
 Instruction how to configure:
 http://forum.xda-developers.com/showthread.php?t=2505510
