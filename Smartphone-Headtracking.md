@@ -35,9 +35,9 @@ And configure it as below:
 
 **5. Engage!**
 Click start in Opentrack
-Click start in Freepie on smartphone
-Start Game
-Use defined before center button.
 
-**6**.
-Enjoy!
+Click start in Freepie on smartphone
+
+Start Game
+
+Use defined before center button.
