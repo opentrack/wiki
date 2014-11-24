@@ -34,8 +34,11 @@ And configure it as below:
 ![](https://dl.dropboxusercontent.com/u/73783868/freepie/4.png)
 
 **4.You can mount smartphone on head to headset ;) You can use a girl head decorations ;)**
+
 ![](http://i.imgur.com/2fbKtfQ.jpg?1)
+
 ![](http://i.imgur.com/ckDq6Jrl.jpg)
+
 ![](http://i.imgur.com/86Cs6wYl.jpg)
 
 **5. Engage!**
