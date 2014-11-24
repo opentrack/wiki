@@ -59,6 +59,7 @@ http://forum.xda-developers.com/showthread.php?t=2505510
 http://www.splashtop.com/downloads
 
 **5) Game configuration**
+
 **a)** Remember, your game need to support non standard Side By Side mode, without 50% horizontal squeeze.
 Game need to support resolutions in 8:9 proportions.
 For example, 1920x1080 is 16:9 proportion. You need 960x1080 per one eye. Two eyes is 1920x1080 on your screen.
