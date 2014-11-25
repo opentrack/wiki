@@ -89,14 +89,13 @@ Example of standard SBS view with 50% horizontal squezze. Look at egg planets...
 http://www.wsgf.org/forums/viewtopic.php?t=21972&f=63
 
 **7) Prepare your VR gogles**
+
 Better models of VR gogles have lens adjustment.
 Make sure your VR gogles are properly adjusted. 
 There is need to measure a distance between center of eyes and set centers of lenses to this value.
-
 In my case, distance between centers of eyes is 40mm.
 
 This is personal settings, you need to prepare VR for your own way.
-
 **If you have problem with adjusting gogles consult it with your eye-doctor.**
 
 **8) Run everything**
