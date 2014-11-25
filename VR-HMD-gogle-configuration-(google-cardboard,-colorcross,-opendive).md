@@ -96,6 +96,7 @@ There is need to measure a distance between center of eyes and set centers of le
 In my case, distance between centers of eyes is 40mm.
 
 This is personal settings, you need to prepare VR for your own way.
+
 **If you have problem with adjusting gogles consult it with your eye-doctor.**
 
 **8) Run everything**
