@@ -45,6 +45,9 @@ Please use USB connection - it should support 30-60 fps with 1080p video image. 
 
 **e)** set protocol to Freetrack 2.0 Enchanced (depend of game)
 
+**f)** on mappings tab set axes invertion (may depend on game) 
+
+![](https://dl.dropboxusercontent.com/u/73783868/opentrack_vr_tutorial/invert_vr.JPG)
 **3) Install FreePie Android Client on Your smartphone**
 
 **a)** Freepie Client is located in _your_OpenTrack_installation_directory\clientfiles\android-freepie_
