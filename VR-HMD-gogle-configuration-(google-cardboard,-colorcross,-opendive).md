@@ -54,6 +54,7 @@ Remember to enable "allow installation from unknown sources" on your smartphone 
 
 **b)** configure FreePie  Android Client as you see on image below.
 Remember - target IP is your PC IP.
+
 ![](https://dl.dropboxusercontent.com/u/73783868/freepie/4.png)
 
 **4) Configure Video stream.**
