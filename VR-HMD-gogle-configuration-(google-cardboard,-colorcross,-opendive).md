@@ -43,7 +43,7 @@ Please use USB connection - it should support 30-60 fps with 1080p video image. 
 
 **d)** enable 5555 UDP port in your PC firewall (for FreePie tracker)
 
-**e)** set tracker to Freetrack 2.0
+**e)** set protocol to Freetrack 2.0 Enchanced (depend of game)
 
 **3) Install FreePie Android Client on Your smartphone**
 
