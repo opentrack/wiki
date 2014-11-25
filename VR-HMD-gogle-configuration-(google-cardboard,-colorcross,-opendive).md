@@ -85,7 +85,8 @@ Example of standard SBS view with 50% horizontal squezze. Look at egg planets...
 ![](http://i.imgur.com/pjjjC1il.jpg)
 1920x2160 resolution stream should correct it and it should look like non standard SBS in point **a)**.
 
-**6) setting non standard 1920x2160 in 8:9 resolution if game don't support non standard SBS view.**
+**6) setting non standard 1920x2160 (for 1080p screen) in 8:9 resolution if game don't support non standard SBS view.**
+**2560x2880 will be for 1440p screen in LG G3 or note4.**
 
 **a)** if you have Nvidia card you can do this in Nvidia control panel
 ![](https://dl.dropboxusercontent.com/u/73783868/opentrack_vr_tutorial/nvidia.JPG)
