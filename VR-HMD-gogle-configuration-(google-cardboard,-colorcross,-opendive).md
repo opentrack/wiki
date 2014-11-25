@@ -118,3 +118,7 @@ phone should be mounted in headset at the same position as on image below (don't
 **e)** use your defined before center button
 
 **9) Enjoy your cheap homemade VR!**
+
+Here is Video:
+
+http://youtu.be/3bH46VKHLUM
