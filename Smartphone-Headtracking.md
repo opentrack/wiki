@@ -53,3 +53,6 @@ Click start in Freepie on smartphone
 Start Game
 
 Use defined before center button.
+
+Here is Video:
+http://youtu.be/6Pts_sotjMA
