@@ -119,6 +119,4 @@ phone should be mounted in headset at the same position as on image below (don't
 
 **9) Enjoy your cheap homemade VR!**
 
-Here is Video:
-
-http://youtu.be/3bH46VKHLUM
+**Here is Video: http://youtu.be/3bH46VKHLUM**
