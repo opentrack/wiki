@@ -2,7 +2,7 @@
 - gyroscope
 - wifi, bluetooth(not tested but should work as well using teethering option) or USB network connection
 
-** Sample configuration file for opentrack. You can customize if you like**
+**Sample configuration file for opentrack. You can customize if you like**
 https://dl.dropboxusercontent.com/u/73783868/opentrack_vr_tutorial/elite_ht.ini
 
 **1.**
