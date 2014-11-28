@@ -12,8 +12,8 @@ You need to connect PC and android smartphone to the same network (it could be w
 
 You need to set up mapping in opentrack for yaw, pitch and roll to be like on images below.
 
-![](http://i.imgur.com/6ZHPyck.jpg)
-![](http://i.imgur.com/PojOTBZ.jpg)
+![](https://dl.dropboxusercontent.com/u/73783868/opentrack_vr_tutorial/ht_yaw.JPG)
+![](https://dl.dropboxusercontent.com/u/73783868/opentrack_vr_tutorial/ht_pitch.JPG)
 ![](https://dl.dropboxusercontent.com/u/73783868/opentrack_vr_tutorial/ht_roll.JPG)
 
 You need to invert two axes (this option can depend on your game)
