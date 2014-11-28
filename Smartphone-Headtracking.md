@@ -44,6 +44,7 @@ https://play.google.com/store/apps/details?id=eu.thedarken.wl
 
 ![](https://dl.dropboxusercontent.com/u/73783868/opentrack_vr_tutorial/wakelock.png)
 
+**!!! REMEMBER TO DISABLE WAKELOCK AFTER GAMING !!!**
 
 **5.You can mount smartphone on head to headset or use a girl headband decorations ;)** (this is red, not pink...)
 
