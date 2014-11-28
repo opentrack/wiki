@@ -36,10 +36,14 @@ Application name: com.freepie.android.imu-20141024.apk
 Remember to enable "allow installation from unknown sources" on your smartphone before install.(You will be prompted with option to go to the settings if you haven't enabled this)
 
 And configure it as you see on image below:
-
 ![](https://dl.dropboxusercontent.com/u/73783868/freepie/4.png)
 
-**4.You can mount smartphone on head to headset or use a girl headband decorations ;)** (this is red, not pink...)
+4) Install wakelock and configure it as below:
+https://play.google.com/store/apps/details?id=eu.thedarken.wl
+![](https://dl.dropboxusercontent.com/u/73783868/opentrack_vr_tutorial/wakelock.png)
+
+
+**5.You can mount smartphone on head to headset or use a girl headband decorations ;)** (this is red, not pink...)
 
 ![](http://i.imgur.com/2fbKtfQ.jpg?1)
 
@@ -47,7 +51,9 @@ And configure it as you see on image below:
 
 ![](http://i.imgur.com/86Cs6wYl.jpg)
 
-**5. Engage!**
+**6. Engage!**
+
+Ensure wakelock is running
 
 Click start in Opentrack
 
