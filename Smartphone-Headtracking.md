@@ -21,6 +21,9 @@ You need to invert two axes (this option can depend on your game)
 ![](http://i.imgur.com/FvYCwFF.jpg)
 
 Next you need to set up filter. I prefer to use Accela filter. 
+
+![](https://dl.dropboxusercontent.com/u/73783868/opentrack_vr_tutorial/accela.JPG)
+
 You need also set up the 'center' key in keys tab to center the view in several situations.
 
 As 'protocol' please choose Freetrack 2.0(compatible with most games)
