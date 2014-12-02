@@ -1,4 +1,4 @@
-[![Headtracking](http://i.imgur.com/86Cs6wYl.jpg)](http://youtu.be/6Pts_sotjMA)
+[![Headtracking](https://dl.dropboxusercontent.com/u/73783868/opentrack_vr_tutorial/ht_ico.jpg)](http://youtu.be/6Pts_sotjMA)
 
 **Smartphone requirements:**
 - gyroscope
