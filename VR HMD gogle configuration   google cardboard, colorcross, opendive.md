@@ -1,5 +1,7 @@
 You can use OpenTrack to make custom VR helmet similar to Oculus Rift with your smartphone.
 
+[![Virtual Reality](https://dl.dropboxusercontent.com/u/73783868/opentrack_vr_tutorial/vr_ico.jpg)](http://youtu.be/3bH46VKHLUM)
+
 **Smartphone requirements:**
 - 1080p (4,5-6" depending of gogles) screen (720p will have poor quality, but works too)
 - gyroscope sensor
