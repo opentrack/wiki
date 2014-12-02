@@ -56,7 +56,7 @@ https://play.google.com/store/apps/details?id=eu.thedarken.wl
 ![](http://i.imgur.com/2fbKtfQ.jpg?1)
 
 ![](http://i.imgur.com/ckDq6Jrl.jpg)
-[![](http://i.imgur.com/86Cs6wYl.jpg)](http://youtu.be/6Pts_sotjMA)
+![](http://i.imgur.com/86Cs6wYl.jpg)
 
 
 **6. Engage!**
