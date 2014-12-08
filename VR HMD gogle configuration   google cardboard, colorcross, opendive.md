@@ -25,6 +25,8 @@ From left: Open Dive, Colorcross, Google Cardboard
 **Sample configuration file for Opentrack. You can customize if you like or you dont want configure opentrack manualy (as below)**
 https://dl.dropboxusercontent.com/u/73783868/opentrack_vr_tutorial/elite_vr.ini
 
+**If you are concerned about radiation you can turn off GSM/NFC/GPS modules, leave only WiFi or Bluetooth (if you using them to data transmit), or turn everything off and use USB wired connection (recommended in due to high bandwitch requirements)**
+
 **1) Connect smartphone and PC to the same network.**
 Please use USB connection - it should support 30-60 fps with 1080p video image. Wifi will be too slow.
 
