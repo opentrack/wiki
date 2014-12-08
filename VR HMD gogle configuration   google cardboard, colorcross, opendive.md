@@ -26,14 +26,12 @@ From left: Open Dive, Colorcross, Google Cardboard
 https://dl.dropboxusercontent.com/u/73783868/opentrack_vr_tutorial/elite_vr.ini
 
 **1) Connect smartphone and PC to the same network.**
-Please use USB connection - it should support 30-60 fps with 1080p video image. Wifi will be too slow. Turn off GSM/NFC/GPS/Wifi modules.
+Please use USB connection - it should support 30-60 fps with 1080p video image. Wifi will be too slow.
+Turn off GSM/NFC/GPS/Wifi/BR modules.
 
+**a)** enable USB tethering on smartphone
 
-**a)** Disable Wifi and GSM data on smartphone
-
-**b)** enable USB tethering on smartphone
-
-**c)** make sure PC and smartphone are in the same subnet (you can ping your smartphone from PC).
+**b)** make sure PC and smartphone are in the same subnet (you can ping your smartphone from PC).
 
 **2) Install OpenTrack 2.3 on your PC**
 
