@@ -8,8 +8,6 @@
 https://dl.dropboxusercontent.com/u/73783868/opentrack_vr_tutorial/elite_ht.ini
 
 
-**If you are concerned about radiation you can turn off GSM/NFC/GPS modules, leave only WiFi or Bluetooth, or turn everything off and use USB wired connection**
-
 **1.**
 You need to connect PC and android smartphone to the same network (it could be wifi, usb or bluetooth)
 
