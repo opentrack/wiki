@@ -29,7 +29,7 @@ https://dl.dropboxusercontent.com/u/73783868/opentrack_vr_tutorial/elite_vr.ini
 Please use USB connection - it should support 30-60 fps with 1080p video image. Wifi will be too slow.
 
 
-**a)** Turn off GSM/NFC/GPS/Wifi/BT modules.
+**a)** Turn on airplane mode (turn off GSM/NFC/GPS/Wifi/BT modules).
 
 **b)** enable USB tethering on smartphone
 
