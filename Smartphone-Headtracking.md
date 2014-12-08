@@ -11,7 +11,7 @@ https://dl.dropboxusercontent.com/u/73783868/opentrack_vr_tutorial/elite_ht.ini
 **1.**
 You need to connect PC and android smartphone to the same network (it could be wifi, usb or bluetooth).
 
-Turn off GSM/NFC/GPS modules, leave only WiFi or Bluetooth, or turn everything off if you using USB wired connection.
+Turn on airplane mode with wifi or bluetooth (if you are using wireless connection, turn off GPS/GSM/NFC modules).In case of USB connection disable all.
 
 **2. Install Opentrack 2.3 on your PC**
 
