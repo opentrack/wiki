@@ -25,7 +25,7 @@ From left: Open Dive, Colorcross, Google Cardboard
 **Sample configuration file for Opentrack. You can customize if you like or you dont want configure opentrack manualy (as below)**
 https://dl.dropboxusercontent.com/u/73783868/opentrack_vr_tutorial/elite_vr.ini
 
-**Mappings and accela may need individual tune depending on smartphone.**
+**Mappings and accela may need individual tune depending on smartphone or game.**
 
 **1) Connect smartphone and PC to the same network.**
 Please use USB connection - it should support 30-60 fps with 1080p video image. Wifi will be too slow.
