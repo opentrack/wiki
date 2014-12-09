@@ -57,11 +57,18 @@ https://play.google.com/store/apps/details?id=eu.thedarken.wl
 
 **5.You can mount smartphone on head to headset or use a girl headband decorations ;)** (this is red, not pink...)
 
-![](http://i.imgur.com/2fbKtfQ.jpg?1)
+You can mount smartphone to headset:
+![](https://dl.dropboxusercontent.com/u/73783868/opentrack_vr_tutorial/headset.jpg)
+![](https://dl.dropboxusercontent.com/u/73783868/opentrack_vr_tutorial/headset2.jpg)
+![](https://dl.dropboxusercontent.com/u/73783868/opentrack_vr_tutorial/headset3.jpg)
 
-![](http://i.imgur.com/ckDq6Jrl.jpg)
-![](http://i.imgur.com/86Cs6wYl.jpg)
+Or you can mount without it:
+![](https://dl.dropboxusercontent.com/u/73783868/opentrack_vr_tutorial/opaska.jpg)
+![](https://dl.dropboxusercontent.com/u/73783868/opentrack_vr_tutorial/opaska2.jpg)
+![](https://dl.dropboxusercontent.com/u/73783868/opentrack_vr_tutorial/opaska3.jpg)
 
+If you think, than above looks funny, you also can hide smartphone...
+![](https://dl.dropboxusercontent.com/u/73783868/opentrack_vr_tutorial/opaska4.jpg)
 
 **6. Engage!**
 
