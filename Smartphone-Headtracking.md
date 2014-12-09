@@ -1,6 +1,7 @@
 [![Headtracking](https://dl.dropboxusercontent.com/u/73783868/opentrack_vr_tutorial/ht_ico.jpg)](http://youtu.be/6Pts_sotjMA)
 
 **Smartphone requirements:**
+- Android only for now
 - gyroscope
 - wifi, bluetooth(not tested but should work as well using teethering option) or USB network connection
 
