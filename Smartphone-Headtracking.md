@@ -7,6 +7,7 @@
 **Sample configuration file for Opentrack. You can customize if you like or you dont want configure opentrack manualy (as below)**
 https://dl.dropboxusercontent.com/u/73783868/opentrack_vr_tutorial/elite_ht.ini
 
+**Mappings and accela may need individual tune depending on smartphone.**
 
 **1.**
 You need to connect PC and android smartphone to the same network (via USB,  wifi or bluetooth).
