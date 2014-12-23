@@ -14,7 +14,7 @@ You can use OpenTrack to make custom VR helmet similar to Oculus Rift with your 
 - smartphone PC USB cable.
 
 **VR gogles you can use:**
-- Chinavision ColorCross (best choice, they don't need lens correction, they have large lenses)
+- Chinavision ColorCross (best choice, they don't need lens correction, they have large lenses) ~ 20 USD with shipping. Easy to buy on fasttech.com or dx.com
 - Google Cardboard
 - OpenDive / Durovis Dive
 - ... and all similar
