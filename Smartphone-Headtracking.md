@@ -56,8 +56,9 @@ You can mount smartphone to headset:
 ![](https://dl.dropboxusercontent.com/u/73783868/opentrack_vr_tutorial/headset3.jpg)
 
 !!! Note !!!
-Magnets in headset may interfere magnetometer readings in smartphone.
+Large magnets in headset may interfere magnetometer readings in smartphone.
 Putting phone to each speaker for 20s should temporary recalibrate smartphone magnetometer for distorted magnetic field, but this is only workaround, not solution and may not work in every case.
+Other workaround is install phone in distance 15-20cm above headset.
 
 Or you can mount without it:
 ![](https://dl.dropboxusercontent.com/u/73783868/opentrack_vr_tutorial/opaska.jpg)
