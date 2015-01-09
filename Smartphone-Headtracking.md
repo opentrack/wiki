@@ -2,7 +2,7 @@
 
 **Smartphone requirements:**
 - Android or Windows Phone. See [[Smartphone-Windows-Phone]] for the latter.
-- gyroscope
+- gyroscope is highly preffered
 - wifi, bluetooth(not tested but should work as well using teethering option) or USB network connection
 
 **Sample configuration file for Opentrack. You can customize if you like or you dont want configure opentrack manualy (as below)**
@@ -48,15 +48,7 @@ And configure it as you see on image below:
 
 ![](https://dl.dropboxusercontent.com/u/73783868/freepie/4.png)
 
-4) Install wakelock and configure it as below:
-
-https://play.google.com/store/apps/details?id=eu.thedarken.wl
-
-![](https://dl.dropboxusercontent.com/u/73783868/opentrack_vr_tutorial/wakelock.png)
-
-**!!! REMEMBER TO DISABLE WAKELOCK AFTER GAMING !!!**
-
-**5.You can mount smartphone on head to headset or use a girl headband decorations ;)** (this is red, not pink...)
+**4.You can mount smartphone on head to headset or use a girl headband decorations ;)** (this is red, not pink...)
 
 You can mount smartphone to headset:
 ![](https://dl.dropboxusercontent.com/u/73783868/opentrack_vr_tutorial/headset.jpg)
@@ -71,9 +63,7 @@ Or you can mount without it:
 If you think, than above looks funny, you also can hide smartphone...
 ![](https://dl.dropboxusercontent.com/u/73783868/opentrack_vr_tutorial/opaska4.jpg)
 
-**6. Engage!**
-
-Ensure wakelock is running
+**5. Engage!**
 
 Click start in Opentrack
 
