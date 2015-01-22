@@ -13,10 +13,13 @@ Changed in development branch prior to 20141023, to include after
 release 2.2 -- defaults to 0->180 mappings now every time no mapping
 exists.
 
-# PT tracker doesn't work!
+# PointTracker tracker doesn't work!
 
 Go to 'model' tab in the tracker settings, and input the clip's
 dimensions.
+
+If you have a very flashy result, go to 'camera' tab in the tracker settings and try to play with threshold and hysteresis settings. If you still have difficulties to get your points detected, change gain/exposure setting in the driver of your camera.
+
 
 # Tracking's too slow or jumpy!
 
