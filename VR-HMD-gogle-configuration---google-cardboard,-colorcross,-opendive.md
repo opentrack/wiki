@@ -70,7 +70,7 @@ Remember - target IP is your PC IP.
 
 **4) Configure Video stream.**
 
-**a)** If you have nVidia and GeForce experience software you can use limelight:
+**a)** If you have nVidia and GeForce experience software you can use MoonLight:
 Instruction how to configure:
 http://forum.xda-developers.com/showthread.php?t=2505510
 
