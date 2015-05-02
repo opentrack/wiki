@@ -48,7 +48,7 @@ And configure it as you see on image below:
 
 ![](https://dl.dropboxusercontent.com/u/73783868/freepie/4.png)
 
-Remember. You need to enter ** local IP ADDRESS OF YOUR PC**, not IP on above image.
+Remember. You need to enter **local IP ADDRESS OF YOUR PC**, not IP on above image.
 
 **4.You can mount smartphone on head to headset or use a girl headband decorations ;)** (this is red, not pink...)
 
