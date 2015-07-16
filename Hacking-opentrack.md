@@ -1,5 +1,3 @@
-# Hacking opentrack
-
 This article describes source code layout and entry points for developers. Grab an IDE with cross-referencing support or at least <code>ctags</code>.
 
 - Main form of the user interface is defined in [facetracknoir/ui.cpp](https://github.com/opentrack/opentrack/blob/unstable/facetracknoir/ui.cpp)
