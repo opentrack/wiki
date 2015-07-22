@@ -5,8 +5,8 @@ utility, or print the sample [AR marker image](https://github.com/opentrack/open
 
 Following that, base it on cardboard, avoiding either glue bleeding
 through the paper, or tape covering the marker respectively, depending
-on the method used. Leave two or three centimerers of the paper around
-the paper.
+on the method used. Leave two or three centimerers of the empty paper around
+the markings.
 
 Please keep in mind that marker has to be waved at the camera at a
 neutral pitch angle of at least 15-25 degrees -- since it's planar,
