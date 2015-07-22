@@ -8,7 +8,7 @@ through the paper, or tape covering the marker respectively, depending
 on the method used. Leave two or three centimerers of the empty paper around
 the markings.
 
-Please keep in mind that marker has to be waved at the camera at a
+Please **keep in mind** that marker has to be waved at the camera at a
 neutral pitch angle of at least 15-25 degrees -- since it's planar,
 solver gets confused when pose approaches identity. When
 mounting it on a hat, ensure a relatively oblique angle that
