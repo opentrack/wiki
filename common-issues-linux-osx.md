@@ -17,9 +17,4 @@ be released again in the future.
 
 # How to contribute a tracker/protocol?
 
-For now, copy the stuff from other tracker/protocol to a new directory,
-remove the logic, and hack from there. Hook to the build in
-CMakeLists.txt.
-
-There'll be some stubs and docs in the future. If this is urgent, write
-the stubs/docs yourself.
+See [hacking opentrack](https://github.com/opentrack/opentrack/wiki/Hacking-opentrack) on this wiki.
