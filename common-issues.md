@@ -1,6 +1,8 @@
 The following are the common issues accounting for more than 75%
 reported issues.
 
+Most of the issues no longer need addressing in the 2.3 branch. Let's keep them however as long as 2.3 isn't considered stable and 2.2 obsolete.
+
 # Tracking won't work!
 
 Go to the 'mapping' window, look at rectangles with blue background, and
