@@ -1,6 +1,6 @@
 Accela in opentrack 2.3 no longer contains many interacting and hard to understand settings.
 
-**Smoothing** smooths movement between frames that happen with noisy trackers like ones based on webcams.
+**Smoothing** makes movement more regular but delayed.
 
 **Sensitivity** causes small movements to lag behind. This is useful to prevent natural head shaking resulting in the view swimming all over the virtual cockpit.
 
