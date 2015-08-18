@@ -1,5 +1,6 @@
 This article describes source code layout and entry points for developers. Grab an IDE with cross-referencing support or at least <code>ctags</code>.
 
+- Dependencies other than Qt are included in the [opentrack-depends](https://github.com/opentrack/opentrack-depends) repository.
 - Main form of the user interface is defined in [facetracknoir/ui.cpp](https://github.com/opentrack/opentrack/blob/unstable/facetracknoir/ui.cpp)
 - Software logic that isn't purely user interface is defined in [opentrack/](https://github.com/opentrack/opentrack/tree/unstable/opentrack)
 - Logic of sending data through tracker -> filter -> protocol pipeline is defined in [opentrack/tracker.cpp](https://github.com/opentrack/opentrack/blob/unstable/opentrack/tracker.cpp)
