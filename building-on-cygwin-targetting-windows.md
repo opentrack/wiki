@@ -3,7 +3,10 @@ Build instead <code>build=mingw-w64</code> and <code>host=mingw-w64</code>, usin
 
 Copy `libgcc` and `libstdc++` .dll's to Qt-prefix/bin.
 
-Use toolchain file as per <code>cmake -D CMAKE_TOOLCHAIN_FILE=$(pwd)/../cmake/mingw-w64.cmake ..</code> to ease cross-compiler usage.
+Use toolchain file as per
+> cmake -D CMAKE_TOOLCHAIN_FILE=$(pwd)/../cmake/mingw-w64.cmake ..</code>
+
+to ease cross-compiler usage.
 
 Compile opentrack-depends.
 
