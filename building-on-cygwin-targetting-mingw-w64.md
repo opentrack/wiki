@@ -1,4 +1,7 @@
-Qt 5.x won't build on Cygwin as <code>qmake</code> doesn't build there. Build instead build=<code>mingw-w64</code> and target=<code>mingw-w64</code>, using the exact compiler and dw/sjlj as the Cygwin cross-compiler. Copy libgcc/libstdc++ to Qt-prefix/bin.
+Qt 5.x won't build on Cygwin as <code>qmake</code> doesn't build there.
+Build instead <code>build=mingw-w64</code> and <code>target=mingw-w64</code>, using the exact compiler and dw/sjlj as the Cygwin cross-compiler.
+
+Copy libgcc/libstdc++ to Qt-prefix/bin.
 
 Use cmake/mingw-w64.cmake as per <code>cmake -D CMAKE_TOOLCHAIN_FILE=$(pwd)/../cmake/mingw-w64.cmake ..</code> to ease cross-compiler usage.
 
