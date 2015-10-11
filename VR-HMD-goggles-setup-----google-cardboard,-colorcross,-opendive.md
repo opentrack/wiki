@@ -111,19 +111,19 @@ I measured a distance between center of eyes and set centers of lenses to this v
 My distance between centers of eyes is 40mm.
 
 This is personal settings, adjustment method depend of your eyes, **you need to prepare VR for your own way**.
-**If you have problem with adjusting goggles consult it with your eye-doctor.**
+**If you have problem with adjusting goggles consult it with your eye doctor.**
 
 **8) Run everything**
 
-**a)** Start Opentrack
+**a)** Start opentrack
 
-**b)** start Freepie Tracker on your smartphone
+**b)** start FreePIE Tracker on your smartphone
 
 **c)** start streaming game in correct resolution
 
 **d)** put helmet on head
 
-phone should be mounted in headset at the same position as on image below (don't laugh):
+phone should be mounted on a headset at the same position as on image below (don't laugh):
 
 ![](http://i.imgur.com/MLRiiEPl.jpg)
 
