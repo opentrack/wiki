@@ -1,9 +1,9 @@
-You can use OpenTrack to make custom VR helmet similar to Oculus Rift with your smartphone.
+You can use opentrack to make a custom VR helmet similar to Oculus Rift with your smartphone.
 
 [![Virtual Reality](https://dl.dropboxusercontent.com/u/73783868/opentrack_vr_tutorial/vr_ico.jpg)](http://youtu.be/3bH46VKHLUM)
 
 **Smartphone requirements:**
-- 1080p (4,5-6" depending of gogles) screen (720p will have poor quality, but works too)
+- 1080p (4,5-6" depending of goggles) screen (720p will have poor image quality, but works too)
 - gyroscope sensor
 - Android operating system
 - Samsung galaxy note 4 or LG G3 preffered for Colorcross gogles
@@ -14,7 +14,7 @@ You can use OpenTrack to make custom VR helmet similar to Oculus Rift with your 
 - smartphone PC USB cable.
 
 **VR gogles you can use:**
-- Chinavision ColorCross (best choice, they don't need lens correction, they have large lenses) ~ 20 USD with world shipping. Easy to buy on fasttech.com or dx.com
+- Chinavision ColorCross (best choice, they don't need lens correction, and have large lenses) ~ 20 USD with world shipping. Easy to buy on fasttech.com or dx.com
 - Google Cardboard
 - OpenDive / Durovis Dive
 - ... and all similar
@@ -22,10 +22,10 @@ You can use OpenTrack to make custom VR helmet similar to Oculus Rift with your 
 From left: Open Dive, Colorcross, Google Cardboard
 ![](https://dl.dropboxusercontent.com/u/73783868/opentrack_vr_tutorial/20141124_235553.jpg)
 
-**Sample configuration file for Opentrack. You can customize if you like or you dont want configure opentrack manualy (as below)**
+**Sample configuration file for opentrack. You can customize if you like or you dont want configure opentrack manualy (as below)**
 https://dl.dropboxusercontent.com/u/73783868/opentrack_vr_tutorial/elite_vr.ini
 
-**Mappings and accela may need individual tune depending on smartphone or game.**
+**Mappings and Accela filter configuration may need individual tuning depending on smartphone or individual game.**
 
 **1) Connect smartphone and PC to the same network.**
 Please use USB connection - it should support 30-60 fps with 1080p video image. Wifi will be too slow.
@@ -35,11 +35,11 @@ Please use USB connection - it should support 30-60 fps with 1080p video image. 
 
 **b)** enable USB tethering on smartphone
 
-**c)** make sure PC and smartphone are in the same subnet (you can ping your smartphone from PC).
+**c)** make sure the PC and smartphone are in the same subnet (you can ping your smartphone from PC).
 
-**2) Install OpenTrack 2.3 on your PC**
+**2) Install opentrack 2.3 on your PC**
 
-**a)** set tracker to FreePie and configure it as seen on image below
+**a)** set the tracker to FreePIE and configure it as seen on image below
 ![](https://dl.dropboxusercontent.com/u/73783868/opentrack_vr_tutorial/ok_vr.JPG)
 
 **b)** set mappings as you see on images below
@@ -49,26 +49,26 @@ Please use USB connection - it should support 30-60 fps with 1080p video image. 
 
 **c)** set center button in Keys tab.
 
-**d)** enable 5555 UDP port in your PC firewall (for FreePie tracker)
+**d)** enable 5555 UDP port in your PC firewall (for the FreePIE tracker)
 
-**e)** set protocol to Freetrack 2.0 Enchanced (depend of game)
+**e)** set protocol to Freetrack 2.0 Enchanced (depending on game)
 
 **f)** on mappings tab set axes invertion (may depend on game) 
 
 ![](https://dl.dropboxusercontent.com/u/73783868/opentrack_vr_tutorial/invert_vr.JPG)
 
-**3) Install FreePie Android Client on Your smartphone**
+**3) Install FreePIE Android Client on your smartphone**
 
-**a)** Freepie Client (apk) is located in _your_OpenTrack_installation_directory\clientfiles\freepie-udp
+**a)** FreePIE Client (apk) is located in _your_OpenTrack_installation_directory\clientfiles\freepie-udp
 
-Remember to enable "allow installation from unknown sources" on your smartphone before install.(You will be prompted with option to go to the settings if you haven't enabled this)
+Remember to enable "allow installation from unknown sources" on your smartphone before install. You will be prompted with option to go to the settings if you haven't enabled this.
 
-**b)** configure FreePie  Android Client as you see on image below.
+**b)** configure the FreePIE android client as you see on image below.
 Remember - target IP is your PC IP.
 
 ![](https://dl.dropboxusercontent.com/u/73783868/freepie/4.png)
 
-**4) Configure Video stream.**
+**4) Configure the video stream.**
 
 **a)** If you have nVidia and GeForce experience software you can use MoonLight:
 Instruction how to configure:
@@ -86,7 +86,7 @@ For example, 1920x1080 is 16:9 proportion. You need 960x1080 per one eye. Two ey
 Example of non standard SBS view with correct aspect ratio
 ![](http://i.imgur.com/dX5u2K6l.jpg)
 
-**b)** if game support only standard SBS view with 50% horizontal squeeze or you using Tridef3D http://www.tridef.com/ you need force game to run in non standard resolution 1920x2160 in 8:9 proportions and it should be resized by streaming software to correct proportions.
+**b)** if game supports only standard SBS view with 50% horizontal squeeze or you using Tridef3D http://www.tridef.com/ you need force game to run in non standard resolution 1920x2160 in 8:9 proportions and it should be resized by streaming software to correct proportions.
 
 Example of standard SBS view with 50% horizontal squezze. Look at egg planets...
 ![](http://i.imgur.com/pjjjC1il.jpg)
@@ -101,17 +101,17 @@ Example of standard SBS view with 50% horizontal squezze. Look at egg planets...
 **b)** if you have ATI card you can make it in registry
 http://www.wsgf.org/forums/viewtopic.php?t=21972&f=63
 
-**7) Prepare your VR gogles**
+**7) Prepare your VR goggles**
 
-Better models of VR gogles have lens adjustment.
-Make sure your VR gogles are properly adjusted. 
+Better models of VR goggles have lens adjustment.
+Make sure your VR goggles are properly adjusted. 
 
 In my case it was:
 I measured a distance between center of eyes and set centers of lenses to this value.
 My distance between centers of eyes is 40mm.
 
 This is personal settings, adjustment method depend of your eyes, **you need to prepare VR for your own way**.
-**If you have problem with adjusting gogles consult it with your eye-doctor.**
+**If you have problem with adjusting goggles consult it with your eye-doctor.**
 
 **8) Run everything**
 
