@@ -5,17 +5,17 @@
 - gyroscope is highly preffered
 - wifi, bluetooth(not tested but should work as well using teethering option) or USB network connection
 
-**Sample configuration file for Opentrack. You can customize if you like or you dont want configure opentrack manualy (as below)**
+**Sample configuration file for opentrack. You can customize if you like or you dont want configure opentrack manually (as below)**
 https://dl.dropboxusercontent.com/u/73783868/opentrack_vr_tutorial/elite_ht.ini
 
-**Mappings and accela may need individual tune depending on smartphone or game.**
+**Mappings and accela may need individual tuning depending on smartphone or game.**
 
 **1.**
 You need to connect PC and android smartphone to the same network (via USB,  wifi or bluetooth).
 
 Turn on airplane mode (turn off GPS/GSM/NFC/Wifi/Bt modules), and turn on wifi or bluetooth if you using wireless connection.  
 
-**2. Install Opentrack 2.3 on your PC**
+**2. Install opentrack 2.3 on your PC**
 
 You need to set up mapping in opentrack for yaw, pitch and roll to be like on images below.
 
@@ -33,18 +33,18 @@ Next you need to set up filter. I prefer to use Accela filter.
 
 You need also set up the 'center' key in keys tab to center the view in several situations.
 
-As 'protocol' please choose Freetrack 2.0(compatible with most games)
+As 'protocol' please choose Freetrack 2.0 (compatible with most games)
 
-Please select 'FreePie tracker' and set there 5555 port. Remember to open this UDP port for in your firewall.
+Please select 'FreePIE tracker' and set there 5555 port. Remember to open this UDP port for in your firewall.
 ![](http://i.imgur.com/fyh8KWT.jpg)
 
-**3) Install FreePie Android Client on Your smartphone**
+**3) Install FreePIE android client on Your smartphone**
 
-Freepie Client (apk) is located in _your_OpenTrack_installation_directory\clientfiles\freepie-udp
+Freepie client (apk) is located in _your_OpenTrack_installation_directory\clientfiles\freepie-udp
 
-Remember to enable "allow installation from unknown sources" on your smartphone before install.(You will be prompted with option to go to the settings if you haven't enabled this)
+Remember to enable "allow installation from unknown sources" on your smartphone before install. You will be prompted with option to go to the settings if you haven't enabled this.
 
-And configure it as you see on image below:
+Configure it as you see on image below:
 
 ![](https://dl.dropboxusercontent.com/u/73783868/freepie/4.png)
 
@@ -58,8 +58,8 @@ You can mount smartphone to headset:
 ![](https://dl.dropboxusercontent.com/u/73783868/opentrack_vr_tutorial/headset3.jpg)
 
 !!! Note !!!
-Large magnets in headset may interfere magnetometer readings in smartphone.
-Putting phone to each speaker for 20s should temporary recalibrate smartphone magnetometer for distorted magnetic field, but this is only workaround, not solution and may not work in every case.
+Large magnets in the headset may interfere with magnetometer readings in smartphone.
+Putting phone to each speaker for 20s should temporary recalibrate smartphone magnetometer for distorted magnetic field, but this is only workaround, not a solution and may not work in every case.
 Other workaround is install phone in distance 15-20cm above headset.
 
 Or you can mount without it:
@@ -67,18 +67,18 @@ Or you can mount without it:
 ![](https://dl.dropboxusercontent.com/u/73783868/opentrack_vr_tutorial/opaska2.jpg)
 ![](https://dl.dropboxusercontent.com/u/73783868/opentrack_vr_tutorial/opaska3.jpg)
 
-If you think, than above looks funny, you also can hide smartphone...
+If you think, than the above looks funny, you can also hide the smartphone...
 ![](https://dl.dropboxusercontent.com/u/73783868/opentrack_vr_tutorial/opaska4.jpg)
 
 **5. Engage!**
 
-Click start in Opentrack
+Click start in opentrack
 
-Click start in Freepie on smartphone
+Click start in FreePIE on the smartphone
 
-Start Game
+Start the game
 
-Use defined before center button.
+Use the previously defined center button.
 
-**Here is Video:**
+**Here is a video:**
 **http://youtu.be/6Pts_sotjMA**
