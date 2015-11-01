@@ -1,6 +1,6 @@
 Qt 5.x won't build on Cygwin as <code>qmake</code> doesn't build there.
 
-Use instead the official mingw-w64 installer as per `https://sourceforge.net/projects/mingw-w64/` and adjust patch in `cmake/mingw-w64.cmake` to point to this one. Recommend not using spaces in installation directory.
+Use instead the official [mingw-w64 installer](https://sourceforge.net/projects/mingw-w64/) and adjust path in `cmake/mingw-w64.cmake` to point to this one. Recommend not using spaces in installation directory.
 
 You could use Cygwin's mingw-w64 cross-compiler but it interfaces poorly with Qt Creator and is outdated.
 
