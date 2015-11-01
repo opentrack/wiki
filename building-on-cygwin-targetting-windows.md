@@ -7,6 +7,8 @@ You could use Cygwin's mingw-w64 cross-compiler but it interfaces poorly with Qt
 Copy `libgcc` and `libstdc++` .dll's to Qt-prefix/bin.
 
 Use toolchain file as per
+> `mkdir build`
+> `cd build`
 > cmake -D CMAKE_TOOLCHAIN_FILE=$(pwd)/../cmake/mingw-w64.cmake ..</code>
 
 to ease cross-compiler usage.
