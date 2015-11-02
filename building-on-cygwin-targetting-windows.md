@@ -29,7 +29,7 @@ install::
 </pre>
 to prevent build errors and build time being too long.
 
-Additionally, you can replace in `qtbase/mkspecs/win32-g++/qmake.conf` a declaration with the following:
+Additionally, you can replace a declaration in `qtbase/mkspecs/win32-g++/qmake.conf` with the following:
 
 <pre>
 CONFIG                 += release release_target precompile_header
