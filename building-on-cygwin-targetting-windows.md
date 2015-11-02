@@ -8,7 +8,7 @@ You could use Cygwin's mingw-w64 cross-compiler but it interfaces poorly with Qt
 
 ## Qt5
 
-Don't use prebuild Qt5 binaries as they have a different ABI than the used cross-compiler. opentrack crashing on startup isn't a bug in this configuration.
+Don't use prebuilt Qt5 binaries as they have a different ABI than the used cross-compiler. opentrack crashing on startup isn't a bug in this configuration.
 
 A good way to build Qt from mingw-w64 shell is
 <pre>
