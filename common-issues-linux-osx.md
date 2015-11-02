@@ -1,7 +1,7 @@
 # There are no Linux binaries!
 
 It's assumed Linux users are software developers, support for the
-platform's provided for their convenience only.
+platform's provided for developer convenience only.
 
 You can provide your own unofficial binaries.
 
