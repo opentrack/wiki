@@ -37,9 +37,9 @@ CONFIG                 += release release_target precompile_header
 
 prior to configuring, as to prevent debug libraries from building thus increasing build time.
 
-## Building opentrack
+Copy `libgcc` and `libstdc++` .dll's to `Qt-prefix/bin`.
 
-Copy `libgcc` and `libstdc++` .dll's to Qt-prefix/bin.
+## Building opentrack
 
 Use the toolchain file as per
 <pre>
