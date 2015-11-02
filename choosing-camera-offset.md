@@ -1,4 +1,4 @@
-Camera offset is for camera-based trackers only, on camera pointing not directly on model.
+Camera offset is for camera-based trackers only, when camera's not pointing not directly on model.
 
 - disable "center on startup" in options
 - start tracking
