@@ -3,7 +3,7 @@ Aruco is an paper marker tracker.
 To use it, execute the "contrib/aruco/aruco\_create\_marker.exe"
 utility creating a .bmp file, or print the sample [AR marker image](https://github.com/opentrack/opentrack/blob/47c15a2aa82192033882c06b58a478525683df4a/facetracknoir/contrib/aruco/test3.jpg).
 
-Following that, base it on cardboard, avoiding either glue bleeding
+Following that, base it on cardboard, **rotate it 90° ccw**, avoiding either glue bleeding
 through the paper, or tape covering the marker respectively, depending
 on the method used. Leave two or three centimerers of the empty paper around
 the markings.
