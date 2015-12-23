@@ -17,9 +17,12 @@ Below is the opening screen for OpenTrack. The version number is displayed in th
 Here are the options for the tracker selection:
 ![Tracker Selection](https://www.dropbox.com/s/c5saj261sg3j3wy/tracker%20selection.png?dl=1)
 
+In the Tracker selection you define the type of tracking method to be received by opentrack. For example if you have a tracking clip with IR-leds you need 'Pointtracker 1.1', but if you want to use your phone as a tracking device you need to select the 'FreePIE UDP receiver'.
+
 Here are the options for the protocol selection:
 ![Protocol Selection](https://www.dropbox.com/s/03z9cla0jj59y62/protocol%20selection.png?dl=1)
 
+The protocol section is for defining how to communicate the movement data from opentrack to the game. Many games will work using the 'freetrack 2.0 Enhanced' protocol, but some games do have their own protocol, for example the Flight Simulator games. In games that don't support any form of headtracking natively you can also map the headtracking to the mouse coordinates, so that you can move the mouse with your head.
 
 Here are the options for the filter selection:
 ![Filter Selection](https://www.dropbox.com/s/ezgmk3krds6cfkr/filter%20selection.png?dl=1)
