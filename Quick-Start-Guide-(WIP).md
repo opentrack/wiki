@@ -1,6 +1,6 @@
 This guide is intended for use to get up and running fairly quickly. It is not designed for explaining the intricacies of all the options/settings that are available.
 
-Just added a short quick start video: https://www.dropbox.com/s/mwlsdbl4ha6hf0w/OpenTrack.mp4?dl=0
+Just added a short quick start video: https://youtu.be/QYmHab6CGgo
 
 Below is the opening screen for OpenTrack. The version number is displayed in the top. The area marked "no video" displays the camera output once the program is running. The octopus will rotate as you move your head. Below them are the raw tracker and game data displays. 
 
