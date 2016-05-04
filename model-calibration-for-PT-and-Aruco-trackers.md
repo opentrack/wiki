@@ -10,4 +10,8 @@ At start, move your head up as if pitching up
 - If moved to the limit of where you want to pitch down, click "toggle calibration", we're done
 - Otherwise, repeat from *start*
 
+### Calibration interface
+
+To start and stop calibration procedure, you must press the same "Calibrate" button. The button looks pressed when calibrating, pressing it again stops calibration and saves the values.
+
 cheers, sthalik
