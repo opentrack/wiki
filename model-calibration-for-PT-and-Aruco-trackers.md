@@ -12,6 +12,8 @@ At start, move your head up as if pitching up
 
 ### Calibration interface
 
-To start and stop calibration procedure, you must press the same "Calibrate" button. The button looks pressed when calibrating, pressing it again stops calibration and saves the values.
+To start and stop calibration procedure, you must press the same "Toggle calibration" button. The button looks pressed when calibrating, pressing it again stops calibration and saves the values.
+
+As per above, there's no separate button for ending calibration. There's some user confusion hence I'm spelling it out explicitly.
 
 cheers, sthalik
