@@ -17,3 +17,6 @@ To start and stop calibration procedure, you must press the same "Toggle calibra
 As per above, there's no separate button for ending calibration. There's some user confusion hence I'm spelling it out explicitly.
 
 cheers, sthalik
+
+Here is a link to a short video showing the calibration process:
+https://youtu.be/ZDz-bholoMo
