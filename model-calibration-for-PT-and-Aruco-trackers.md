@@ -20,3 +20,6 @@ cheers, sthalik
 
 Here is a link to a short video showing the calibration process:
 https://youtu.be/ZDz-bholoMo
+
+## Try not to overcalibrate
+Do not try to make the same movements for too long, otherwise the algorithm won't work, just make the movements and then re-click the button.
