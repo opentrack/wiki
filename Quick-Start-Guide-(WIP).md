@@ -21,21 +21,16 @@ Below is the opening screen for OpenTrack. The version number is displayed in th
 
 Here are the options for the tracker selection:
 ![Tracker Selection](https://www.dropbox.com/s/c5saj261sg3j3wy/tracker%20selection.png?dl=1)
-
 In the Tracker selection you define the type of tracking method to be received by opentrack. For example if you have a tracking clip with IR-leds you need 'Pointtracker 1.1', but if you want to use your phone as a tracking device you need to select the 'FreePIE UDP receiver'.
 
 Here are the options for the protocol selection:
 ![Protocol Selection](https://www.dropbox.com/s/03z9cla0jj59y62/protocol%20selection.png?dl=1)
-
 The protocol section is for defining how to communicate the movement data from opentrack to the game. Many games will work using the 'freetrack 2.0 Enhanced' protocol, but some games do have their own protocol, for example the Flight Simulator games. In games that don't support any form of headtracking natively you can also map the headtracking to the mouse coordinates, so that you can move the mouse with your head.
 
 Here are the options for the filter selection:
 ![Filter Selection](https://www.dropbox.com/s/ezgmk3krds6cfkr/filter%20selection.png?dl=1)
-
 Here are the options for the options window:
-
 ![Options](https://www.dropbox.com/s/9ur7l0udhyuaf71/option%20screen.png?dl=1)
-
 
 Here is the Mapping window where you can set curves for the six DOF. The numbers on the left represent the degrees of movement in the game, and the numbers along the bottom represent real world movement. In this window you can see that I have a dead space of approx 8 deg and at 15 degrees movement in game will be 180 deg for the yaw setting. In other words as I turn my head left and right and my view reaches the edges of my monitor I get max movement in game. If you tick the Asymmetric box you can set curves independently for right/left movement.
 
