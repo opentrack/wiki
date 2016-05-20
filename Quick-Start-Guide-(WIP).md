@@ -1,10 +1,10 @@
 This guide is intended for use to get up and running fairly quickly. It is not designed for explaining the intricacies of all the options/settings that are available.
 
-Just added a short quick start video: 
-
+## Quick Start Video: 
 [![opentrack Quick Start Video](http://img.youtube.com/vi/QYmHab6CGgo/0.jpg)](https://www.youtube.com/watch?v=QYmHab6CGgo "opentrack Quick Start Video")
 
-Here is a link to a video showing the calibration process: https://youtu.be/ZDz-bholoMo
+##Video of the calibration process: 
+[![opentrack Calibration Video](http://img.youtube.com/vi/ZDz-bholoMo/0.jpg)](https://www.youtube.com/watch?v=ZDz-bholoMo "opentrack Calibration Video")
 
 Below is the opening screen for OpenTrack. The version number is displayed in the top. The area marked "no video" displays the camera output once the program is running. The octopus will rotate as you move your head. Below them are the raw tracker and game data displays. 
 
