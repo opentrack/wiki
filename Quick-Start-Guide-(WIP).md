@@ -1,6 +1,8 @@
 This guide is intended for use to get up and running fairly quickly. It is not designed for explaining the intricacies of all the options/settings that are available.
 
-Just added a short quick start video: https://youtu.be/QYmHab6CGgo
+Just added a short quick start video: 
+
+[![opentrack Quick Start Video](http://img.youtube.com/vi/QYmHab6CGgo/0.jpg)](https://www.youtube.com/watch?v=QYmHab6CGgo "opentrack Quick Start Video")
 
 Here is a link to a video showing the calibration process: https://youtu.be/ZDz-bholoMo
 
