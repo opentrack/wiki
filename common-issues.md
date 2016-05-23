@@ -25,7 +25,7 @@ If you have a very flashy result, go to 'camera' tab in the tracker settings and
 
 # Tracking's too slow or jumpy!
 
-Set up the Accela filter. It has its own wiki page.
+Set up the Accela filter. [It has its own wiki page.](https://github.com/opentrack/opentrack/wiki/Accela-in-opentrack-2.3)
 
 # I don't want to make a LED clip!
 
