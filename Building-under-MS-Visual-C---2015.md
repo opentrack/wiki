@@ -4,6 +4,7 @@ Here are some pointers on how to build opentrack as Jul 8, 2016 with point track
 - CMake
 - Qt5
 - OpenCV 3.0
+- (git)
 
 ## Building
 It is assumed that we are building a 64-bit version. Generally, we must use the same kind of binary, i.e. either 64-bits or 32-bits for all libraries that will be linked and of course for the opentrack application itself.
