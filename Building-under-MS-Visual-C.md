@@ -40,7 +40,7 @@ It is assumed that we have the opentrack sources in `D:\Dev\opentrack-source` an
 Just like OpenCV, we use CMake to create a VC project for opentrack. Some configuration steps are required:
 - Set the install dir `CMAKE_INSTALL_PREFIX` to anything suiteable, e.g. `D:\Dev\opentrack`.
 - Set the search path for Qt. It should point to the directory where Qt CMake files are located. In our case `Qt5_DIR=D:/Dev/Qt/5.7/msvc2015_64/lib/cmake/Qt5`
-- Set the search path for OpenCV. `OpenCV_DIR=E:/DevelopmentResources/opencv`.
+- Set the search path for OpenCV. `OpenCV_DIR=D:\Dev\opencv`.
 Then generate the project file and hopefully build cleanly in VC++. Build the `INSTALL` project.
 
 We still need to ensure that the dependency libraries are found. To do so, either change your `PATH` variable to point to `D:\Dev\Qt\5.7\msvc2015_64\bin` and `D:\Dev\opencv\x64\vc14\bin`. Or copy various dll's directly into your opentrack install dir.
