@@ -12,7 +12,7 @@ It is assumed that we are building a 64-bit version. Generally, we must use the 
 ### Installing Qt
 We use the Qt online installer. Go to the Qt download page select the open source version. Eventually you will get to download the installer named qt-unified-windows-x64-2.03-online.exe or something similar.
 
-Start the install. We only need the `mscvc2015_64` components. Still it is going to be a large download of ca. 1 GB. It is assumed that the top level install dir is `D:\Dev\Qt`. The libs we are interested in are thus in 
+Start the install. We only need the `mscvc2015_64` components. Still it is going to be a large download of ca. 1 GB. It is assumed that the top level install dir is `D:\Dev\Qt`. The libs that we are interested in will be thus located in
 ```
 D:\Dev\Qt\5.7\msvc2015_64\lib
 D:\Dev\Qt\5.7\msvc2015_64\bin
