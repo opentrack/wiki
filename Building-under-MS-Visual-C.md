@@ -29,7 +29,19 @@ git clone https://github.com/opencv/opencv.git opencv-source
 ```
 We want to generate a MSVC project using `cmake`, or rather `cmake-gui` which is easier. The following steps should make it work:
 - First CMake will prompt to select the build system. We use the `VC++ 2015 64-bit` variant which might well be the default.
-- Add `/DHAVE_DSHOW` to `CMAKE_CXX_FLAGS`. This is required to enable building of direct show video capture support. There are other ways to enable video capture, depending on the operating system. Here it is assumed that we build under Windows 7 64-bit.
+- Add `/DHAVE_DSHOW` to `CMAKE_CXX_FLAGS`. This is required to enable building of direct show video capture support. There are other ways to enable video capture, depending on the operating system and software you might have installed. Here it is assumed that we build under Windows 7 64-bit.
 - Disable dependencies that are not available.
 - Set `CMAKE_INSTALL_PREFIX` to your desired destination directory. `D:\Dev\opencv` is assumed.
 Then generate the configuration, launch VC++ and hopefully build cleanly. Run the `INSTALL` build target if it does not automatically do so.
+
+### Building opentrack
+It is assumed that we have the opentrack sources in `D:\Dev\opentrack-source` and have a out-of-source build directory in `D:\Dev\opentrack-build`. It does not really matter but we don't want to install our build products into the source dir. 
+
+Just like OpenCV, we use CMake to create a VC project for opentrack. Some configuration steps are required:
+- Set the install dir `CMAKE_INSTALL_PREFIX` to anything suiteable, e.g. `D:\Dev\opentrack`.
+- Set the search path for Qt. It should point to the directory where Qt CMake files are located. In our case `Qt5_DIR=D:/Dev/Qt/5.7/msvc2015_64/lib/cmake/Qt5`
+- Set the search path for OpenCV. `OpenCV_DIR=E:/DevelopmentResources/opencv`.
+Then generate the project file and hopefully build cleanly in VC++. Build the `INSTALL` project.
+
+
+
