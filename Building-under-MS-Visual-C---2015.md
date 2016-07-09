@@ -46,5 +46,7 @@ Then generate the project file and hopefully build cleanly in VC++. Build the `I
 
 We still need to ensure that the dependency libraries are found. To do so, either change your `PATH` variable to point to `D:\Dev\Qt\5.7\msvc2015_64\bin` and `D:\Dev\opencv\x64\vc14\bin`. Or copy various dll's directly into your opentrack install dir.
 
+Note that we are still missing various trackers. Required dependencies for a complete build can be found in https://github.com/opentrack/opentrack-depends
+
 ## Troubleshooting
 In case opentrack crashes on start of point tracker, it might be that the OpenCV build was actually compiled without video capture support. 
