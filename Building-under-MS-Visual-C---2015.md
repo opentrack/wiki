@@ -35,9 +35,9 @@ You can follow the instructions on the OpenCV project site http://docs.opencv.or
 
 It's recommended to build opentrack's custom version of opencv
 
----
+```
 git clone https://github.com/opentrack/opencv opencv-source
----
+```
 
 However, it'll still work with the original version
 
