@@ -9,7 +9,7 @@ Keep in mind that we don't test with Visual C++ regularly. In case of breakage r
 Versions older than Visual C++ 2015 won't work since they don't support modern C++ features.
 
 ## Requirements
-- Visual C++ 2015. You can use the Visual Studio Community Edition which is free.
+- At least Visual C++ 2015.
 - CMake
 - Qt5
 - OpenCV 3.0
