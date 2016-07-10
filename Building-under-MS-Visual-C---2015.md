@@ -33,7 +33,14 @@ OpenCV does not come in binary releases that link against the 2015 runtime of VC
 
 You can follow the instructions on the OpenCV project site http://docs.opencv.org/2.4/doc/tutorials/introduction/windows_install/windows_install.html
 
-However much of it deals with installation of various extensions which we don't need. Just
+It's recommended to build opentrack's custom version of opencv
+
+---
+git clone https://github.com/opentrack/opencv opencv-source
+---
+
+However, it'll still work with the original version
+
 ```
 git clone https://github.com/opencv/opencv.git opencv-source
 ```
