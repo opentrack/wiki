@@ -42,3 +42,7 @@ Try moving the software directly to a drive, e.g. "c:/opentrack".
 Windows Vista and possibly others have issues with permissions. Can also
 use one of the "c:/program files/" directories instead of the drive's
 root.
+
+# I want to donate to the project!
+
+The opentrack project doesn't receive any donations. Please donate to the [Electronic Frontier Foundation](https://www.eff.org/) instead.
