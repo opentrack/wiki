@@ -10,6 +10,6 @@ of all reports!
 See the [list of all pages](https://github.com/opentrack/opentrack/wiki/_pages).
 
 
-**Getting a build**
+**Getting a build :**
 
 https://github.com/opentrack/opentrack/releases
