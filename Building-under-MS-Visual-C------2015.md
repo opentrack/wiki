@@ -62,7 +62,7 @@ It's recommended to build opentrack's custom version of opencv along with other 
 git clone --recurse-submodules https://github.com/opentrack/opentrack-depends.git
 ```
 
-You may also only clone opentrack's fork of opentrack.
+You may also only clone opentrack's fork of opencv.
 
 ```
 git clone https://github.com/opentrack/opencv opencv-source
