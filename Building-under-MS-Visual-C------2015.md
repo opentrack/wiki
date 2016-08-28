@@ -112,3 +112,5 @@ After you copy Qt libraries (including `platforms/plugins/qwindows.dll` as `plug
 
 ## Troubleshooting
 In case opentrack crashes on start of point tracker, it might be that the OpenCV build was actually compiled without video capture support. 
+
+Set the `SDK_CONSOLE_DEBUG` cache variable to have a console window in addition to the program's main window. Of course an actual debugger may be necessary.
