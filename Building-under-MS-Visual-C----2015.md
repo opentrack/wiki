@@ -94,9 +94,6 @@ We still need to ensure that the dependency libraries are found. To do so, eithe
 
 As previously mentioned, we are still missing other optional dependencies. Required dependencies for a complete build can be found in `https://github.com/opentrack/opentrack-depends`. Remember to use `--recurse-submodules` when cloning or update git submodules later.
 
-## Troubleshooting
-In case opentrack crashes on start of point tracker, it might be that the OpenCV build was actually compiled without video capture support. 
-
 ### Toolchain file
 
 You may use our toolchain file as `cmake -DCMAKE_TOOLCHAIN_FILE=/path/to/opentrack/cmake/msvc.cmake src-path` when first initializing a build directory, if you find it to your liking. It'll set up some common compiler flags including install directory for opentrack.
@@ -112,3 +109,6 @@ QMAKE_CFLAGS            = -nologo -Zc:wchar_t /MT
 ```
 
 After you copy Qt libraries (including `platforms/plugins/qwindows.dll` as `plugins/qwindows.dll`) to opentrack's install directory, run `nmake install` again and it'll modify the subsystem on the libraries. Look for binaries to copy in opentrack's binary release.
+
+## Troubleshooting
+In case opentrack crashes on start of point tracker, it might be that the OpenCV build was actually compiled without video capture support. 
