@@ -1,4 +1,4 @@
-Accela in opentrack 2.3 no longer contains many interacting and hard to understand settings.
+Accela in opentrack 2.3 no longer contains many overly complicated settings.
 
 **Sensitivity** makes small movements take effect slower. This is useful to prevent natural head shaking resulting in the view swimming all over the virtual cockpit. As well as natural tracker inaccuracy causing jumping around each frame, since very slightly different pose is returned each time.
 
