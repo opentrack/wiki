@@ -1,3 +1,5 @@
+**Please don't use 2.2 anymore. If 2.3 doesn't work for you, report what's wrong on the issue tracker so we can fix it. Also, this text uses too much passive voice and is harder to understand than necessary.**
+
 The page describes how to achieve proper results using the Accela
 filter, i.e.  prevent game output from jumping all over, while still not
 having perceivable movement latency.
