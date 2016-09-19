@@ -1,4 +1,4 @@
-This article describes source code layout and entry points for developers. Grab an IDE with cross-referencing support or at least <code>ctags</code>.
+This article describes source code layout and entry points for developers. Grab an IDE with cross-referencing support or at least <code>ctags</code>. sthalik recommends Qt Creator 4+ with clang realtime analysis.
 
 - Dependencies other than Qt are included in the [opentrack-depends](https://github.com/opentrack/opentrack-depends) repository.
 - Main form of the user interface is defined in [gui/main-window.cpp](https://github.com/opentrack/opentrack/blob/unstable/gui/main-window.cpp)
