@@ -8,5 +8,6 @@ This article describes source code layout and entry points for developers. Grab 
 - Trackers, filters, and protocols are defined as `tracker-\*`, `filter-\*`, and `proto-\*`. They expose just a few symbols that are in turn used by plugin support code. Interfaces to be implemented by those three are included in [api/plugin-api.hpp](https://github.com/opentrack/opentrack/blob/unstable/api/plugin-api.hpp)
 - Support for connecting configuration to user interface is contained in [options/options.hpp](https://github.com/opentrack/opentrack/blob/unstable/options/options.hpp)
 - State of tracking operation while it's running is contained in [logic/work.hpp](https://github.com/opentrack/opentrack/blob/unstable/logic/work.hpp). See also [logic/state.hpp](https://github.com/opentrack/opentrack/blob/unstable/logic/state.hpp) for state that persists while the software is running.
+- Migrations are for settings getting moved or changing meaning. See [migration/](https://github.com/opentrack/opentrack/tree/unstable/migration)
 
 To be continued.
