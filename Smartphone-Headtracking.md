@@ -13,7 +13,11 @@ https://dl.dropboxusercontent.com/u/73783868/opentrack_vr_tutorial/elite_ht.ini
 **1.**
 You need to connect PC and android smartphone to the same network (via USB,  wifi or bluetooth).
 
-Turn on airplane mode (turn off GPS/GSM/NFC/Wifi/Bt modules), and turn on wifi or bluetooth if you using wireless connection.  
+~~Turn on airplane mode (turn off GPS/GSM/NFC/Wifi/Bt modules), and turn on wifi or bluetooth if you using wireless connection.~~
+
+Note: the striked out suggestion is false. It was made with the intent of preventing health risks. However, it's physically impossible (see the [electromagnetic spectrum table](https://en.wikipedia.org/wiki/Electromagnetic_spectrum) with GSM bands contained within radio spectrum) for ionizing radiation to occur in terms of GSM/WCDMA/LTE/wifi. Also notice energy values in log<sub>10</sub> scale in the same table.
+
+You still might want to disable the ringer sound while using the device.
 
 **2. Install opentrack 2.3 on your PC**
 
