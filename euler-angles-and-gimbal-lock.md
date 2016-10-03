@@ -10,7 +10,7 @@ When we talk about gimbal lock, we talk about the unfortunate existence of multi
 
 - Divide the rotation amount [3] in the proper representation by four [1]
 - Convert to Euler (actually Tait-Bryan since it's yaw, pitch, and roll).
-- Multiply the resulting values as that Euler triplet by four
+- Multiply that Euler triplet by four
 
 ### The why
 
