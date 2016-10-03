@@ -14,9 +14,9 @@ When we talk about gimbal lock, we talk about the unfortunate existence of multi
 
 ### The why
 
-[1] Floating-point numerals' exponent is base 2. Dividing by four, eight, sixteen doesn't give us inaccuracy as compared to dividing by three, five, etc.
-[2] The one we care about, the one everyone cares about.
-[3] Convert to axis-angle. Divide the angle by four. Leave axis alone. Convert back.
+* [1] Floating-point numerals' exponent is base 2. Dividing by four, eight, sixteen doesn't give us inaccuracy as compared to dividing by three, five, etc.
+* [2] The one we care about, the one everyone cares about.
+* [3] Convert to axis-angle. Divide the angle by four. Leave axis alone. Convert back.
 
 ### The aftermath
 
