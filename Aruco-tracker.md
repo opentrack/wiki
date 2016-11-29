@@ -1,7 +1,8 @@
 Aruco is an paper marker tracker.
 
-To use it, execute the "contrib/aruco/aruco\_create\_marker.exe"
-utility creating a .bmp file, or print the sample [AR marker image](https://github.com/opentrack/opentrack/blob/unstable/contrib/aruco/test3.png).
+To use it print the sample [AR marker image](https://github.com/opentrack/opentrack/blob/unstable/contrib/aruco/test3.png).
+
+You may also generate a marker interactively, [using a site](http://terpconnect.umd.edu/~jwelsh12/enes100/markergen.html) made for that.
 
 Wave it at the camera, making sure the roll value is close to zero. The model gets recognized no matter its roll value, and putting it upside down or 90 degrees to the side will swap/invert pitch and yaw, beware.
 
