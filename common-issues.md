@@ -20,8 +20,7 @@ exists.
 Go to 'model' tab in the tracker settings, and input the clip's
 dimensions.
 
-If you have a very flashy result, go to 'camera' tab in the tracker settings and try to play with threshold and hysteresis settings. If you still have difficulties to get your points detected, change gain/exposure setting in the driver of your camera.
-
+If you have a very flashy result, go to 'camera' tab in the tracker settings and try to play with threshold asettings. If you still have difficulties to get your points detected, change gain/exposure setting in the driver of your camera. In general the "auto threshold" option is a benefit.
 
 ### Tracking's too slow or jumpy!
 
