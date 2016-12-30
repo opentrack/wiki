@@ -43,6 +43,10 @@ Windows Vista and possibly others have issues with permissions. Can also
 use one of the "c:/program files/" directories instead of the drive's
 root.
 
+# opentrack crashes
+
+Make sure you don't have "Gigabyte OC Guru" installed. The software does unseemly things to other running processes and is responsible for the crashes.
+
 # I want to donate to the project!
 
 The opentrack project doesn't receive any donations. Please donate to the [Electronic Frontier Foundation](https://www.eff.org/) instead.
