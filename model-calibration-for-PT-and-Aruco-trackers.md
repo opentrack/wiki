@@ -27,3 +27,7 @@ Do not try to make the same movements for too long, otherwise the algorithm won'
 ## Why is it like that?
 
 A purely statistical algorithm tries to guess the axis of rotation. It's better to supply many different poses so the code has more data to work with. No need to overdo it - the process in the first paragraph is enough.
+
+https://www.youtube.com/watch?v=jo4d0imGThM
+
+http://coub.com/view/chtk7
