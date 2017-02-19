@@ -102,13 +102,9 @@ You may use our toolchain file as `cmake -DCMAKE_TOOLCHAIN_FILE=/path/to/opentra
 
 In short, you need to build everything with the `/MT` flag, replacing `/MD`, including building Qt from source.
 
-For Qt, edit in source directory `qtbase/mkspecs/common/msvc-desktop.conf`, remove all occurences of `/MD`, then replace relevant line with:
-
 ```
 QMAKE_CFLAGS            = -nologo -Zc:wchar_t /MT
 ```
-
-After you copy Qt libraries (including `platforms/plugins/qwindows.dll` as `plugins/qwindows.dll`) to opentrack's install directory, run `nmake install` again and it'll modify the subsystem on the libraries. Look for binaries to copy in opentrack's binary release.
 
 ## Troubleshooting
 In case opentrack crashes on start of point tracker, it might be that the OpenCV build was actually compiled without video capture support. 
