@@ -242,7 +242,7 @@ CMakeFiles/Makefile2:1230: ошибка выполнения рецепта дл
 Makefile:127: ошибка выполнения рецепта для цели «all»
 
 
-2. Закомментировал строку в файле ndebug-guard.hpp
+2. Закомментировал строку 2 в файле ndebug-guard.hpp
 Вывод make
 
 [  1%] Built target i18n-module-opentrack-tracker-udp
