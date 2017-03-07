@@ -1,6 +1,6 @@
 1. Без модификаций.
 вывод make
-`
+
 Scanning dependencies of target i18n-module-opentrack-tracker-udp
 [  0%] Generating ui_ftnoir_ftnclientcontrols.h
 [  0%] Generating moc_ftnoir_tracker_udp.cpp
@@ -238,11 +238,11 @@ Scanning dependencies of target opentrack-options
 options/CMakeFiles/opentrack-options.dir/build.make:106: ошибка выполнения рецепта для цели «options/CMakeFiles/opentrack-options.dir/bundle.cpp.o»
 CMakeFiles/Makefile2:1230: ошибка выполнения рецепта для цели «options/CMakeFiles/opentrack-options.dir/all»
 Makefile:127: ошибка выполнения рецепта для цели «all»
-`
+
 
 2. Закомментировал строку в файле ndebug-guard.hpp
 Вывод make
-`
+
 [  1%] Built target i18n-module-opentrack-tracker-udp
 [  3%] Built target i18n-module-opentrack-api
 [  6%] Built target i18n-module-opentrack-compat
@@ -306,6 +306,6 @@ someone@debian:~/ot$ make > out.txt
 make[2]: *** [tracker-pt/CMakeFiles/opentrack-tracker-pt.dir/ftnoir_tracker_pt.cpp.o] Ошибка 1
 make[1]: *** [tracker-pt/CMakeFiles/opentrack-tracker-pt.dir/all] Ошибка 2
 make: *** [all] Ошибка 2
-`
+
 3. Закомментировал строку 108 в файле ftnoir_tracker_pt.cpp
 После этого собралось и запустилось.
