@@ -3,7 +3,7 @@
 **Smartphone requirements:**
 - Android or Windows Phone. See [[Smartphone-Windows-Phone]] for the latter.
 - gyroscope is highly preffered
-- wifi, bluetooth(not tested but should work as well using teethering option) or USB network connection
+- wifi, bluetooth(not tested but should work as well using tethering option) or USB network connection
 
 **Sample configuration file for opentrack. You can customize if you like or you dont want configure opentrack manually (as below)**
 https://dl.dropboxusercontent.com/u/73783868/opentrack_vr_tutorial/elite_ht.ini
