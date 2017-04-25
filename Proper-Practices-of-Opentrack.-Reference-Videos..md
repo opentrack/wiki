@@ -5,8 +5,8 @@ Here I will share self captured footages from popular games. (currently one righ
 [Footage from War thunder](https://www.youtube.com/my_videos?o=U)
 
 Setup:
-Pointracker and 3 point DIY hat clip with visible white wide angled LED's
-Playstation Eye Camera
+* Pointracker and 3 point DIY hat clip with visible white wide angled LED's
+* Playstation Eye Camera
 
 Thanks to accela-filter. The tracking is extremely precise and stable.
 
