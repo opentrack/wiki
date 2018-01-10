@@ -97,6 +97,10 @@ We still need to ensure that the dependency libraries are found. To do so, eithe
 
 As previously mentioned, we are still missing other optional dependencies. Required dependencies for a complete build can be found in `https://github.com/opentrack/opentrack-depends`. Remember to use `--recurse-submodules` when cloning or update git submodules later.
 
+#### opentrack-tracker-pt ####
+opentrack-track-pt is designed to statically link with OpenCV lib.
+
+
 ### Toolchain file
 
 You may use our toolchain file as `cmake -DCMAKE_TOOLCHAIN_FILE=/path/to/opentrack/cmake/msvc.cmake src-path` when first initializing a build directory, if you find it to your liking. It'll set up some common compiler flags including install directory for opentrack.
