@@ -79,6 +79,7 @@ We want to generate a MSVC project using `cmake`, or rather `cmake-gui` which is
 - Add `/DHAVE_DSHOW` to `CMAKE_CXX_FLAGS`. This is required to enable building of direct show video capture support. There are other ways to enable video capture, depending on the operating system and software you might have installed. Here it is assumed that we build under Windows 7 64-bit.
 - Disable dependencies that are not available.
     1. BUILD_opencv_python2
+    1. BUILD_WITH_STATIC_CRT
     1. WITH_CUDA
 - Set `CMAKE_INSTALL_PREFIX` to your desired destination directory. `D:\Dev\opencv` is assumed.
 Then generate the configuration, launch VC++ and hopefully build cleanly. Run the `INSTALL` build target if it does not automatically do so.
