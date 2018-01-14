@@ -7,7 +7,8 @@ Versions older than Visual C++ 2015 won't work since they don't support modern C
 ## Requirements
 - At least Visual C++ 2015. Visual Studio 15 Preview will also work and produce higher-quality code.
 - [CMake](https://cmake.org/files/v3.8/cmake-3.8.0-rc2-win64-x64.zip)
-- [Qt5](http://download.qt.io/archive/qt/5.7/5.7.0/qt-opensource-windows-x86-msvc2015_64-5.7.0.exe)
+- [Qt5.7.0](http://download.qt.io/archive/qt/5.7/5.7.0/qt-opensource-windows-x86-msvc2015_64-5.7.0.exe)
+- [Qt5.10](http://download.qt.io/archive/qt/5.10/5.10.0/)Qt5.10 is required for latest code build
 - OpenCV 3.0
 - (git)
 
