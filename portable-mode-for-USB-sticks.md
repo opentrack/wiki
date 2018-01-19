@@ -8,4 +8,4 @@ Create an empty file named `portable.txt` in the installation directory, next to
 
 ### Bugs?
 
-It was tested with global and per-profile settings. Please report bugs on the issue trackers.
+It was tested with global and per-profile settings. Please report bugs on the issue tracker.
