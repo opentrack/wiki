@@ -4,6 +4,8 @@ Here are some pointers on how to build opentrack as Jul 8, 2016 with point track
 
 Versions older than Visual C++ 2017 Preview won't work since they don't support modern C++ features. After a new Visual Studio release, there won't be a Preview requirement.
 
+Look at [Microsoft's conformance status](https://docs.microsoft.com/en-us/cpp/visual-cpp-language-conformance) to see if the release version has caught up with Preview.
+
 ## Requirements
 - At least Visual C++ 2017 Preview.
 - [CMake](https://cmake.org/downloads/)
