@@ -92,9 +92,9 @@ git clone --recurse-submodules https://github.com/opentrack/opentrack-depends.gi
 
 You may use our toolchain file as `cmake -DCMAKE_TOOLCHAIN_FILE=/path/to/opentrack/cmake/msvc.cmake src-path` when first initializing a build directory, if you find it to your liking. It'll set up some common compiler flags opentrack for aggressive optimizations, fast `LTCG` links and generating debug info.
 
-### Windows XP support for resulting binaries.
+### Windows XP support
 
-This section is obsolete. opentrack doesn't support Windows XP anymore due to Qt 5.10 requirement. 5.6 was the last version supporting XP.
+opentrack doesn't support Windows XP anymore due to Qt 5.10 requirement. 5.6 was the last version supporting XP.
 
 You may attempt changing opentrack's sources to build with Qt 5.6 but the maintainer has given up due to ever-shrinking Windows XP user base.
 
