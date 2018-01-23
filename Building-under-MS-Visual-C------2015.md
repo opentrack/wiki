@@ -11,7 +11,7 @@ Versions older than Visual C++ 2017 Preview won't work since they don't support 
 - OpenCV 3.0 or Opencv (https://github.com/opencv/opencv/)[master branch]
 - (git)
 
-These are optional but highly recommended. Instructions assume they're placed somewhere in user's Windows `PATH`.
+These are optional but highly recommended. Instructions assume they're installed and placed somewhere in user's `PATH`.
 
 - [Ninja](https://github.com/ninja-build/ninja)
 - [Jom](https://wiki.qt.io/Jom)
@@ -19,40 +19,26 @@ These are optional but highly recommended. Instructions assume they're placed so
 ## Building
 It is assumed that we are building a 64-bit version. Generally, we must use the same kind of binary, i.e. either 64-bits or 32-bits for all libraries that will be linked and of course for the opentrack application itself.
 
-### Installing Qt
+### Installing Qt built with MSVC++ 17 Preview
 
-#### For MSVC++ 2017
-
-We use the Qt online installer. Go to the Qt download page select the open source version. Eventually you will get to download the installer named qt-unified-windows-x64-2.03-online.exe or something similar.
-
-Start the install. We only need the components for VC++ 2015 or 2017. Still it is going to be a large download of ca. 1 GB. It is assumed that the top level install dir is `D:\Dev\Qt`. The libs that we are interested in will be thus located in
-```
-D:\Dev\Qt\5.7\msvc2015_64\lib
-D:\Dev\Qt\5.7\msvc2015_64\bin
-```
-or similar, depending on your version of Qt.
-
-#### For MSVC++ 17 Preview
-
-Use the .zip file from `http://download.qt.io/`, then you can run `configure.bat`. You need to install Qt into a prefix, then specify Qt_DIR as `/some/qt/prefix/lib/cmake/Qt5` to detect the modules.
+Use the .zip file from `http://download.qt.io/` then run `configure.bat`. You need to install Qt into your selected prefix, then specify Qt_DIR as `Z:/some/qt/prefix/lib/cmake/Qt5` to detect the modules.
 
 First edit `qtbase/mkspecs/common/msvc-desktop.conf` and replace **all occurences** of `-MD` or `/MD` with `-MT`.
 
-When using `jom` as the make tool, it helps adding `-cgthreads:1` to `QMAKE_LFGLAGS` and `-cgthreads1`` to `QMAKE_CXXFLAGS`. There's no typo on this line, that's the idiosyncratic syntax for MSVC. See MSDN documentation for these options for an explanation.
+When using `jom` as the make tool, it helps adding `-cgthreads:1` to `QMAKE_LFGLAGS` and `-cgthreads1` to `QMAKE_CXXFLAGS`.
+
+There's no typo in the previous paragraph, that's the idiosyncratic syntax for MSVC. See MSDN documentation for these options for an explanation of the options, and think carefully how it interacts with a `jom` multicore build.
 
 Recommended flags to `configure.bat`:
 
 ```
--shared
--opensource
--confirm-license
--release
+-shared -opensource -confirm-license -release
+-no-rtti
 -prefix D:/dev/qt-msvc15-5.7.0 ← (here pass your own favorite prefix)
 -platform win32-msvc
--no-rtti
 -opengl desktop -no-angle
 -no-compile-examples
--make-tool jom ← (optional, must have jom.exe, speeds up build by the amount of CPU cores)
+-make-tool jom
 -no-mp ← (only with jom)
 -no-harfbuzz -no-fontconfig -no-freetype
 -force-debug-info
@@ -69,16 +55,6 @@ The last two you build by invoking `qmake.exe` from `qtbase` you installed, only
 OpenCV does not come in binary releases that link against the 2015 runtime of VC as of today. Hence we need to build it from sources. 
 
 You can follow the instructions on the OpenCV project site http://docs.opencv.org/2.4/doc/tutorials/introduction/windows_install/windows_install.html
-
-```
-git clone --recurse-submodules https://github.com/opencv/opencv.git
-```
-
-opentrack has a few other dependencies if you want to build all the modules. Use:
-
-```
-git clone --recurse-submodules https://github.com/opentrack/opentrack-depends.git
-```
 
 We want to generate an MSVC-built project using `cmake`, or rather `cmake-gui` which is easier. The following steps should make it work:
 - Select `Show advanced` and `Grouped` in `cmake-gui` to the right side of the build directory selection.
@@ -103,13 +79,24 @@ We still need to ensure that the dependency libraries are found. To do so, eithe
 
 We are still missing other optional dependencies. Required dependencies for a complete build can be found in `https://github.com/opentrack/opentrack-depends`. Remember to use `--recurse-submodules` when cloning or update git submodules later.
 
+
+### More opentrack modules
+
+opentrack has a few other dependencies if you want to build all the modules. Use:
+
+```
+git clone --recurse-submodules https://github.com/opentrack/opentrack-depends.git
+```
+
 ### Toolchain file
 
-You may use our toolchain file as `cmake -DCMAKE_TOOLCHAIN_FILE=/path/to/opentrack/cmake/msvc.cmake src-path` when first initializing a build directory, if you find it to your liking. It'll set up some common compiler flags including install directory for opentrack.
+You may use our toolchain file as `cmake -DCMAKE_TOOLCHAIN_FILE=/path/to/opentrack/cmake/msvc.cmake src-path` when first initializing a build directory, if you find it to your liking. It'll set up some common compiler flags opentrack for aggressive optimizations, fast `LTCG` links and generating debug info.
 
 ### Windows XP support for resulting binaries.
 
 This section is obsolete. opentrack doesn't support Windows XP anymore due to Qt 5.10 requirement. 5.6 was the last version supporting XP.
+
+You may attempt changing opentrack's sources to build with Qt 5.6 but the maintainer has given up due to ever-shrinking Windows XP user base.
 
 ## Troubleshooting
 In case opentrack crashes on start of point tracker, it might be that the OpenCV build was actually compiled without video capture support. Watch opentrack's console output. If you launch `opentrack.exe` from the Command Prompt, it'll spew debug data on its screen, regardless of any build flags.
@@ -118,6 +105,6 @@ In case opentrack crashes on start of point tracker, it might be that the OpenCV
 
 The instructions won't work step-by-step and haven't been reproduced from scratch. You'll run into unexpected problems along the way and rudimentary build system knowledge is necessary.
 
-When building things, find `Developer Command Prompt for VS 2017 Preview` in the Start Menu and use that console rather than the empty Command Prompt environment.
+When building things, find `Developer Command Prompt for VS 2017 Preview` in the Start Menu and use that console rather than the empty Command Prompt environment. Again, make sure `jom` and `ninja` are in system `PATH`.
 
-Use `NMake` or `Jom` when building Qt. Use Ninja as the `Generator` when generating CMake projects. `cmake-gui` prompts for selection when first generating the project.
+Use `NMake` or `Jom` when building Qt. Use Ninja as `Generator` when generating CMake projects. `cmake-gui` prompts for selection when first generating the project.
