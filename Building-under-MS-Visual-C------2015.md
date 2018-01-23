@@ -17,7 +17,7 @@ These are optional but highly recommended. Instructions assume they're installed
 - [Jom](https://wiki.qt.io/Jom)
 
 ## Building
-It is assumed that we are building a 64-bit version. Generally, we must use the same kind of binary, i.e. either 64-bits or 32-bits for all libraries that will be linked and of course for the opentrack application itself.
+It is assumed that we are building a 32-bit version. Generally, we must use the same kind of binary, i.e. either 64-bits or 32-bits for all libraries that will be linked and of course for the opentrack application itself.
 
 ### Installing Qt built with MSVC++ 17 Preview
 
