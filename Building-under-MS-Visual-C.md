@@ -10,7 +10,7 @@ Look at [Microsoft's conformance status](https://docs.microsoft.com/en-us/cpp/vi
 - At least Visual C++ 2017 Preview.
 - [CMake](https://cmake.org/downloads/)
 - [Qt 5.10](https://download.qt.io/archive/qt/5.10/) is required for latest code build
-- OpenCV 3.0 or OpenCV (https://github.com/opencv/opencv/)[master branch]
+- OpenCV 3.0 or OpenCV [master branch](https://github.com/opencv/opencv/)
 - (git)
 
 These are optional but highly recommended. Instructions assume they're installed and placed somewhere in user's `PATH`.
