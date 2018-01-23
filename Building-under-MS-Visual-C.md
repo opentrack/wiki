@@ -100,6 +100,8 @@ In case opentrack crashes on start of point tracker, it might be that the OpenCV
 
 The instructions won't work step-by-step and haven't been reproduced from scratch. You'll run into unexpected problems along the way and rudimentary build system knowledge is necessary.
 
+Some of Qt-related build errors are strange and hard to diagnose. Google for them, diagnosing on one's own is hardly possible not being a Qt developer.
+
 When building things, find `Developer Command Prompt for VS 2017 Preview` in the Start Menu and use that console rather than the empty Command Prompt environment. Again, make sure `jom` and `ninja` are in system `PATH`.
 
 Use `NMake` or `Jom` when building Qt. Use Ninja as `Generator` when generating CMake projects. `cmake-gui` prompts for selection when first generating the project.
