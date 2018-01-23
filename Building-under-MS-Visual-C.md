@@ -74,23 +74,12 @@ It is assumed that we have the opentrack sources in `D:\Dev\opentrack-source` an
 Just like OpenCV, we use CMake to create a VC project for opentrack. Some configuration steps are required:
 - Set the install dir `CMAKE_INSTALL_PREFIX` to anything suiteable, e.g. `D:\Dev\opentrack`.
 - Set the search path for Qt. It should point to the directory where Qt CMake files are located. In our case `Qt5_DIR=D:/Dev/Qt/5.7/msvc2015_64/lib/cmake/Qt5`
-- Set the search path for OpenCV. `OpenCV_DIR=D:/Dev/opencv`.
-Then generate the project file and hopefully build cleanly in VC++. Build the `INSTALL` project.
+- Set the search path to opencv's build directory. `OpenCV_DIR=D:/Dev/opencv/build`.
+Then generate the project file and hopefully build cleanly in VC++. Build the `INSTALL` target.
 
 We still need to ensure that the dependency libraries are found. To do so, either change your `PATH` variable to point to `D:\Dev\Qt\5.7\msvc2015_64\bin` and `D:\Dev\opencv\x64\vc14\bin`. Or copy various dll's directly into your opentrack install dir.
 
-We are still missing other optional dependencies. Required dependencies for a complete build can be found in `https://github.com/opentrack/opentrack-depends`. Remember to use `--recurse-submodules` when cloning or update git submodules later.
-
-
-### More opentrack modules
-
-opentrack has a few other dependencies if you want to build all the modules. Use:
-
-```
-git clone --recurse-submodules https://github.com/opentrack/opentrack-depends.git
-```
-
-### Toolchain file
+### CMake Toolchain file
 
 You may use our toolchain file as `cmake -DCMAKE_TOOLCHAIN_FILE=/path/to/opentrack/cmake/msvc.cmake src-path` when first initializing a build directory, if you find it to your liking. It'll set up some common compiler flags opentrack for aggressive optimizations, fast `LTCG` links and generating debug info.
 
@@ -99,6 +88,12 @@ You may use our toolchain file as `cmake -DCMAKE_TOOLCHAIN_FILE=/path/to/opentra
 opentrack doesn't support Windows XP anymore due to Qt 5.10 requirement. 5.6 was the last version supporting XP.
 
 You may attempt changing opentrack's sources to build with Qt 5.6 but the maintainer has given up due to ever-shrinking Windows XP user base.
+
+In any case build with `-MT` under all circumstances when targetting XP.
+
+### More opentrack modules
+
+We are still missing other optional dependencies. Required dependencies for a complete build can be found in `https://github.com/opentrack/opentrack-depends`. Remember to use `--recurse-submodules` when cloning or update git submodules later.
 
 ## Troubleshooting
 In case opentrack crashes on start of point tracker, it might be that the OpenCV build was actually compiled without video capture support. Watch opentrack's console output. If you launch `opentrack.exe` from the Command Prompt, it'll spew debug data on its screen, regardless of any build flags.
