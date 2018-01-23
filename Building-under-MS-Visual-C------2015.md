@@ -11,6 +11,11 @@ Versions older than Visual C++ 2017 Preview won't work since they don't support 
 - OpenCV 3.0 or Opencv (https://github.com/opencv/opencv/)[master branch]
 - (git)
 
+These are optional but highly recommended. Instructions assume they're placed somewhere in user's Windows `PATH`.
+
+- [Ninja](https://github.com/ninja-build/ninja)
+- [Jom](https://wiki.qt.io/Jom)
+
 ## Building
 It is assumed that we are building a 64-bit version. Generally, we must use the same kind of binary, i.e. either 64-bits or 32-bits for all libraries that will be linked and of course for the opentrack application itself.
 
@@ -26,9 +31,6 @@ D:\Dev\Qt\5.7\msvc2015_64\lib
 D:\Dev\Qt\5.7\msvc2015_64\bin
 ```
 or similar, depending on your version of Qt.
-
-#### The Jom build tool
-
 
 #### For MSVC++ 17 Preview
 
@@ -58,11 +60,12 @@ Recommended flags to `configure.bat`:
 
 ### Partial Qt build
 
-In fact we only need to compile few individual Qt components. Rather than downloading the whole package, go to the `submodules/` directory. Download and compile only `qtbase`, `qttools`, and `qtserialport`.
+In fact we only need to compile few individual Qt components. Rather than downloading the whole package, go to the `submodules/` directory on the download site. Download and compile only `qtbase`, `qttools`, and `qtserialport`, in that order. Building the entirety of Qt takes a long time and is a waste.
 
-The last two you build by invoking `qmake.exe` from `qtbase` you installed.
+The last two you build by invoking `qmake.exe` from `qtbase` you installed, only then run `nmake` or `jom`.
 
 ### Installing OpenCV
+
 OpenCV does not come in binary releases that link against the 2015 runtime of VC as of today. Hence we need to build it from sources. 
 
 You can follow the instructions on the OpenCV project site http://docs.opencv.org/2.4/doc/tutorials/introduction/windows_install/windows_install.html
@@ -77,7 +80,7 @@ opentrack has a few other dependencies if you want to build all the modules. Use
 git clone --recurse-submodules https://github.com/opentrack/opentrack-depends.git
 ```
 
-We want to generate a MSVC project using `cmake`, or rather `cmake-gui` which is easier. The following steps should make it work:
+We want to generate an MSVC-built project using `cmake`, or rather `cmake-gui` which is easier. The following steps should make it work:
 - Select `Show advanced` and `Grouped` in `cmake-gui` to the right side of the build directory selection.
 - First CMake will prompt to select the build system. We use the `VC++ 2017 64-bit` variant which might well be the default.
 - Add `/DHAVE_DSHOW` to `CMAKE_CXX_FLAGS`. This is required to enable building of direct show video capture support. There are other ways to enable video capture, depending on the operating system and software you might have installed. Here it is assumed that we build under Windows 7 64-bit.
@@ -117,4 +120,4 @@ The instructions won't work step-by-step and haven't been reproduced from scratc
 
 When building things, find `Developer Command Prompt for VS 2017 Preview` in the Start Menu and use that console rather than the empty Command Prompt environment.
 
-Use `NMake` or `Jom` when building Qt. Download (Ninja)[https://github.com/ninja-build/ninja] and select it as the `Generator` when generating a CMake project for the first time.
+Use `NMake` or `Jom` when building Qt. Use Ninja as the `Generator` when generating CMake projects. `cmake-gui` prompts for selection when first generating the project.
