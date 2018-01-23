@@ -7,7 +7,7 @@ Versions older than Visual C++ 2017 Preview won't work since they don't support 
 ## Requirements
 - At least Visual C++ 2017 Preview.
 - [CMake](https://cmake.org/downloads/)
-- [Qt5.10](https://download.qt.io/archive/qt/5.10/) Qt5.10 is required for latest code build
+- [Qt5.10](https://download.qt.io/archive/qt/5.10/) Qt 5.10 is required for latest code build
 - OpenCV 3.0 or Opencv (https://github.com/opencv/opencv/)[master branch]
 - (git)
 
