@@ -27,6 +27,9 @@ D:\Dev\Qt\5.7\msvc2015_64\bin
 ```
 or similar, depending on your version of Qt.
 
+#### The Jom build tool
+
+
 #### For MSVC++ 17 Preview
 
 Use the .zip file from `http://download.qt.io/`, then you can run `configure.bat`. You need to install Qt into a prefix, then specify Qt_DIR as `/some/qt/prefix/lib/cmake/Qt5` to detect the modules.
