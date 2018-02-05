@@ -20,7 +20,7 @@ Then track a piece of paper as per [[aruco tracker]] wiki page.
 
 ### Keybindings ignored in games!
 
-Game running as administrator with opentrack as regular user. Run both
+Game is running as administrator with opentrack as regular user. Run both
 as administrator or both as user. You do **not** need to run opentrack as admin by default.
 
 ### freetrack protocol doesn't work!
