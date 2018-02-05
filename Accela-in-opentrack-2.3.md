@@ -4,10 +4,6 @@ Accela in opentrack 2.3 no longer contains many overly complicated settings.
 
 There are two **sensitivity** sliders, for rotation and translation each. They're expressed in different units.
 
-**Rotation nonlinearity** affects how sensitivity works. Putting the slider to the right makes tiny movements more and more delayed. Putting it to the right too much makes the filter suddenly jump when the movement's no longer tiny.
+**Smoothing** makes movement more regular but delayed. This is for a pleasant, smooth experience. It doesn't help at all with noise removal.
 
-A setting of 1.05 up to 1.15 is usually right for a camera-based tracker. The right value depends on the exact device.
-
-**Smoothing** makes movement more regular but delayed. This is for a pleasant, smooth experience. Don't mistake it for noise removal.
-
-**Deadzone** ignores minor movement completely. It can be useful for extremely noisy input. Try not to use it excessively to avoid losing precision. For camera-based trackers, rotation deadzone of 0.05 degrees is already pretty high.
+**Deadzone** ignores minor movement completely. It can be useful for extremely noisy input. Try not to use it excessively to avoid losing precision. For camera-based trackers, rotation deadzone of 0.06 degrees is already pretty high.
