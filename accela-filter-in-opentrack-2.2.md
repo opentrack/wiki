@@ -1,4 +1,6 @@
-**Please don't use 2.2 anymore. This version is obsolete.**
+**Please don't use 2.2 anymore. That version is obsolete.**
+
+- - -
 
 The page describes how to achieve proper results using the Accela
 filter, i.e.  prevent game output from jumping all over, while still not
