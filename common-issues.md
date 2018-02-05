@@ -8,7 +8,7 @@ Most of the issues no longer need addressing in the 2.3 branch. Let's keep them 
 Go to 'model' tab in the tracker settings, and input the clip's
 dimensions.
 
-If you have a very flashy result, go to 'camera' tab in the tracker settings and try to play with threshold asettings. If you still have difficulties to get your points detected, change gain/exposure setting in the driver of your camera. In general the "auto threshold" option is a benefit.
+If you have a very flashy result, go to 'camera' tab in the tracker settings and try to play with threshold settings. If you still have difficulties to get your points detected, change gain/exposure setting in the driver of your camera. In general the "auto threshold" option is a benefit.
 
 ### Tracking's too slow or jumpy!
 
@@ -25,17 +25,19 @@ as administrator or both as user. You do **not** need to run opentrack as admin 
 
 ### freetrack protocol doesn't work!
 
-Try moving the software directly to a drive, e.g. "c:/opentrack".
-Windows Vista and possibly others have issues with permissions. Can also
-use one of the "c:/program files/" directories instead of the drive's
-root.
+This happens with Elite Dangerous and isn't opentrack's fault.
 
-This happens most often with Elite Dangerous and isn't opentrack's fault.
+Try moving the software directly to a drive, e.g. `c:/opentrack`.
+Windows Vista and possibly others have issues with permissions. Can also
+use one of the `c:/program files/` directories on the same partition as the game rather
+than the drive's root.
 
 ### opentrack crashes
 
-Make sure you don't have "Gigabyte OC Guru" installed. The software does unseemly things to other running processes and is responsible for the crashes. The same problem's caused by the Moonlight streaming software.
+Make sure you don't have **Gigabyte OC Guru** installed. The software does unseemly things to other running processes and is responsible for the crashes.
+
+The same problem's caused by the **Moonlight** streaming software. Perhaps these programs could avoid injecting their own code into the `opentrack` process.
 
 ### I want to donate to the project!
 
-The opentrack project doesn't receive any donations. Please donate to the [Electronic Frontier Foundation](https://www.eff.org/) instead.
+The opentrack project doesn't receive any donations at the moment. Please donate to the [Electronic Frontier Foundation](https://www.eff.org/) instead. Their work is important for free and open Internet. Thank you.
