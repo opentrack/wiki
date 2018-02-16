@@ -10,7 +10,7 @@
 1. play with camera gain until getting white LEDs with not much noise, and without excessive light bloom. **always** use full exposure, only change gain.
 2. use a floppy filter as a circle stuffed from outside toward the camera lenses. may also use non-exposed analog camera film. bright background details may confuse the tracker about the point centers.
 3. set color correction to all the same values, don't mess around with them at all.
-4. **never** use 320x240. don't use 75 Hz for 640x480 as it corrupts the image. only 60 Hz and below gives a clean image.
+4. **never** use 320x240. don't use 75 Hz for 640x480 as it corrupts the image. only 60 Hz and below give a clean image.
 
 ### accela filter
 
