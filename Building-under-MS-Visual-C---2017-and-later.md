@@ -23,7 +23,7 @@ It is assumed that we are building a 32-bit version. Generally, we must use the 
 
 ### Installing Qt built with MSVC++ 17 Preview
 
-Use the .zip file from `http://download.qt.io/` then run `configure.bat`. You need to install Qt into your selected prefix, then specify Qt_DIR as `Z:/some/qt/prefix/lib/cmake/Qt5` to detect the modules.
+Use the .zip file from [`http://download.qt.io/`](http://download.qt.io/) then run `configure.bat`. You need to install Qt into your selected prefix, then specify Qt_DIR as `Z:/some/qt/prefix/lib/cmake/Qt5` to detect the modules.
 
 First edit `qtbase/mkspecs/common/msvc-desktop.conf` and replace **all occurences** of `-MD` or `/MD` with `-MT`.
 
