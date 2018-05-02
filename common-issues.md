@@ -38,6 +38,10 @@ Make sure you don't have **Gigabyte OC Guru** installed. The software does unsee
 
 The same problem's caused by the **Moonlight** streaming software. Perhaps these programs could avoid injecting their own code into the `opentrack` process.
 
+### opentrack doesn't start after **Moonlight**
+
+**Moonlight** uses NVidia GameStream, and it's library rxgamepadinput.dll tries to capture input from your device (for example for gamepad connected to your phone to be playable on your PC) and that messes up with opentrack. You can just rename it, so it will be disabled. Usually it is located here: C:\Program Files\NVIDIA Corporation\NvStreamSrv or here: C:\Program Files (x86)\NVIDIA Corporation\NvStreamSrv . Rename both just to be sure. 
+
 ### I want to donate to the project!
 
 The opentrack project doesn't receive any donations at the moment. Please donate to the [Electronic Frontier Foundation](https://www.eff.org/) instead. Their work is important for free and open Internet. Thank you.
