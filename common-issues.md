@@ -32,15 +32,15 @@ Windows Vista and possibly others have issues with permissions. Can also
 use one of the `c:/program files/` directories on the same partition as the game rather
 than the drive's root.
 
-### opentrack crashes
+### opentrack crashes with GIGABYTE OC GURU
 
 Make sure you don't have **Gigabyte OC Guru** installed. The software does unseemly things to other running processes and is responsible for the crashes.
-
-The same problem's caused by the **Moonlight** streaming software. Perhaps these programs could avoid injecting their own code into the `opentrack` process.
 
 ### opentrack doesn't start after **Moonlight**
 
 **Moonlight** uses NVidia GameStream, and it's library rxgamepadinput.dll tries to capture input from your device (for example for gamepad connected to your phone to be playable on your PC) and that messes up with opentrack. You can just rename it, so it will be disabled. Usually it is located here: C:\Program Files\NVIDIA Corporation\NvStreamSrv or here: C:\Program Files (x86)\NVIDIA Corporation\NvStreamSrv . Rename both just to be sure. 
+
+Moonlight forcefully injects itself into `opentrack.exe` corrupting the process. It's not our fault.
 
 ### I want to donate to the project!
 
