@@ -36,3 +36,5 @@ Turns on camera and begins tracking. (This can take a couple of seconds), or Sto
 
 **Restart Tracking**
 Stops tracking and turns off camera and then Turns on camera and begins tracking. (This can take a couple of seconds)
+
+DanTDBV 15/7-2018 
