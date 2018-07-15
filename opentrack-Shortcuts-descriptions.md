@@ -2,7 +2,7 @@ This is with opentrack 2.3.10
 
 **Opentrack 2.3.10/Options/Shortcuts**
 
-The following commands leaves the camera and tracking on
+The following commands leaves the camera and tracking on. The commands only work while tracking is active.
 
 **Center**
 Sets the current view as the “Look straight forward” point. This should be done, while being in the expected working pose.
@@ -27,7 +27,7 @@ Snaps your view to “Look straight forward”, when pressed and returns to the 
 
 Pressing **Zero** then using **Zero while held** will invert the behavior, looking forward while the **Zero while held** key isn't pressed.
 
-The following commands turns the camera and tracking on or off.
+The following commands turns the camera and tracking on or off. They're active all the time while the software is running.
 
 **Start Tracking**
 Turns on camera and begins tracking. (This can take a couple of seconds)
@@ -41,4 +41,4 @@ Turns on camera and begins tracking. (This can take a couple of seconds), or Sto
 **Restart Tracking**
 Stops tracking and turns off camera and then Turns on camera and begins tracking. (This can take a couple of seconds)
 
-DanTDBV 15/7-2018 
+DanTDBV 15/7-2018
