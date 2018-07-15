@@ -23,6 +23,10 @@ Snaps your view to “Look straight forward” and locks it. Press again to unlo
 **Zero while held**
 Snaps your view to “Look straight forward”, when pressed and returns to the current pose when released.
 
+**Zero and zero while held**
+
+Pressing **Zero** then using **Zero while held** will invert the behavior, looking forward while the **Zero while held** key isn't pressed.
+
 The following commands turns the camera and tracking on or off.
 
 **Start Tracking**
