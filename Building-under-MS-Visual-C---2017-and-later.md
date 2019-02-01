@@ -30,7 +30,7 @@ Before building, read this document's latter sections.
 Just like OpenCV, we use CMake to create a VC project for opentrack. Some configuration steps are required. You can use `cmake-gui` for a friendly interface. Select "grouped" and "advanced" in `cmake-gui` for optimal experience.
 
 - Set the search path for Qt. It should point to the directory where Qt CMake files are located. In our case `Qt5_DIR=D:/dev/Qt/5.12.0/5.12.0/msvc2017_64/lib/cmake/Qt5`.
-- optional: Set the search path to opencv's build directory. `OpenCV_DIR=D:/Dev/opencv/build`.
+- optional: Set the search path to opencv's build or install directory. `OpenCV_DIR=D:/Dev/opencv/build`.
 
 Generate the project file with `cmake-gui` or `cmake` and hopefully build cleanly in VC++. Build the `INSTALL` target in the Solution Explorer.
 
