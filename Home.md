@@ -17,4 +17,5 @@ of all reports!
 See the [list of all documentation pages](https://github.com/opentrack/opentrack/wiki/_pages).
 
 # Contributing
-See [Developers' Quick Starting Guide for Windows](https://github.com/opentrack/opentrack/wiki/Developers'-Quick-Start-Guide-for-Windows)
+Your openstack contributions are most welcome.
+See [Developers' Quick Start Guide for Windows](https://github.com/opentrack/opentrack/wiki/Developers'-Quick-Start-Guide-for-Windows)
