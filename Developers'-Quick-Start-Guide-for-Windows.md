@@ -18,7 +18,7 @@ Most of openstack is implemented using C++17.
 * Microsoft Windows 7 to 10.
 * [Visual Studio 2017 Community Edition](https://visualstudio.microsoft.com/downloads/).
 * [CMake > 3.10](https://cmake.org/download/).
-* Qt5 SDK > 5.12.0, we recommend using the [online installer](https://www.qt.io/download-qt-installer).
+* [Qt5 SDK > 5.12.0](https://www.qt.io/download-qt-installer), we recommend using the online installer.
 
 # Optional build dependencies
 * [OpenCV > 4.0.1](https://opencv.org/releases.html)
