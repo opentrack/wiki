@@ -10,7 +10,7 @@ Just [download a release](https://github.com/opentrack/opentrack/releases) corre
 # Troubleshooting
 Frequently asked questions are answered on the [common
 issues](https://github.com/opentrack/opentrack/wiki/common-issues) page.
-Please respect developers' time as these few FAQs account for 3/4
+Please respect developers' time as these FAQs account for 3/4
 of all reports!
 
 # Documentation
