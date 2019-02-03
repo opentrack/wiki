@@ -15,7 +15,7 @@ Microsoft Windows 7 to 10, Linux. Apple's OSX as not been properly tested in a w
 Though official releases are still 32-bit only, 64-bit builds are working great too.
 
 # Programming language
-Most of openstack is implemented using C++17.
+Most of opentrack is implemented using C++17.
 
 #  Build prerequisite
 * Microsoft Windows 7 to 10.
