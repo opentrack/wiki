@@ -1,7 +1,7 @@
 # Introduction
 We are glad you are enjoying opentrack and want to contribute. Here is something to get you started ASAP.
 
-# Purpose & Scope
+# Purpose and scope
 This document is intended for Software Engineer, assuming C++ skills and CMake experience.
 
 # Development platform
