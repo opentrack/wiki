@@ -2,7 +2,7 @@
 We are glad you are enjoying opentrack and want to contribute. Here is something to get you started ASAP.
 
 # Purpose and scope
-This document is intended for Software Engineer, assuming C++ skills and CMake experience. It should help you build our project and develop for openstack.
+This document is intended for Software Engineer, assuming C++ skills and CMake experience. It should help you build our project and develop for opentrack.
 
 # Development platform
 Most of the development is happening on Microsoft Windows using Visual Studio 2017 Community Edition.
