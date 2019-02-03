@@ -2,7 +2,7 @@ Aruco is an paper marker tracker.
 
 To use it print the sample [AR marker image](https://github.com/opentrack/opentrack/blob/unstable/contrib/aruco/test3.png).
 
-You may also generate a marker interactively, [using a site](http://terpconnect.umd.edu/~jwelsh12/enes100/markergen.html) made for that.
+You may also generate a marker interactively, [using a site](http://keystone.umd.edu/html/markergen.html) made for that (remember to **change the Dictionary option** to "Original ArUco").
 
 Wave it at the camera, making sure the roll value is close to zero. The model gets recognized no matter its roll value, and putting it upside down or 90 degrees to the side will swap/invert pitch and yaw, beware.
 
