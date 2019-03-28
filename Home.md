@@ -8,6 +8,9 @@ Just [download a release](https://github.com/opentrack/opentrack/releases) corre
 - [Click here for a more thorough written article on Opentrack](https://forum.il2sturmovik.com/topic/34403-a-complete-guide-to-set-up-head-tracking-opentrack/?tab=comments#comment-580169)
 
 # Troubleshooting
+
+If you've been asked to use an experimental build by a developer, see <<http://opentrack.misaki.pl/>>.
+
 Frequently asked questions are answered on the [common
 issues](https://github.com/opentrack/opentrack/wiki/common-issues) page.
 Please respect developers' time as these FAQs account for 3/4
