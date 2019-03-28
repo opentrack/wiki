@@ -9,8 +9,6 @@ Just [download a release](https://github.com/opentrack/opentrack/releases) corre
 
 # Troubleshooting
 
-If you've been asked to use an experimental build by a developer, see <<http://opentrack.misaki.pl/>>.
-
 Frequently asked questions are answered on the [common
 issues](https://github.com/opentrack/opentrack/wiki/common-issues) page.
 Please respect developers' time as these FAQs account for 3/4
@@ -18,6 +16,10 @@ of all reports!
 
 # Documentation
 See the [list of all documentation pages](https://github.com/opentrack/opentrack/wiki/_pages).
+
+# Experimental builds
+
+If you've been asked to use an experimental build by a developer, see <<http://opentrack.misaki.pl/>>.
 
 # Contributing
 Your opentrack contributions are most welcome.
