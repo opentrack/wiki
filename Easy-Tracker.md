@@ -11,7 +11,7 @@ While Point Tracker was primarily designed to work with video cameras, Easy Trac
 Point Tracker is using its own algorithm implementations for point extraction and pose estimation.
 Easy Tracker is making use of OpenCV implementations for point extraction and pose estimation.
 
-# Known issues
+# Facts
 * Only working with IR cameras.
 * Only tested with Kinect V2 IR camera.
 * Only support cap markers.
