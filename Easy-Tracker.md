@@ -17,6 +17,10 @@ Easy Tracker is making use of OpenCV implementations for point extraction and po
 * Only support cap markers.
 * Noisy signal, you will need to max out Accela filter settings.
 
+# Support
+If you are having problems getting Easy Tracker to work please open an issue.
+Feel free to open issues if you have feature requests for supporting your hardware.
+
 # References
 * [Issue about the birth of Easy Tracker](https://github.com/opentrack/opentrack/issues/915).
 * [Initial pull request](https://github.com/opentrack/opentrack/pull/932).
