@@ -11,7 +11,7 @@ Point Tracker is using its own algorithm implementations for point extraction an
 Easy Tracker is making use of OpenCV implementations for point extraction and pose estimation.
 
 # Facts
-* Only working with Kinect V2 IR camera.
+* Only works with Kinect V2 IR camera.
 * Do not support "clip" markers. Feel free to request that feature.
 * You better use your own custom passive marker rather than the TrackerIR "cap".
 
