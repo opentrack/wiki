@@ -1,21 +1,19 @@
 # Introduction
-Easy Tracker was initially developed to work together with Kinect V2 IR camera and passive cap markers.
-In fact after spending a fair amount of time trying to get Point Tracker to work reliably with Kinect we eventually gave up and came up with Easy Tracker.
+Easy Tracker was primarely designed to provide best head tracking with Microsoft Kinect V2 IR camera and passive cap markers.
 
 # Easy Tracker vs Point Tracker
 
 ## Hardware
-While Point Tracker was primarily designed to work with video cameras, Easy Tracker was intended to be used with IR cameras.
+While Point Tracker works best with video cameras, Easy Tracker was intended to be used with IR cameras.
 
 ## Implementation
 Point Tracker is using its own algorithm implementations for point extraction and pose estimation.
 Easy Tracker is making use of OpenCV implementations for point extraction and pose estimation.
 
 # Facts
-* Only working with IR cameras.
-* Only tested with Kinect V2 IR camera.
-* Only support cap markers.
-* Noisy signal, you will need to max out Accela filter settings.
+* Only working with Kinect V2 IR camera.
+* Do not support "clip" markers. Feel free to request that feature.
+* You better use your own custom passive marker rather than the TrackerIR "cap".
 
 # Support
 Feel free to open issues if you are having setup problems or if you have feature requests for supporting your hardware.
