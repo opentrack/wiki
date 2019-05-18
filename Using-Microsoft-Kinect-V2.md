@@ -5,7 +5,9 @@
 We recommend you mount your Kinect above your screen where it should be at head level. At any time during use your head should remain at least 50 cm away from the Kinect sensor. To make sure this is the case your rest position should be around 70cm away from Kinect.
 For mounting you can use a tripod with flexible feet to place it directly on top of your monitor or have it grab on your monitor arm. 
 
+<a href="https://user-images.githubusercontent.com/6508892/57972625-8b92f080-799d-11e9-85a4-978e77468566.jpg">
 <img alt="Tripod" src="https://user-images.githubusercontent.com/6508892/57972625-8b92f080-799d-11e9-85a4-978e77468566.jpg" width="25%" height="25%">
+</a>
 
 <img alt="Tripod with extension" src="https://user-images.githubusercontent.com/6508892/57972787-88006900-799f-11e9-978d-ffa80f51fa6c.jpg" width="25%" height="25%">
 
