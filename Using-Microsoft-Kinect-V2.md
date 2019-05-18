@@ -31,3 +31,7 @@ Once you start Open Track, the camera image should be displayed in the preview a
 
 While straight forward to setup Kinect Face Tracker may fall short of your expectations in terms of range and precision. Luckily for you, you can use the following Tracker instead. 
 
+## Easy Tracker
+
+This Tracker is very similar to Open Track Point Tracker or [TrackerIR by NaturalPoint](https://www.naturalpoint.com/trackir/).
+
