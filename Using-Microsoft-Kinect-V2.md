@@ -5,17 +5,18 @@
 We recommend you mount your Kinect above your screen where it should be at head level. At any time during use your head should remain at least 50 cm away from the Kinect sensor. To make sure this is the case your rest position should be around 70cm away from Kinect.
 For mounting you can use a tripod with flexible feet to place it directly on top of your monitor or have it grab on your monitor arm. 
 
-<a href="https://user-images.githubusercontent.com/6508892/57972625-8b92f080-799d-11e9-85a4-978e77468566.jpg">
-<img alt="Tripod" src="https://user-images.githubusercontent.com/6508892/57972625-8b92f080-799d-11e9-85a4-978e77468566.jpg" width="25%" height="25%">
-</a>
+<a href="https://user-images.githubusercontent.com/6508892/57972625-8b92f080-799d-11e9-85a4-978e77468566.jpg"><img alt="Tripod" src="https://user-images.githubusercontent.com/6508892/57972625-8b92f080-799d-11e9-85a4-978e77468566.jpg" width="25%" height="25%"></a>
+<a href="https://user-images.githubusercontent.com/6508892/57972597-0a3b5e00-799d-11e9-89a3-2aabcc90738a.jpg">
+<img alt="Kinect Monitor Mount" src="https://user-images.githubusercontent.com/6508892/57972597-0a3b5e00-799d-11e9-89a3-2aabcc90738a.jpg" width="25%" height="25%"></a>
+<a href="https://user-images.githubusercontent.com/6508892/57973876-e3d2ee00-79af-11e9-9866-be1cb6207a7b.jpg">
+<img alt="Kinect Elite" src="https://user-images.githubusercontent.com/6508892/57973876-e3d2ee00-79af-11e9-9866-be1cb6207a7b.jpg" width="25%" height="25%"></a>
 
-<img alt="Tripod with extension" src="https://user-images.githubusercontent.com/6508892/57972787-88006900-799f-11e9-978d-ffa80f51fa6c.jpg" width="25%" height="25%">
+<a href="https://user-images.githubusercontent.com/6508892/57972787-88006900-799f-11e9-978d-ffa80f51fa6c.jpg"><img alt="Tripod with extension" src="https://user-images.githubusercontent.com/6508892/57972787-88006900-799f-11e9-978d-ffa80f51fa6c.jpg" width="25%" height="25%"></a>
+<a href="https://user-images.githubusercontent.com/6508892/57972774-58e9f780-799f-11e9-8584-7ea7880d3a27.jpg">
+<img alt="Kinect Arm Mount" src="https://user-images.githubusercontent.com/6508892/57972774-58e9f780-799f-11e9-8584-7ea7880d3a27.jpg" width="25%" height="25%"></a>
+<a href="https://user-images.githubusercontent.com/6508892/57972917-f0037f00-79a0-11e9-8196-69cbaa23b7f4.jpg">
+<img alt="Kinect Arm Mount detail" src="https://user-images.githubusercontent.com/6508892/57972917-f0037f00-79a0-11e9-8196-69cbaa23b7f4.jpg" width="25%" height="25%"></a>
 
-<img alt="Kinect Monitor Mount" src="https://user-images.githubusercontent.com/6508892/57972597-0a3b5e00-799d-11e9-89a3-2aabcc90738a.jpg" width="25%" height="25%">
-
-<img alt="Kinect Arm Mount" src="https://user-images.githubusercontent.com/6508892/57972774-58e9f780-799f-11e9-8584-7ea7880d3a27.jpg" width="25%" height="25%">
-
-<img alt="Kinect Arm Mount detail" src="https://user-images.githubusercontent.com/6508892/57972917-f0037f00-79a0-11e9-8196-69cbaa23b7f4.jpg" width="25%" height="25%">
 
 
 
