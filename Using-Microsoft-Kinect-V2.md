@@ -45,6 +45,7 @@ To use it you will need to wear a hat. We actually do not recommend using TrackI
 <a href="https://user-images.githubusercontent.com/6508892/57974380-585d5b00-79b7-11e9-8883-6723663a2d27.jpg">
 <img alt="Custom Hats" src="https://user-images.githubusercontent.com/6508892/57974380-585d5b00-79b7-11e9-8883-6723663a2d27.jpg" width="25%" height="25%"></a>
 
+Make sure you configure Easy Tracker to use your Kinect IR Sensor and provide the specs of your custom hat.
 For more information about Easy Tracker configuration see our [Easy Tracker documentation](https://github.com/opentrack/opentrack/wiki/Easy-Tracker).
 
 <a href="https://user-images.githubusercontent.com/6508892/57974362-306df780-79b7-11e9-8282-652ba1d80ea1.png">
