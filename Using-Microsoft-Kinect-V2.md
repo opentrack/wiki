@@ -9,14 +9,13 @@ For mounting you can use a tripod with flexible feet to place it directly on top
 
 <img alt="Tripod with extension" src="https://user-images.githubusercontent.com/6508892/57972787-88006900-799f-11e9-978d-ffa80f51fa6c.jpg" width="25%" height="25%">
 
-![Tripod](https://user-images.githubusercontent.com/6508892/57972625-8b92f080-799d-11e9-85a4-978e77468566.jpg) 
-![Tripod with extension](https://user-images.githubusercontent.com/6508892/57972787-88006900-799f-11e9-978d-ffa80f51fa6c.jpg)
+<img alt="Kinect Monitor Mount" src="https://user-images.githubusercontent.com/6508892/57972597-0a3b5e00-799d-11e9-89a3-2aabcc90738a.jpg" width="25%" height="25%">
 
-![Kinect Monitor Mount](https://user-images.githubusercontent.com/6508892/57972597-0a3b5e00-799d-11e9-89a3-2aabcc90738a.jpg)
+<img alt="Kinect Arm Mount" src="https://user-images.githubusercontent.com/6508892/57972774-58e9f780-799f-11e9-8584-7ea7880d3a27.jpg" width="25%" height="25%">
 
-![Kinect Arm Mount](https://user-images.githubusercontent.com/6508892/57972774-58e9f780-799f-11e9-8584-7ea7880d3a27.jpg)
+<img alt="Kinect Arm Mount detail" src="https://user-images.githubusercontent.com/6508892/57972917-f0037f00-79a0-11e9-8196-69cbaa23b7f4.jpg" width="25%" height="25%">
 
-![Kinect Arm Mount detail](https://user-images.githubusercontent.com/6508892/57972917-f0037f00-79a0-11e9-8196-69cbaa23b7f4.jpg)
+
 
 
 
