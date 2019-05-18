@@ -21,3 +21,4 @@ Feel free to open issues if you are having setup problems or if you have feature
 # References
 * [Issue about the birth of Easy Tracker](https://github.com/opentrack/opentrack/issues/915).
 * [Initial pull request](https://github.com/opentrack/opentrack/pull/932).
+* [Using Microsoft Kinect V2](https://github.com/opentrack/opentrack/wiki/Using-Microsoft-Kinect-V2)
