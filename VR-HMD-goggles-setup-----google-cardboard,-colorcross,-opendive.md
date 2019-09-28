@@ -90,12 +90,12 @@ Game need to support resolutions in 8:9 proportions.
 For example, 1920x1080 is 16:9 proportion. You need 960x1080 per one eye. Two eyes is 1920x1080 on your screen.
 
 Example of non standard SBS view with correct aspect ratio
-![](http://i.imgur.com/dX5u2K6l.jpg)
+![](https://github.com/opentrack/opentrack/wiki/vr-ed-sbs-view.jpg)
 
 **b)** if game supports only standard SBS view with 50% horizontal squeeze or you using Tridef3D http://www.tridef.com/ you need force game to run in non standard resolution 1920x2160 in 8:9 proportions and it should be resized by streaming software to correct proportions.
 
 Example of standard SBS view with 50% horizontal squezze. Look at egg planets...
-![](http://i.imgur.com/pjjjC1il.jpg)
+![](https://github.com/opentrack/opentrack/wiki/vr-ed-squeeze.jpg)
 1920x2160 resolution stream should correct it and it should look like non standard SBS in point **a)**.
 
 **6) setting non standard 1920x2160 (for 1080p screen) in 8:9 resolution if game don't support non standard SBS view.**
@@ -131,7 +131,7 @@ This is personal settings, adjustment method depend of your eyes, **you need to 
 
 phone should be mounted on a headset at the same position as on image below (don't laugh):
 
-![](http://i.imgur.com/MLRiiEPl.jpg)
+![](https://github.com/opentrack/opentrack/wiki/vr-ed-phone-mount.jpg)
 
 **e)** use your defined before center button
 
