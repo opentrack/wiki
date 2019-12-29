@@ -7,7 +7,7 @@ This guide is intended for use to get up and running fairly quickly. It is not d
 [![opentrack Calibration Video](http://img.youtube.com/vi/ZDz-bholoMo/0.jpg)](https://www.youtube.com/watch?v=ZDz-bholoMo "opentrack Calibration Video")
 
 Below is the opening screen for OpenTrack. The version number is displayed in the top. The area marked "no video" displays the camera output once the program is running. The octopus will rotate as you move your head. Below them are the raw tracker and game data displays. 
-![Main Window]https://www.dropbox.com/s/6oe8p7zcvytu25j/mainscreen.png?raw=1
+![Main Window](https://www.dropbox.com/s/6oe8p7zcvytu25j/mainscreen.png?raw=1)
 
 1 - clicking here will take you to the Tracker selection.
 
@@ -29,8 +29,9 @@ The protocol section is for defining how to communicate the movement data from o
 
 Here are the options for the filter selection:
 ![Filter Selection](https://www.dropbox.com/s/ezgmk3krds6cfkr/filter%20selection.png?raw=1)
+
 Here are the options for the options window:
-![Options](https://www.dropbox.com/s/9ur7l0udhyuaf71/option%20screen.png?dl=1)
+![Options](https://www.dropbox.com/s/9ur7l0udhyuaf71/option%20screen.png?raw=1)
 
 Here is the Mapping window where you can set curves for the six DOF. The numbers on the left represent the degrees of movement in the game, and the numbers along the bottom represent real world movement. In this window you can see that I have a dead space of approx 8 deg and at 15 degrees movement in game will be 180 deg for the yaw setting. In other words as I turn my head left and right and my view reaches the edges of my monitor I get max movement in game. If you tick the Asymmetric box you can set curves independently for right/left movement.
 
