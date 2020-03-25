@@ -2,14 +2,16 @@ Finally I've successfully built a headtrack with a MPU9250 using the hatire plug
 
 I've recorded some videos:
 
-1. Basic usage, my devices was between the tablet and the monitor (EM interferences?), no issue on my head: here
+1. Basic usage, my devices was between the tablet and the monitor (EM interferences?), no issue on my head: [here](https://youtu.be/yqUesfH768M)
 
-2. A test with win10 and Falcon BMS 4.34.3: here
+2. A test with win10 and Falcon BMS 4.34.3: [here](https://youtu.be/IN1oMc5ceNc)
 
-3. a test with Debian testing and FlightGear 2019.1.1: here
+3. a test with Debian testing and FlightGear 2019.1.1: [here](https://youtu.be/Gr2kXXOOd8k)
 
 
 If you want to built it, see [here](https://drive.google.com/drive/folders/15HhIHfoJ6WcMU1nhQ93dDLvj_SIr3SEa?usp=sharing).
+
+
 
 
 
