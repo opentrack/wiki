@@ -1,0 +1,1 @@
+I've built a deb package with the unstable 2.3.11 version for Debian testing. It is without dependences, install any missing libraries manually ([Link](https://drive.google.com/drive/folders/15HhIHfoJ6WcMU1nhQ93dDLvj_SIr3SEa?usp=sharing)). 
