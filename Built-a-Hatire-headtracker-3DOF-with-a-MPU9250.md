@@ -14,6 +14,8 @@ If you want to built it, see [here](https://drive.google.com/drive/folders/15HhI
 It is not complete a need a box:
 ![It is not complete a need a box](https://i.postimg.cc/QCSQQT0G/photo6017299811226727076.jpg)
 
+IMPORTANT: My package hasn't any dependencies, if you launch the software with the terminal it will prompt missing libraries. Opentrack won't show plugins in the input menu if in your sistem are missing some libraries, so install them.
+
 
 
 
