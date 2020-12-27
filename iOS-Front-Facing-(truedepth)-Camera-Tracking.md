@@ -1,0 +1,1 @@
+You can use the front facing camera of your iPhone or iPad with an additional app to send head tracking information to opentrack. This video describes how and comes with a short demo of DCS World: https://youtu.be/UABRyQJ0mkI
