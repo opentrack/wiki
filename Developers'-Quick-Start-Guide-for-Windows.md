@@ -30,11 +30,12 @@ Most of opentrack is implemented using C++17.
 * Use CMake application to configure opentrack and generate the Visual Studio solution.
     * Select Visual Studio 15 2017 generator. Choose the Win64 variant if you need to use OpenCV.
     * Provide Qt5_DIR cache variable. It should look like: `C:\Dev\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5`.
+    * Provide Qt5Gui_DIR cache variable. It should look like: `C:\Dev\Qt\5.12.0\msvc2017_64\lib\cmake\Qt5Gui`.
     * Optionally provide OpenCV_DIR cache variable. It should look like: `C:\Dev\OpenCV\4.0.1\build\x64\vc15\lib`.
 * Generate and open your project solution.
 * Select `RelWithDebInfo` target as the default `Debug` target is known to cause problems.
 * Build your solution.
-* Build the `INSTALL` project.
+* Build the `INSTALL` project (the files will be in this folder).
 * If using OpenCV copy its DLLs into the `modules` folder.
 * You should now be able to run and debug `opentrack.exe` from the CMake install folder.
 
