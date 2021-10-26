@@ -28,3 +28,28 @@ make install
 
 **Note:** The resulting build output will be placed in the `install/` directory. It will not 'install' itself anywhere outside of the current directory.
 
+## Building on Manjaro
+
+### Dependencies
+* `cmake
+* `git
+* `qt5-tools
+* `qt5-base
+* `procps-ng
+* `opencv
+
+### Compiling and running Opentrack
+
+```bash
+git clone https://github.com/opentrack/opentrack
+cd opentrack/
+mkdir build
+cd build
+cmake ..
+ccmake . (go down with 'PG DOWN' until you see SDK_WINE - then press 'ENTER' (set to 'ON'; press 'c' to reconfigure)
+make
+make install
+cd install
+cd bin
+./opentrack
+```
