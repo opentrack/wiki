@@ -31,12 +31,12 @@ make install
 ## Building on Manjaro
 
 ### Dependencies
-* `cmake
-* `git
-* `qt5-tools
-* `qt5-base
-* `procps-ng
-* `opencv
+* `cmake`
+* `git`
+* `qt5-tools`
+* `qt5-base`
+* `procps-ng`
+* `opencv`
 
 ### Compiling and running Opentrack
 
