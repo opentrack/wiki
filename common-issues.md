@@ -40,11 +40,15 @@ than the drive's root.
 
 Make sure you don't have **Gigabyte OC Guru** installed. The software does unseemly things to other running processes and is responsible for the crashes.
 
-### opentrack doesn't start after **Moonlight**
+### opentrack doesn't start when streaming using **Moonlight**
 
 **Moonlight** uses NVidia GameStream, and it's library rxgamepadinput.dll tries to capture input from your device (for example for gamepad connected to your phone to be playable on your PC) and that messes up with opentrack. You can just rename it, so it will be disabled. Usually it is located here: C:\Program Files\NVIDIA Corporation\NvStreamSrv or here: C:\Program Files (x86)\NVIDIA Corporation\NvStreamSrv . Rename both just to be sure. 
 
 Moonlight forcefully injects itself into `opentrack.exe` corrupting the process. It's not our fault.
+
+### Profiles can't be saved
+
+Disable OneDrive synchronization for the user's Documents directory.
 
 ### I want to donate to the project!
 
