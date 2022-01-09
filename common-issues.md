@@ -50,6 +50,10 @@ Moonlight forcefully injects itself into `opentrack.exe` corrupting the process.
 
 Disable OneDrive synchronization for the user's Documents directory.
 
+### How to install the PS3 Eye open driver?
+
+Read the [[article | PS3 Eye open driver instructions]].
+
 ### I want to donate to the project!
 
 The opentrack project doesn't receive any donations at the moment. Please donate to the [Electronic Frontier Foundation](https://www.eff.org/) instead. Their work is important for free and open Internet. Thank you.
