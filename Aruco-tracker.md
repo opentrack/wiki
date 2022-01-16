@@ -17,4 +17,3 @@ solver gets confused when pose approaches identity. When
 mounting it on a hat, ensure a relatively oblique angle that
 **keeps the raw pitch value positive at all times**. Otherwise,
 sudden spikes in pitch value ensue.
-ö
