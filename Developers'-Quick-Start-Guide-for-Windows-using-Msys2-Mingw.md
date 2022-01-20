@@ -27,8 +27,7 @@ Most of opentrack is implemented using C++17.
 #  Build prerequisite
 * MSYS2. get it from [here](https://www.msys2.org/) or [here](https://github.com/msys2/msys2-installer/releases).
 * If fresh install of MSYS, you should probably run: pacman -Syu followed by pacman -Su ,check MSYS'2 Documentation on updating.
-* The rest will be downloaded with msys's pacman and will be listed in build instructions as its to much to list up here
-
+* pacman will deal with the dependencies so they are not listed her as it would be to much.
 
 # Build instructions
 * We will start of by getting the tools needed. Open the MSYS2 MinGW 64-bit console. 
