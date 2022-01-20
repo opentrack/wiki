@@ -37,7 +37,7 @@ Most of opentrack is implemented using C++17.
     * **pacman -S mingw-w64-x86_64-cmake**  - A cross-platform open-source make system.
     * **pacman -S mingw-w64-x86_64-qt5**    - Meta package for Qt5 components (mingw-w64)
 	* **pacman -S mingw-w64-x86_64-opencv** - OpenCV is optionally.
-	* Im not sure if i have forgotten anything, it's been a while since i have installed my toolchain. And i have installed a buch of tools for other projects. ie. autoconf etc. So there is a chance that something is missing.
+	* Im not sure if i have forgotten anything, it's been a while since i have installed my toolchain. And i have installed a bunch of tools for other projects. ie. autoconf etc. So there is a chance that something is missing.
 
 * Next setup|check the system variables and make sure atleast these paths are added to the system PATH.
 	* **x:\Path_to_msys\usr\bin**
@@ -63,3 +63,5 @@ Most of opentrack is implemented using C++17.
 		* **<X:\dev\opentrack\install>**
 
 
+# Note
+ * Not all plugins/modules will be compiled. Example tje tracker-neuralnet, it requires a bit more work.
