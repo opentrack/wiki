@@ -30,6 +30,7 @@ Most of opentrack is implemented using C++17.
 * pacman will deal with the dependencies so they are not listed her as it would be to much.
 
 # Build instructions
+* The MSYS2 packages can be found by using (pacman -Ss name) or here: https://packages.msys2.org/queue 
 * We will start of by getting the tools needed. Open the MSYS2 MinGW 64-bit console. 
     * **pacman -S mingw-w64-x86_64-gcc**    - The GNU Compiler Collection (C,C++,OpenMP) for MinGW-w64
     * **pacman -S mingw-w64-x86_64-make**   - The GNU make utility to maintain groups of programs.
