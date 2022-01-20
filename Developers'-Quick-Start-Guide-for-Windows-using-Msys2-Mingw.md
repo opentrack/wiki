@@ -57,7 +57,7 @@ Most of opentrack is implemented using C++17.
 		* <x:\dev\opentrack\build>
 	* Run cmake to generate our Makefile(s)
 		* **<x:\dev\opentrack\build>cmake -G"MSYS Makefiles" -B . -S ../ -DCMAKE_TOOLCHAIN_FILE=../cmake/mingw-w64.cmake**
-	* Finnaly we can run make, it will take a few min, go get some coffee :).
+	* Finally we can run make, it will take a few min, go get some coffee :).
 		* **<x:\dev\opentrack\build>make && make install**
 	* When make and make install is done the program can be found at.
 		* **<X:\dev\opentrack\install>**
