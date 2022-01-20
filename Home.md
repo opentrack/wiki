@@ -23,4 +23,5 @@ If you've been asked to use an experimental build by a developer, see <<http://o
 
 # Contributing
 Your opentrack contributions are most welcome.
-See [Developers' Quick Start Guide for Windows](https://github.com/opentrack/opentrack/wiki/Developers'-Quick-Start-Guide-for-Windows)
+* [Developers' Quick Start Guide for Windows using VS](https://github.com/opentrack/opentrack/wiki/Developers'-Quick-Start-Guide-for-Windows)
+* [Developers' Quick Start Guide for Windows using Msys2 Mingw](https://github.com/opentrack/opentrack/wiki/Developers'-Quick-Start-Guide-for-Windows-using-Msys2-Mingw)
