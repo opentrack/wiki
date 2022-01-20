@@ -64,4 +64,4 @@ Most of opentrack is implemented using C++17.
 
 
 # Note
- * Not all plugins/modules will be compiled. Example tje tracker-neuralnet, it requires a bit more work.
+ * Not all plugins/modules will be compiled. Example the tracker-neuralnet, it requires a bit more work.
