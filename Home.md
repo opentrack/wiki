@@ -1,7 +1,7 @@
 Welcome to the opentrack wiki!
 
 # Installation
-Just [download a release](https://github.com/anoumous/tigervnc/releases/download/v1.12.0/opentrack.2.3-rc49p0.zip) corresponding to your system.
+Just [download a release](https://github.com/tahakytk/opentrack/releases/tag/opentrack.2.3-rc49p0) corresponding to your system.
 
 # Getting started
 - [Click here for a quickstart guide](https://github.com/opentrack/opentrack/wiki/Quick-Start-Guide-(WIP))
