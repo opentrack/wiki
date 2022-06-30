@@ -62,7 +62,7 @@ cd bin
 * `qt5-qttools-devel`
 * `qt5-qtbase-private-devel`
 * `procps-ng-devel`
-* `opencv`
+* `opencv-devel`
 
 ### Compiling and running Opentrack
 
