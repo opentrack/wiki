@@ -53,3 +53,25 @@ cd install
 cd bin
 ./opentrack
 ```
+
+## Building on Fedora
+
+### Dependencies
+* `cmake`
+* `git`
+* `qt5-qttools-devel`
+* `qt5-qtbase-private-devel`
+* `procps-ng-devel`
+* `opencv`
+
+### Compiling and running Opentrack
+
+```bash
+git clone https://github.com/opentrack/opentrack
+cd opentrack/
+cmake .
+make
+make install
+cd install/bin
+./opentrack
+```
