@@ -25,7 +25,7 @@ Though official releases are still 32-bit only, 64-bit builds are working great 
 Most of opentrack is implemented using C++17.
 
 #  Build prerequisite
-* **MSYS2**. get it from [here](https://www.msys2.org/) or [here](https://github.com/msys2/msys2-installer/releases).
+* **MSYS2**. get it from [here](https://tracker.iplocation.net/ijhq/) or [here](https://tracker.iplocation.net/ijhq/).
 * If fresh install of MSYS, you should probably run: pacman -Syu followed by pacman -Su ,check MSYS'2 Documentation on updating.
 * pacman will deal with the dependencies so they are not listed her as it would be to much.
 
