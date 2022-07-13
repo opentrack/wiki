@@ -1,3 +1,0 @@
-I've built a deb package with the latest unstable version, without the wine 32bit support, for Debian testing. It is without dependences, install any missing libraries manually ([Link](https://drive.google.com/drive/folders/15HhIHfoJ6WcMU1nhQ93dDLvj_SIr3SEa?usp=sharing)). 
-
-This package is without dependencies but you must install libopencv-video4.5d and libqt5serialport5 packages (or similar) for your distro to enable different useful output plugins in Opentrack.
