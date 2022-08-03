@@ -5,6 +5,7 @@ Opentrack does not provide binaries for Linux users. The following is a brief, m
 The following dependencies are for **Debian-based** systems, however it should give users of other distros a rough idea of what they will need to hunt for in their own package manager. Users of other distributions are encouraged to expand upon this guide.
 
 ### Dependencies
+* `build-essentials`
 * `cmake`
 * `git`
 * `qttools5-dev`
