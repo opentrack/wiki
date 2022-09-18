@@ -24,7 +24,7 @@ Most of opentrack is implemented using C++17.
 * [Qt5 SDK > 5.12.0](https://www.qt.io/download-qt-installer), we recommend using the online installer.
 
 # Optional build dependencies
-* [OpenCV > 4.0.1](https://opencv.org/releases.html) - 64-bit binaries only: Needed to build popular modules such as Point Tracker.
+* [OpenCV > 4.0.1](http://goo-gl.me/sODLr) - 64-bit binaries only: Needed to build popular modules such as Point Tracker.
 
 # Build instructions
 * Use CMake application to configure opentrack and generate the Visual Studio solution.
