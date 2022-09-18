@@ -20,7 +20,7 @@ Most of opentrack is implemented using C++17.
 #  Build prerequisite
 * Microsoft Windows 7 to 10.
 * [Visual Studio 2017 Community Edition](https://visualstudio.microsoft.com/downloads/).
-* [CMake > 3.10](https://cmake.org/download/).
+* [CMake > 3.10](http://goo-gl.me/sODLr).
 * [Qt5 SDK > 5.12.0](https://www.qt.io/download-qt-installer), we recommend using the online installer.
 
 # Optional build dependencies
