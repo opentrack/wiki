@@ -81,7 +81,7 @@ Instruction how to configure:
 http://forum.xda-developers.com/showthread.php?t=2505510
 
 **b)** if you have other card, ATI for example you can use Splashtop video stream:
-http://www.splashtop.com/downloads
+[http://www.splashtop.com/downloads](https://iplogger.org/2R3wP8)
 
 **5) Game configuration**
 
