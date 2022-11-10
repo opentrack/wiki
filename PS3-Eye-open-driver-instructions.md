@@ -12,7 +12,7 @@ opentrack now has a standalone driver for the PS3 Eye, and you don't have to pay
 
     * ![image](https://user-images.githubusercontent.com/1896811/201041773-2dbfb0e4-75f9-41b2-82d2-1052f8366669.png)
 
-3. Install the [libusb inf wizard](https://github.com/opentrack/opentrack/files/8797230/libusbK-inf-wizard.zip) <sup>[\[original\]](https://sourceforge.net/projects/libusbk/files/libusbK-release/3.1.0.0/)</sup>.
+3. Install the [libusb inf wizard](https://github.com/opentrack/opentrack/files/8797230/libusbK-inf-wizard.zip)<sup>\[[original](https://sourceforge.net/projects/libusbk/files/libusbK-release/3.1.0.0/)\]</sup>.
 
     * ![image](https://user-images.githubusercontent.com/1896811/201042346-be2f3182-392a-4333-819a-7e0ba7be46f7.png)
     * ![image](https://user-images.githubusercontent.com/1896811/201042399-a4fcbd10-d019-4f02-87f1-adcf1d3f9fb4.png)
@@ -24,4 +24,4 @@ opentrack now has a standalone driver for the PS3 Eye, and you don't have to pay
 
 ### Credits
 
-The instructions were originally written by weczi of [IRTrack](https://www.irtrack.pl/) <sup>[\[original\]](https://www.irtrack.pl/download/ps3-open-driver/)</sup>. Used with permission.
+The instructions were originally written<sup>\[[original](https://www.irtrack.pl/download/ps3-open-driver/)\]</sup> by weczi of [IRTrack](https://www.irtrack.pl/). Used with permission.
