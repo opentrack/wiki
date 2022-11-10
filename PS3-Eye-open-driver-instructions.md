@@ -2,9 +2,18 @@
 
 opentrack now has a standalone driver for the PS3 Eye, and it's mature enough for its existence to be advertised more widely. Now you don't have to pay for (or pirate, for that matter) the CL Eye driver that's buggy, slow, unmaintained and broken with every other Windows 10 update. The crashes are gone and there's less CPU usage. It's also free as in beer.
 
--    Uninstall any previous driver.
--    Use the zadig program <<https://zadig.akeo.ie>> to install the **libusb-win32** driver onto interface 0 of the camera. Don't use the WinUSB driver!
--    If it fails to work, try connecting the camera onto a USB 2.0 or a USB 3.0 controller that you haven't used yet. Then run zadig again.
--    In Device Manager, make sure the driver is assigned to the device. If it's not, use the "update driver" button to select libusb (it's its own category).
--    If it STILL fails to work, try the procedure again, except this time installing **libusbK** instead of libusb-win32
--    If it doesn't work despite all that, switch to libusb-win32 again (see [[this comment | https://github.com/opentrack/opentrack/issues/1383#issuecomment-1013661144]]).
+### Instructions
+
+1. Open the Windows Device Manager.
+2. Uninstall any existing closed-source driver.
+    * ![image](https://user-images.githubusercontent.com/1896811/201041773-2dbfb0e4-75f9-41b2-82d2-1052f8366669.png)
+3. Install the [libusb inf wizard](https://github.com/opentrack/opentrack/files/8797230/libusbK-inf-wizard.zip).
+    * ![image](https://user-images.githubusercontent.com/1896811/201042346-be2f3182-392a-4333-819a-7e0ba7be46f7.png)
+    * ![image](https://user-images.githubusercontent.com/1896811/201042399-a4fcbd10-d019-4f02-87f1-adcf1d3f9fb4.png)
+    * ![image](https://user-images.githubusercontent.com/1896811/201042448-046119d9-7662-4cc3-a4be-e5f324b2ff9a.png)
+4. The open driver should now become available in opentrack.
+    * ![image](https://user-images.githubusercontent.com/1896811/201042508-b0695163-ef45-4caa-8c61-db9681e6ed25.png)
+
+### Credits
+
+The instructions were written by weczi of [IRTrack](https://www.irtrack.pl/download/ps3-open-driver/).
