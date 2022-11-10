@@ -1,6 +1,6 @@
 ### PS3 Eye open driver
 
-opentrack now has a standalone driver for the PS3 Eye, and it's mature enough for its existence to be advertised more widely. Now you don't have to pay for (or pirate, for that matter) the CL Eye driver that's buggy, slow, unmaintained and broken with every other Windows 10 update. The crashes are gone and there's less CPU usage. It's also free as in beer.
+opentrack now has a standalone driver for the PS3 Eye, and you don't have to pay for (or pirate, for that matter) the CL Eye driver that's buggy, slow, unmaintained and broken with every other Windows 10 update.
 
 ### Instructions
 
@@ -16,4 +16,4 @@ opentrack now has a standalone driver for the PS3 Eye, and it's mature enough fo
 
 ### Credits
 
-The instructions were written by weczi of [IRTrack](https://www.irtrack.pl/download/ps3-open-driver/).
+The instructions were originally written by weczi of [IRTrack](https://www.irtrack.pl/) <sup>[\[1\]](https://www.irtrack.pl/download/ps3-open-driver/)</sup>. Used with permission.
