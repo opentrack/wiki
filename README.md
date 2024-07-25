@@ -11,5 +11,3 @@ The actual wiki updates once every several hours once a commit is accepted.
 ### Questions, problems
 
 Create an an issue here or in the main project.
-
-- @sthalik
