@@ -36,6 +36,10 @@ Windows Vista and possibly others have issues with permissions. Can also
 use one of the `c:/program files/` directories on the same partition as the game rather
 than the drive's root.
 
+### tracking does not work for Proton games
+
+This happens because Proton/SteamPlay runs games inside the pressure-vessel runtime, and opentrack was installed to the /usr prefix which get overridden by pressure-vessel. Install opentrack to a different location, try `/opt/opentrack` or `$HOME/.local` instead, which won't be overridden by pressure-vessel.
+
 ### opentrack crashes with GIGABYTE OC GURU
 
 Make sure you don't have **Gigabyte OC Guru** installed. The software does unseemly things to other running processes and is responsible for the crashes.
