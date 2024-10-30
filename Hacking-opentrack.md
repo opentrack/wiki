@@ -12,9 +12,10 @@ Trackers, filters, and protocols are defined as `tracker-*`, `filter-*`, and `pr
 - Dependencies other than Qt are included in the [opentrack-depends](https://github.com/opentrack/opentrack-depends) repository. Clone the submodules, there are a few.
 - Logic of sending data through tracker -> filter -> protocol pipeline is defined in [logic/pipeline.cpp](https://github.com/opentrack/opentrack/blob/master/logic/pipeline.cpp).
 - Software logic that isn't purely user interface is defined the [logic/](https://github.com/opentrack/opentrack/tree/master/logic) directory.
-- Main form of the user interface is defined in [variant/default/main-window.cpp](https://github.com/opentrack/opentrack/blob/master/variant/default/main-window.cpp). Most user interface forms are in the [gui/](https://github.com/opentrack/opentrack/tree/master/gui) subdirectory.
 - State of tracking operation while it's running is contained in [logic/work.hpp](https://github.com/opentrack/opentrack/blob/master/logic/work.hpp). See also [logic/state.hpp](https://github.com/opentrack/opentrack/blob/master/logic/state.hpp) for state that persists while the software is running.
 - Support for connecting configuration to user interface is contained in [options/options.hpp](https://github.com/opentrack/opentrack/blob/master/options/options.hpp).
 - Migrations are for settings getting moved or changing meaning. See [migration/](https://github.com/opentrack/opentrack/tree/master/migration).
+- Main form of the user interface is defined in [variant/default/main-window.cpp](https://github.com/opentrack/opentrack/blob/master/variant/default/main-window.cpp). Most user interface forms are in the [gui/](https://github.com/opentrack/opentrack/tree/master/gui) subdirectory.
+- The settings from the main UI are declared in [logic/main-settings.hpp](https://github.com/opentrack/opentrack/blob/master/logic/main-settings.hpp) and displayed in [gui/options-dialog.cpp](https://github.com/opentrack/opentrack/blob/master/gui/options-dialog.cpp)
 
 To be continued.
