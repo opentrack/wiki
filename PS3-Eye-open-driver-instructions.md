@@ -26,6 +26,22 @@ opentrack now has a standalone driver for the PS3 Eye, and you don't have to pay
 
     * ![image](https://user-images.githubusercontent.com/1896811/201042508-b0695163-ef45-4caa-8c61-db9681e6ed25.png)
 
+### Troubleshooting
+
+- - - - - 
+
+> I am using libusb driver and my camera started having this error all of a sudden. I changed the USB port but it did not work. I also tried to reset libusb driver to no avail. This is how I fixed it (from https://github.com/opentrack/opentrack/issues/1495#issuecomment-1772758557):
+
+    Open device manager
+    Scroll to Universal Serial Bus Controllers
+    See if there is any unrecognized device and uninstall it
+
+- - - - - 
+
+To use the camera and the microphone at the same time you might need to use the libusbK driver instead (available in the same installer).
+
+- - - - - 
+
 ### Credits
 
 The instructions were originally written<sup>\[[original](https://www.irtrack.pl/download/ps3-open-driver/)\]</sup> by weczi of [IRTrack](https://www.irtrack.pl/). Used with permission.
