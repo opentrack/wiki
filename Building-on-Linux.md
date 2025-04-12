@@ -10,7 +10,7 @@ The following dependencies are for **Debian-based** systems, however it should g
 * `git`
 * `qttools5-dev`
 * `qtbase5-private-dev`
-* `libprocps-dev`
+* `libproc2-dev`
 * `libopencv-dev`
 
 **Note:** While opentrack will build without OpenCV, it will only compile with a very minimal subset of its functionality, making it of little use to the average user who does not have very specific usage requirements. 
