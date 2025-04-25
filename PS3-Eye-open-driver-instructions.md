@@ -20,7 +20,9 @@ opentrack now has a standalone driver for the PS3 Eye, and you don't have to pay
 
     * ![image](https://user-images.githubusercontent.com/1896811/201042346-be2f3182-392a-4333-819a-7e0ba7be46f7.png)
     * ![image](https://user-images.githubusercontent.com/1896811/201042399-a4fcbd10-d019-4f02-87f1-adcf1d3f9fb4.png)
+    * ![image](https://github.com/user-attachments/assets/362c5963-9362-4917-8300-9ee72f228a39)
     * ![image](https://github.com/opentrack/opentrack/assets/1896811/40a0504e-e092-4043-992f-9771875ecc97)
+
 
 4. The open driver should now become available in opentrack.
 
