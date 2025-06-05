@@ -22,7 +22,7 @@ Trackhat provides a customized build of Opentrack, which includes:
 - The below instructions are an abridged version of the [full installation guide](https://www.trackhat.org/manual) 
 
 1. **Download Trackhat Opentrack**
-   - Visit [trackhat.org/pages/downloads](https://trackhat.org/pages/downloads).
+   - Visit [trackhat.org/pages/downloads](https://www.trackhat.org/trackhat-opentrack).
    - Download the latest **Trackhat Opentrack** ZIP package.
 
 2. **install and start the Application**
@@ -56,14 +56,14 @@ Occasionally, for diagnostic purposes or specific customisations, some users may
 
 ---
 
-## Notes
+## Notes 📝
 
 - The Sensor V2 works as a standalone 6DOF tracker — no additional IR tracking needed.
 - It can also be used in hybrid mode with IR headgear.
 
 ---
 
-## FAQ
+## FAQ ❓
 
 **Q: Can I use the Sensor V2 with Linux or macOS?**  
 A: Official support is currently Windows-only. Linux/Mac support is community-driven and not guaranteed. 
