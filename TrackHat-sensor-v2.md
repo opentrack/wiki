@@ -11,7 +11,7 @@ The **Trackhat Sensor V2** is a plug-and-play head tracking sensor that offers l
 
 ---
 
-## Option 1 (recomended): Using TrackHat Opentrack
+## Option 1 (recomended): Using TrackHat Opentrack.
 
 Trackhat provides a customized build of Opentrack, which includes:
 
@@ -34,7 +34,7 @@ Trackhat provides a customized build of Opentrack, which includes:
    - Click **Start** to begin tracking.
    - Settings are pre-configured for best results with Sensor V2, but can be customized in the mapping tool to suit your needs.
 
-## Option 2 (Advanced): Using regular Opentrack
+## Option 2 (Advanced): Using regular Opentrack.
 
 Occasionally, for diagnostic purposes or specific customisations, some users may need to use the regular version of Opentrack with their sensor V2.
 
