@@ -60,8 +60,8 @@ cd bin
 ### Dependencies
 * `cmake`
 * `git`
-* `qt5-qttools-devel`
-* `qt5-qtbase-private-devel`
+* `qt6-qttools-devel`
+* `qt6-qtbase-private-devel`
 * `procps-ng-devel`
 * `opencv-devel`
 
