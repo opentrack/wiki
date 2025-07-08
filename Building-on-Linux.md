@@ -9,15 +9,15 @@ The folowing dependencies are required in order to correctly build OpenTrack on 
 * `build-essentials`
 * `cmake`
 * `git`
-* `qttools5-dev`
-* `qtbase5-private-dev`
+* `qt6-tools-dev`
+* `qt6-base-private-dev`
 * `libproc2-dev`
 * `libopencv-dev`
 
 On most Debian/Ubuntu systems the required dependencies can be installed as follows:
 ```sh
 sudo apt update
-sudo apt install build-essential cmake git qttools5-dev qtbase5-private-dev libproc2-dev libopencv-dev
+sudo apt install build-essential cmake git qt6-tools-dev qt6-base-private-dev libproc2-dev libopencv-dev
 ```
 
 **Note:** While opentrack will build without OpenCV, it will only compile with a very minimal subset of its functionality, making it of little use to the average user who does not have very specific usage requirements. 
