@@ -36,11 +36,11 @@ cd ./install/bin
 ./opentrack
 ```
 
-**Note:** The resulting build output will be placed in the `install/` directory. It will not 'install' itself anywhere outside of the current directory. 
+**Note:** The resulting build output will be placed in the `install/` directory. It will not 'install' itself anywhere outside of the current directory.
 
 ## Building on Manjaro
 
-### Installing Dependencies
+### Dependencies
 * `cmake`
 * `git`
 * `qt5-tools`
