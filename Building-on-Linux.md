@@ -21,7 +21,7 @@ sudo apt install build-essential cmake git libopencv-dev libproc2-dev qt6-base-p
 ### On Manjaro
 
 ```sh
-sudo pacman -S cmake git opencv procps-ng qt5-base qt5-tools
+sudo pacman -S cmake git opencv procps-ng qt6-base qt6-tools
 ```
 
 ### On Fedora:
@@ -33,8 +33,6 @@ dnf install cmake git opencv-devel procps-ng-devel qt6-qtbase-private-devel qt6-
 ---
 
 Users of other distributions are encouraged to expand upon this guide.
-
-While Opentrack will compile without OpenCV, only a very minimal subset of functionality will be available, making it of little use to the average user. 
 
 ## 2. Clone the source
 
@@ -66,10 +64,7 @@ make -j$(nprocs)
 ```
 
 The `-j` arg does the compilation in parallel across all your CPUs, so speeds
-things up tremendously. I see anecdotal reports on Reddit that using this
-option caused problems for some people, so if you get errors, it might be worth
-trying again using plain `make` with no args, although I find this hard to
-credit, personally -- using `make -j...` is a very common thing to do.
+things up tremendously.
 
 ## 5. Install
 
