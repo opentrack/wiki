@@ -5,7 +5,9 @@ Opentrack does not provide binaries for Linux users. The following is a brief, m
 The following dependencies are for **Debian-based** systems, however it should give users of other distros a rough idea of what they will need to hunt for in their own package manager. Users of other distributions are encouraged to expand upon this guide.
 
 ### Installing Dependencies
+
 The following dependencies are required in order to correctly build Opentrack on Debian/Ubuntu systems:
+
 * `build-essential`
 * `cmake`
 * `git`
@@ -15,6 +17,7 @@ The following dependencies are required in order to correctly build Opentrack on
 * `libopencv-dev`
 
 On most Debian/Ubuntu systems the required dependencies can be installed as follows:
+
 ```sh
 sudo apt update
 sudo apt install build-essential cmake git qt6-tools-dev qt6-base-private-dev libproc2-dev libopencv-dev
@@ -41,6 +44,7 @@ cd ./install/bin
 ## Building on Manjaro
 
 ### Dependencies
+
 * `cmake`
 * `git`
 * `qt5-tools`
