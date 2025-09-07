@@ -1,87 +1,102 @@
-Opentrack does not provide binaries for Linux users. The following is a brief, missing guide on compiling opentrack for Linux.
+Opentrack does not provide binaries for Linux users. The following is a brief attempt at the missing guide on compiling Opentrack for Linux.
 
 ## Building on Debian, Ubuntu, etc.
 
-The following dependencies are for **Debian-based** systems, however it should give users of other distros a rough idea of what they will need to hunt for in their own package manager. Users of other distributions are encouraged to expand upon this guide.
+## 1. Install Dependencies
 
-### Installing Dependencies
-The folowing dependencies are required in order to correctly build OpenTrack on Debian/Ubuntu systems:
-* `build-essentials`
-* `cmake`
-* `git`
-* `qt6-tools-dev`
-* `qt6-base-private-dev`
-* `libproc2-dev`
-* `libopencv-dev`
+The following dependencies are required in order to build Opentrack. First:
 
-On most Debian/Ubuntu systems the required dependencies can be installed as follows:
 ```sh
 sudo apt update
-sudo apt install build-essential cmake git qt6-tools-dev qt6-base-private-dev libproc2-dev libopencv-dev
 ```
 
-**Note:** While opentrack will build without OpenCV, it will only compile with a very minimal subset of its functionality, making it of little use to the average user who does not have very specific usage requirements. 
+Then:
 
-### Compiling and running Opentrack
+### On Debian/Ubuntu:
 
-Compiling and running the project is the same as with any cmake project:
+```sh
+sudo apt install build-essential cmake git libopencv-dev libproc2-dev qt6-base-private-dev qt6-tools-dev wine64-tools
+```
+
+### On Arch/Manjaro
+
+```sh
+sudo pacman -S cmake git opencv procps-ng qt6-base qt6-tools
+```
+
+### On Fedora:
+
+```sh
+dnf install cmake git opencv-devel procps-ng-devel qt6-qtbase-private-devel qt6-qttools-devel
+```
+
+Users of other distributions are encouraged to expand upon this guide.
+
+## 2. Optional dependencies
+
+You'll also need to install the following optional dependencies:
+
+Debian/Ubuntu  | Arch/Manjaro | Fedora | Description
+---------------|--------------|--------|------------------------------------------------------
+`wine64-tools` | ???          | ???    | Needed to set SDK_WINE=ON config, as described below.
+
+(i.e. repeat the apt/pacman/dnf command from above, with the optional dependencies
+you need appended to the end.)
+
+## 3. Clone the source
 
 ```bash
 git clone https://github.com/opentrack/opentrack
 cd opentrack/
-cmake .
-make
-make install
-cd ./install/bin
-./opentrack
 ```
 
-**Note:** The resulting build output will be placed in the `install/` directory. It will not 'install' itself anywhere outside of the current directory.
+## 4. Configure
 
-## Building on Manjaro
+Set configuration options, as for any cmake project. To run Opentrack on
+Linux, you'll probably want to set `SDK_WINE=ON`, i.e:
 
-### Dependencies
-* `cmake`
-* `git`
-* `qt5-tools`
-* `qt5-base`
-* `procps-ng`
-* `opencv`
-
-### Compiling and running Opentrack
-
-```bash
-git clone https://github.com/opentrack/opentrack
-cd opentrack/
-mkdir build
-cd build
-cmake ..
-ccmake . (go down with 'PG DOWN' until you see SDK_WINE - then press 'ENTER' (set to 'ON'; press 'c' to reconfigure)
-make
-make install
-cd install
-cd bin
-./opentrack
+```sh
+cmake . -DSDK_WINE:BOOL=ON
 ```
 
-## Building on Fedora
+Alternatively, use '`ccmake .`' to view an interactive list of available configuration variables. When done, press `c` to reconfigure, `e` to dismiss the resulting dialog, and then `g` to generate the configuration.
 
-### Dependencies
-* `cmake`
-* `git`
-* `qt6-qttools-devel`
-* `qt6-qtbase-private-devel`
-* `procps-ng-devel`
-* `opencv-devel`
 
-### Compiling and running Opentrack
+## 5. Compile
 
-```bash
-git clone https://github.com/opentrack/opentrack
-cd opentrack/
-cmake .
-make
-make install
+```sh
+make -j$(nprocs)
+```
+
+The `-j` arg does the compilation in parallel across all your CPUs, so speeds
+things up tremendously.
+
+## 6. Install
+
+```sh
+make -j$(nprocs) install
+```
+
+This installs to wherever the config variable `CMAKE_INSTALL_PREFIX` points to,
+by default just `./install`.
+
+## 7. Run
+
+Change to the install's bin directory and try it out:
+
+```
 cd install/bin
 ./opentrack
 ```
+
+## 8. Variations
+
+You might want to change the directory we install Opentrack to, in which case
+modify the `CMAKE_INSTALL_PREFIX` configuration, e.g:
+
+```sh
+cmake . -DSDK_WINE:BOOL=ON -DCMAKE_INSTALL_PREFIX:PATH=$HOME/.local
+```
+
+and then recompile, etc.
+
