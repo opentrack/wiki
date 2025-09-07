@@ -71,7 +71,7 @@ option caused problems for some people, so if you get errors, it might be worth
 trying again using plain `make` with no args, although I find this hard to
 credit, personally -- using `make -j...` is a very common thing to do.
 
-## 5. Install the compiled program
+## 5. Install
 
 ```sh
 make -j$(nprocs) install
@@ -80,7 +80,7 @@ make -j$(nprocs) install
 This installs to wherever the config variable `CMAKE_INSTALL_PREFIX` points to,
 by default just `./install`.
 
-## 6. Run your compiled Opentrack
+## 6. Run
 
 Change to the install's bin directory and try it out:
 
