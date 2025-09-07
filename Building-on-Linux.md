@@ -1,11 +1,11 @@
-Opentrack does not provide binaries for Linux users. The following is a brief, missing guide on compiling opentrack for Linux.
+Opentrack does not provide binaries for Linux users. The following is a brief, missing guide on compiling Opentrack for Linux.
 
 ## Building on Debian, Ubuntu, etc.
 
 The following dependencies are for **Debian-based** systems, however it should give users of other distros a rough idea of what they will need to hunt for in their own package manager. Users of other distributions are encouraged to expand upon this guide.
 
 ### Installing Dependencies
-The folowing dependencies are required in order to correctly build OpenTrack on Debian/Ubuntu systems:
+The folowing dependencies are required in order to correctly build Opentrack on Debian/Ubuntu systems:
 * `build-essential`
 * `cmake`
 * `git`
@@ -20,7 +20,7 @@ sudo apt update
 sudo apt install build-essential cmake git qt6-tools-dev qt6-base-private-dev libproc2-dev libopencv-dev
 ```
 
-**Note:** While opentrack will build without OpenCV, it will only compile with a very minimal subset of its functionality, making it of little use to the average user who does not have very specific usage requirements. 
+**Note:** While Opentrack will build without OpenCV, it will only compile with a very minimal subset of its functionality, making it of little use to the average user who does not have very specific usage requirements. 
 
 ### Compiling and running Opentrack
 
