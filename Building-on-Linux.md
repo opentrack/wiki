@@ -6,7 +6,7 @@ The following dependencies are for **Debian-based** systems, however it should g
 
 ### Installing Dependencies
 The folowing dependencies are required in order to correctly build OpenTrack on Debian/Ubuntu systems:
-* `build-essentials`
+* `build-essential`
 * `cmake`
 * `git`
 * `qt6-tools-dev`
