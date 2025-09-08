@@ -43,6 +43,8 @@ cmake -B build
 ccmake build
 ```
 
+(The 'build' directory this generates can be called anything, so you can manage multiple builds, perhaps using different configuration values.)
+
 When done, press `c` to reconfigure, `e` to dismiss the resulting dialog, and then `g` to generate the configuration.
 
 The defaults values should be fine for now.
@@ -104,14 +106,13 @@ The `-j` arg does the compilation in parallel across all your CPUs, so speeds th
 (cd build; make -j$(nproc) install)
 ```
 
-This installs to wherever the config variable `CMAKE_INSTALL_PREFIX` points to, which defaults to `./install/bin`.
+This installs to wherever the config variable `CMAKE_INSTALL_PREFIX` points to, which defaults to `./build/install`.
 
 ## 7. Run
 
 Run the installed executable to try it out, e.g.:
 
 ```
-cd install/bin
-./opentrack
+build/install/bin/opentrack
 ```
 
