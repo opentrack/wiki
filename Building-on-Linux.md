@@ -102,3 +102,81 @@ cmake . -DSDK_WINE:BOOL=ON -DCMAKE_INSTALL_PREFIX:PATH=$HOME/.local
 To enable the neuralnet tracker also add the ONNXRuntime cmake and include dirs, for example `-DONNXRuntime_DIR=/usr/lib64/cmake/onnxruntime -DONNXRuntime_INCLUDE_DIR=/usr/include/onnxruntime`
 
 and then recompile, etc.
+
+## 9. Package Builds
+
+### Debian/Ubuntu
+???
+
+### Arch/Manjaro
+???
+
+### Fedora
+- Install rpm-build and dnf-plugins-core `sudo dnf -y install rpm-build dnf-plugins-core`
+- Download https://github.com/opentrack/opentrack/archive/refs/tags/opentrack-2023.3.0.tar.gz to `~/rpmbuild/SOURCES/opentrack-2023.3.0.tar.gz`
+- Create `~/rpmbuild/SPECS/opentrack.spec` with the following contents.
+```
+Name: opentrack
+Version: 2023.3.0
+Release: 1%{?dist}
+Summary: opentrack is a program for tracking user's head rotation and transmitting it to flight simulation software and military-themed video games.
+
+License: ISC
+URL: https://github.com/opentrack/opentrack
+Source0: https://github.com/%{name}/%{name}/archive/refs/tags/%{name}-%{version}.tar.gz
+
+BuildRequires: cmake
+BuildRequires: git
+BuildRequires: onnxruntime-devel
+BuildRequires: opencv-devel
+BuildRequires: procps-ng-devel
+BuildRequires: qt5-linguist
+BuildRequires: qt5-qtbase-private-devel
+BuildRequires: qt6-qtbase-private-devel
+BuildRequires: qt6-qttools-devel
+BuildRequires: wine-devel
+Requires: onnxruntime
+
+%description
+opentrack is a program for tracking user's head rotation and transmitting it to flight simulation software and military-themed video games.
+
+%prep
+%setup -q -n %{name}-%{name}-%{version}
+
+%build
+%cmake -DSDK_WINE:BOOL=ON -DONNXRuntime_DIR=%{_libdir}/cmake/onnxruntime -DONNXRuntime_INCLUDE_DIR=%{_includedir}/onnxruntime
+cd redhat-linux-build
+make %{?_smp_mflags}
+
+%install
+cat << EOF > opentrack.desktop
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Opentrack
+Comment="opentrack is a program for tracking user's head rotation and transmitting it to flight simulation software and military-themed video games."
+Exec=opentrack
+Categories=Game
+Keywords=gaming
+Icon=opentrack
+EOF
+desktop-file-install --dir=%{buildroot}%{_datadir}/applications opentrack.desktop
+install -Dpm 0644 gui/images/opentrack.png %{buildroot}%{_datadir}/icons/hicolor/256x256/apps/%{name}.png
+cd redhat-linux-build
+%make_install
+
+%files
+%{_bindir}/opentrack
+%{_datadir}/applications/opentrack.desktop
+%{_datadir}/icons/hicolor/256x256/apps/opentrack.png
+%{_datadir}/opentrack
+%{_libexecdir}/opentrack
+%doc %{_datadir}/doc/opentrack
+%license
+
+%changelog
+* Mon Sep 22 2025 Jason Montleon <jason@montleon.com> [2023.3.0-1]
+- Initial Build
+```
+- Install build dependencies `sudo dnf builddep -y ~/rpmbuild/SPECS/opentrack.spec`
+- Build the package `rpmbuild -ba ~/rpmbuild/SPECS/opentrack.spec`
