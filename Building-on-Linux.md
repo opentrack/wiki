@@ -27,7 +27,7 @@ sudo pacman -S cmake git opencv procps-ng qt6-base qt6-tools
 ### On Fedora:
 
 ```sh
-dnf install cmake git opencv-devel procps-ng-devel qt6-qtbase-private-devel qt6-qttools-devel
+dnf install cmake git opencv-devel procps-ng-devel qt5-linguist qt5-qtbase-private-devel qt6-qtbase-private-devel qt6-qttools-devel
 ```
 
 Users of other distributions are encouraged to expand upon this guide.
@@ -38,7 +38,8 @@ You'll also need to install the following optional dependencies:
 
 Debian/Ubuntu  | Arch/Manjaro | Fedora | Description
 ---------------|--------------|--------|------------------------------------------------------
-`wine64-tools` | ???          | ???    | Needed to set SDK_WINE=ON config, as described below.
+`wine64-tools` | ???          | `wine-devel` | Needed to set SDK_WINE=ON config, as described below.
+???            | ???          | `onnxruntime-devel` | Needed to build the neuralnet tracker.
 
 (i.e. repeat the apt/pacman/dnf command from above, with the optional dependencies
 you need appended to the end.)
@@ -98,5 +99,6 @@ modify the `CMAKE_INSTALL_PREFIX` configuration, e.g:
 cmake . -DSDK_WINE:BOOL=ON -DCMAKE_INSTALL_PREFIX:PATH=$HOME/.local
 ```
 
-and then recompile, etc.
+To enable the neuralnet tracker also add the ONNXRuntime cmake and include dirs, for example `-DONNXRuntime_DIR=/usr/lib64/cmake/onnxruntime -DONNXRuntime_INCLUDE_DIR=/usr/include/onnxruntime`
 
+and then recompile, etc.
