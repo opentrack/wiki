@@ -36,9 +36,9 @@ Users of other distributions are encouraged to expand upon this guide.
 
 You'll also need to install the following optional dependencies:
 
-| Debian/Ubuntu  | Arch/Manjaro | Fedora     | Description                                           |
-| -------------- | ------------ | ---------- | ----------------------------------------------------- |
-| `wine64-tools` | ???          | wine-devel | Needed to set SDK_WINE=ON config, as described below. |
+| Debian/Ubuntu  | Arch/Manjaro | Fedora       | Description                                           |
+| -------------- | ------------ | ------------ | ----------------------------------------------------- |
+| `wine64-tools` | ???          | `wine-devel` | Needed to set SDK_WINE=ON config, as described below. |
 
 (i.e. repeat the apt/pacman/dnf command from above, with the optional dependencies
 you need appended to the end.)
