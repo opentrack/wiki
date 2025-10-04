@@ -27,7 +27,7 @@ sudo pacman -S cmake git opencv procps-ng qt6-base qt6-tools
 ### On Fedora:
 
 ```sh
-dnf install cmake git opencv-devel procps-ng-devel qt6-qtbase-private-devel qt6-qttools-devel
+sudo dnf install cmake git opencv-devel procps-ng-devel qt6-qtbase-private-devel qt6-qttools-devel
 ```
 
 Users of other distributions are encouraged to expand upon this guide.
@@ -36,9 +36,9 @@ Users of other distributions are encouraged to expand upon this guide.
 
 You'll also need to install the following optional dependencies:
 
-Debian/Ubuntu  | Arch/Manjaro | Fedora | Description
----------------|--------------|--------|------------------------------------------------------
-`wine64-tools` | ???          | ???    | Needed to set SDK_WINE=ON config, as described below.
+| Debian/Ubuntu  | Arch/Manjaro | Fedora     | Description                                           |
+| -------------- | ------------ | ---------- | ----------------------------------------------------- |
+| `wine64-tools` | ???          | wine-devel | Needed to set SDK_WINE=ON config, as described below. |
 
 (i.e. repeat the apt/pacman/dnf command from above, with the optional dependencies
 you need appended to the end.)
@@ -61,11 +61,10 @@ cmake . -DSDK_WINE:BOOL=ON
 
 Alternatively, use '`ccmake .`' to view an interactive list of available configuration variables. When done, press `c` to reconfigure, `e` to dismiss the resulting dialog, and then `g` to generate the configuration.
 
-
 ## 5. Compile
 
 ```sh
-make -j$(nprocs)
+make -j$(nproc)
 ```
 
 The `-j` arg does the compilation in parallel across all your CPUs, so speeds
@@ -74,7 +73,7 @@ things up tremendously.
 ## 6. Install
 
 ```sh
-make -j$(nprocs) install
+make -j$(nproc) install
 ```
 
 This installs to wherever the config variable `CMAKE_INSTALL_PREFIX` points to,
@@ -99,4 +98,3 @@ cmake . -DSDK_WINE:BOOL=ON -DCMAKE_INSTALL_PREFIX:PATH=$HOME/.local
 ```
 
 and then recompile, etc.
-
