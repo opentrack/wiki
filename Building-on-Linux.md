@@ -12,7 +12,7 @@ sudo apt update
 
 Then:
 
-### On Debian/Ubuntu:
+### On Debian/Ubuntu
 
 ```sh
 sudo apt install build-essential cmake git libopencv-dev libproc2-dev qt6-base-private-dev qt6-tools-dev wine64-tools
@@ -24,7 +24,7 @@ sudo apt install build-essential cmake git libopencv-dev libproc2-dev qt6-base-p
 sudo pacman -S cmake git opencv procps-ng qt6-base qt6-tools
 ```
 
-### On Fedora:
+### On Fedora
 
 ```sh
 sudo dnf install cmake git opencv-devel procps-ng-devel qt6-qtbase-private-devel qt6-qttools-devel
@@ -83,7 +83,7 @@ by default just `./install`.
 
 Change to the install's bin directory and try it out:
 
-```
+```sh
 cd install/bin
 ./opentrack
 ```
