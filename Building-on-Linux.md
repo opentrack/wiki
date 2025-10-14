@@ -88,7 +88,7 @@ libevdev ([docs](https://www.freedesktop.org/wiki/Software/libevdev/)) | `libevd
 NeuralNet tracker with ONXX | `libopencv-dev`,<br />Download and extract<br />[onxx tarball](https://github.com/microsoft/onnxruntime/releases) | `ONNXRuntime_DIR=<path>`<br />and env var `ONXXRuntime_ROOT`<br />to same path.
 Oscpack | `liboscpack-dev` | `SDK_OSCPACK=/usr`
 Valve SteamVR support | Download and extract<br />[Valve SteamVR SDK](https://github.com/ValveSoftware/openvr) | `SDK_VALVE_STEAMVR=<path>`
-Wine/Proton | `wine64-tools` (Debian)<br />`wine-devel` (Fedora)| Needed to set `SDK_WINE=ON`, as described below.
+Wine/Proton | `wine64-tools` (Debian)<br />`wine-devel` (Fedora)| `SDK_WINE=ON`.
 X-Plane | Download and extract<br />[X-Plane Plugin SDK](https://developer.x-plane.com/sdk/plugin-sdk-downloads/) | `SDK_XPLANE=<path>`
 
 ### libaruco
