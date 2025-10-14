@@ -57,31 +57,43 @@ Alternatively, configuration can be set at the command line, using `-D` to defin
 cmake -B build -DSDK_WINE=ON
 ```
 
+### 3c. Common config settings
+
+The commands below compile and then install Opentrack, by default to the directory './install'. Override this install location by setting config variable `CMAKE_INSTALL_PREFIX`, e.g:
+
+```sh
+cmake . -DCMAKE_INSTALL_PREFIX=$HOME/.local/
+```
+
+You'll probably need more of these config variables if you choose some of the
+optional dependencies listed below. Add their config variables as extra `-D`
+args to this cmake command.
+
 ## 4. Optional dependencies
 
 Use the table below to see if you'll need any optional dependencies. If you do, then repeat the above apt/pacman/dnf command, with the optional dependencies appended to the end.
 
 Similarly, some of the following functionalities require you to set more config variables. Run 'the 'cmake' or 'ccmake' commands above to set any extra configuration variables you need.
 
-The table shows dependencies for particular distros. PRs to cater to other distros are welcome.
+The table shows dependencies for Debian except where otherwise noted. PRs for other distros are welcome.
 
-Functionality | Debian | Fedora | Config variables
+Functionality | Dependency | Config variables
 -|-|-
-Aruco paper marker tracker | `libopencv-dev`,<br />compile `libaruco` (see below) | | `SDK_ARUCO_LIBPATH=<path>`
-EasyTracker | `libopencv-dev` | | 
-FTNoIR PointTracker | `libopencv-dev` | |
-Hatire head tracker | `qt6-serialport-dev`<br />(was `libqt5serialport5-dev`) | |
-Intel RealSense | `librealsense2-dev` ([docs](https://github.com/IntelRealSense/librealsense/blob/master/doc/distribution_linux.md)) | | `SDK_REALSENSE=<path>`<br />(or env var `RSSDK_DIR`)
-libevdev ([docs](https://www.freedesktop.org/wiki/Software/libevdev/)) | `libevdev-dev` | |
-NeuralNet tracker with ONXX | `libopencv-dev`,<br />Download and extract<br />[onxx tarball](https://github.com/microsoft/onnxruntime/releases) | | `ONNXRuntime_DIR=<path>`<br />and env var `ONXXRuntime_ROOT`<br />to same path.
-Oscpack | `liboscpack-dev` | | `SDK_OSCPACK=/usr`
-Valve SteamVR support | Download and extract<br />[Valve SteamVR SDK](https://github.com/ValveSoftware/openvr) | | `SDK_VALVE_STEAMVR=<path>`
-Wine/Proton | `wine64-tools` | `wine-devel` | Needed to set `SDK_WINE=ON`, as described below.
-X-Plane | Download and extract<br />[X-Plane Plugin SDK](https://developer.x-plane.com/sdk/plugin-sdk-downloads/) | | `SDK_XPLANE=<path>`
+Aruco paper marker tracker | `libopencv-dev`, and<br />compile `libaruco` (see below) | `SDK_ARUCO_LIBPATH=<path>`
+EasyTracker | `libopencv-dev` |
+FTNoIR PointTracker | `libopencv-dev` |
+Hatire head tracker | `qt6-serialport-dev`<br />(was `libqt5serialport5-dev`) |
+Intel RealSense | `librealsense2-dev` ([docs](https://github.com/IntelRealSense/librealsense/blob/master/doc/distribution_linux.md)) |`SDK_REALSENSE=<path>`<br />(or env var `RSSDK_DIR`)
+libevdev ([docs](https://www.freedesktop.org/wiki/Software/libevdev/)) | `libevdev-dev` |
+NeuralNet tracker with ONXX | `libopencv-dev`,<br />Download and extract<br />[onxx tarball](https://github.com/microsoft/onnxruntime/releases) | `ONNXRuntime_DIR=<path>`<br />and env var `ONXXRuntime_ROOT`<br />to same path.
+Oscpack | `liboscpack-dev` | `SDK_OSCPACK=/usr`
+Valve SteamVR support | Download and extract<br />[Valve SteamVR SDK](https://github.com/ValveSoftware/openvr) | `SDK_VALVE_STEAMVR=<path>`
+Wine/Proton | `wine64-tools` (Debian)<br />`wine-devel` (Fedora)| Needed to set `SDK_WINE=ON`, as described below.
+X-Plane | Download and extract<br />[X-Plane Plugin SDK](https://developer.x-plane.com/sdk/plugin-sdk-downloads/) | `SDK_XPLANE=<path>`
 
 ### libaruco
 
-Needed for Aruco paper marker tracker, but you'll have to compile it yourself. In a new directory:
+Needed for Aruco paper marker tracker. You'll have to compile it yourself. In a new directory:
 
 ```sh
 git clone https://github.com/opentrack/aruco.git
@@ -113,17 +125,6 @@ This installs to wherever the config variable `CMAKE_INSTALL_PREFIX` points to, 
 Run the installed executable to try it out, e.g.:
 
 ```sh
-cd build/install/bin
+cd build/install/bin # or wherever you configured the install directory
 ./opentrack
 ```
-
-## 8. Variations
-
-You might want to change the directory we install Opentrack to, in which case
-modify the `CMAKE_INSTALL_PREFIX` configuration, e.g:
-
-```sh
-cmake . -DSDK_WINE:BOOL=ON -DCMAKE_INSTALL_PREFIX:PATH=$HOME/.local
-```
-
-and then recompile, etc.
