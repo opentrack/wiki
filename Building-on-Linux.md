@@ -102,7 +102,7 @@ cmake -B build -DCMAKE_BUILD_TYPE=RELEASE
 cmake --build build
 ```
 
-Then specify the full path of `aruco/build/src/` using the config variable `SDK_ARUCO_LIBPATH`.
+Then specify the full path of `aruco/build/src/libaruco.a` using the config variable `SDK_ARUCO_LIBPATH`.
 
 ## 5. Compile
 
