@@ -1,4 +1,4 @@
-Since Steam Client's Update 2022-09-21, Steam detects Wiimotes and takes full control over it, which makes Opentrack not detect it as a real Wiimote anymore. But there's a workaround: Adding the Wiimote to Steam Client's blacklist:
+Since Steam Client's Update 2022-09-21, Steam detects Wiimotes and takes full control over it, which makes opentrack not detect it as a real Wiimote anymore. But there's a workaround: Adding the Wiimote to Steam Client's blacklist:
 
 1. Connect Wii Remote to PC, find the VID/PID of your controller (on Windows, open control panel > devices and printers > go to the properties of the wii remote > hardware > select Bluetooth HID device > details > Hardware IDs and copy the VID/PID)
 These are 16 bit numbers, so only last 4 hex digits, you may omit leading zeros:

@@ -1,8 +1,8 @@
-Opentrack does not provide binaries for Linux users. The following is a brief attempt at the missing guide on compiling Opentrack for Linux. Users of other distributions are encouraged to submit PRs improving this document.
+opentrack does not provide binaries for Linux users. The following is a brief attempt at the missing guide on compiling opentrack for Linux. Users of other distributions are encouraged to submit PRs improving this document.
 
 ## 1. Install Dependencies
 
-The following dependencies are required to build Opentrack.
+The following dependencies are required to build opentrack.
 
 ### On Debian/Ubuntu
 
@@ -59,7 +59,7 @@ cmake -B build -DSDK_WINE=ON
 
 ### 3c. Common config settings
 
-The commands below compile and then install Opentrack, by default to the directory './install'. Override this install location by setting config variable `CMAKE_INSTALL_PREFIX`, e.g:
+The commands below compile and then install opentrack, by default to the directory './install'. Override this install location by setting config variable `CMAKE_INSTALL_PREFIX`, e.g:
 
 ```sh
 cmake . -DCMAKE_INSTALL_PREFIX=$HOME/.local/

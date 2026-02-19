@@ -15,7 +15,7 @@ VS a big bloat for many people and isnt the tool to use for software that is ope
 We have perfectly good crossplatform toolchain. in terms of: msys2, mingw, +the build tools such as make etc.
 This should be the standard for crossplatform projects, but i digress.
 
-# Supported platform for Opentrack.
+# Supported platform for opentrack.
 Microsoft Windows 7 to 10, Linux. Apple's OSX has not been properly tested in a while.
 
 # Supported architecture
@@ -50,7 +50,7 @@ Most of opentrack is implemented using C++17.
 	* Open a new cmd.exe so it has the newly added system variables. (if all is setup correctly you can close the msys console)
 	* The location for our project will be in **<X:\dev>** So, cd into that. You replace <X:\dev> with whatever your path is. 
 		* <X:\dev>
-	* **git clone https://github.com/opentrack/opentrack.git** - Get the source code for Opentrack from github. (you dont have to use git, but why not.)
+	* **git clone https://github.com/opentrack/opentrack.git** - Get the source code for opentrack from github. (you dont have to use git, but why not.)
 	* cd into opentrack and run (git pull --rebase) just to check all is ok and up to date. 
 		* **<X:\dev\opentrack>git pull --rebase**
 	* **mkdir build && cd build** - Creates the build directory and cd into it.

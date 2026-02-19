@@ -37,7 +37,7 @@ Here is the Mapping window where you can set curves for the six DOF. The numbers
 
 ![Mapping](https://www.dropbox.com/s/dhwdy1ggyqhs3n6/mapping%20screen.png?raw=1)
 
-I use a 3 point IR led clip and a PS3 eye camera, a very good set-up to use with Opentrack. To get up and running quickly choose the Tracker, Protocol, and Filter you want to use. Clicking on the three dots next to the drop down takes you to additional settings for the chosen item. The option window has four tabs, Shorcuts, Camera, Output, and Game Detection.
+I use a 3 point IR led clip and a PS3 eye camera, a very good set-up to use with opentrack. To get up and running quickly choose the Tracker, Protocol, and Filter you want to use. Clicking on the three dots next to the drop down takes you to additional settings for the chosen item. The option window has four tabs, Shorcuts, Camera, Output, and Game Detection.
 
 If you are using Point Tracker you will need to click the 3 dot tab and enter your camera data in the pop-up that appears.
 

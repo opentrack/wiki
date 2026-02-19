@@ -8,7 +8,7 @@ below picture shows how WIImote receiver and 3-point IR led work
 
 # When also running Steam Client
 
-Since Steam Client's Update 2022-09-21, Steam detects Wiimotes and takes full control over it, which makes Opentrack not detect it as a real Wiimote anymore: [You need to set it on Steam's blacklist](https://github.com/opentrack/opentrack/wiki/Wiimote-And-Steam).
+Since Steam Client's Update 2022-09-21, Steam detects Wiimotes and takes full control over it, which makes opentrack not detect it as a real Wiimote anymore: [You need to set it on Steam's blacklist](https://github.com/opentrack/opentrack/wiki/Wiimote-And-Steam).
 
 
 # How to fix WIImote with your monitor

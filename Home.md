@@ -2,7 +2,7 @@ Welcome to the opentrack wiki!
 
 # Getting started
 - [Click here for a quickstart guide](https://github.com/opentrack/opentrack/wiki/Quick-Start-Guide-(WIP))
-- [Click here for a more thorough written article on Opentrack](https://forum.il2sturmovik.com/topic/34403-a-complete-guide-to-set-up-head-tracking-opentrack/?tab=comments#comment-580169)
+- [Click here for a more thorough written article on opentrack](https://forum.il2sturmovik.com/topic/34403-a-complete-guide-to-set-up-head-tracking-opentrack/?tab=comments#comment-580169)
 
 # Troubleshooting
 

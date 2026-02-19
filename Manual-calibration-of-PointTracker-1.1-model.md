@@ -1,6 +1,6 @@
 This is with opentrack 2.3.10
 
-**Opentrack 2.3.10/PointTracker 1.1/PointTracker settings/model**
+**opentrack 2.3.10/PointTracker 1.1/PointTracker settings/model**
 
 This is for Clip, Cap and Custom models
 Directions are for moving the calibration marker (The +) in relation to you facing the screen, that is left is to your left and vice versa.
