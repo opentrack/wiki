@@ -65,7 +65,7 @@ Please use USB connection - it should support 30-60 fps with 1080p video image. 
 
 **3) Install FreePIE Android Client on your smartphone**
 
-**a)** FreePIE Client (apk) is located in _your_OpenTrack_installation_directory\contrib\freepie-udp
+**a)** FreePIE Client (apk) is located in _your_opentrack_installation_directory\contrib\freepie-udp
 
 Remember to enable "allow installation from unknown sources" on your smartphone before install. You will be prompted with option to go to the settings if you haven't enabled this.
 

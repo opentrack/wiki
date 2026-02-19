@@ -6,7 +6,7 @@ This guide is intended for use to get up and running fairly quickly. It is not d
 ## Video of the calibration process: 
 [![opentrack Calibration Video](http://img.youtube.com/vi/ZDz-bholoMo/0.jpg)](https://www.youtube.com/watch?v=ZDz-bholoMo "opentrack Calibration Video")
 
-Below is the opening screen for OpenTrack. The version number is displayed in the top. The area marked "no video" displays the camera output once the program is running. The octopus will rotate as you move your head. Below them are the raw tracker and game data displays. 
+Below is the opening screen for opentrack. The version number is displayed in the top. The area marked "no video" displays the camera output once the program is running. The octopus will rotate as you move your head. Below them are the raw tracker and game data displays. 
 ![Main Window](https://www.dropbox.com/s/6oe8p7zcvytu25j/mainscreen.png?raw=1)
 
 1 - clicking here will take you to the Tracker selection.
@@ -41,4 +41,4 @@ I use a 3 point IR led clip and a PS3 eye camera, a very good set-up to use with
 
 If you are using Point Tracker you will need to click the 3 dot tab and enter your camera data in the pop-up that appears.
 
-Once you are ready click Start and off you go. On the main wiki page are some links that lead to pages with additional information on various parts of OpenTrack.
+Once you are ready click Start and off you go. On the main wiki page are some links that lead to pages with additional information on various parts of opentrack.

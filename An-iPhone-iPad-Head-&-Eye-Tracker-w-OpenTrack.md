@@ -1,4 +1,4 @@
-Experience the Eyeware Beam app's responsive 6DOF head tracking with more than 200 of your favorite driving and flight simulator, and first-person shooter PC games compatible with OpenTrack.
+Experience the Eyeware Beam app's responsive 6DOF head tracking with more than 200 of your favorite driving and flight simulator, and first-person shooter PC games compatible with opentrack.
 
 ## [App Store Download: Eyeware Beam](https://apps.apple.com/us/app/eyeware-beam/id1538790472)
 
@@ -35,7 +35,7 @@ Step 3: Select the computer screen you will use in Windows Display Start > Setti
 Step 4: On the right side of your computer screen taskbar, select the Wi-Fi network icon. Under the name of the Wi-Fi network that you’re connected to, select Properties. Under Network profile, select Private.
 
 Step 5: Download our computer app counterpart 2 to connect your iPhone/iPad to your PC or laptop screen where you will use the head and eye-tracker.
-**note: Eyeware Beam will not work without this computer app from step 1, the iPhone/iPad app from the app store, OpenTrack 2 to enable head tracking, and OBS Studio to enable streaming with eye-tracking.
+**note: Eyeware Beam will not work without this computer app from step 1, the iPhone/iPad app from the app store, opentrack 2 to enable head tracking, and OBS Studio to enable streaming with eye-tracking.
 
 Step 6: Add the Eyeware Beam computer application (Beam.exe) as an exclusion to your Windows 10 firewall.
 Press Windows key on keyboard → type “Firewall” → “Firewall & Network Protection” → “Advanced Settings” → Inbound Rules → Actions → New Rule → Program → This Program Path → Browse → Beam.exe->Finish*
@@ -52,31 +52,31 @@ Step 10: (optional) Find the application now running at the bottom right of your
 
 Step 11: Modify Eyeware Beam computer application “settings.”
 
-11a: Turn on OpenTrack Stream by moving the toggle button to the right
+11a: Turn on opentrack Stream by moving the toggle button to the right
 
-11b: The number 4242 should already be input to the OpenTrack Input Port. If it is not, please add it.
+11b: The number 4242 should already be input to the opentrack Input Port. If it is not, please add it.
 
-Step 12: You must download any of following applications on your computer to run head tracking in games or stream your eye gaze. Our Eyeware Beam app only transmits your movements from your iPhone/iPad to your computer. OpenTrack and/or OBS Studio is what relays these movements into your game or stream.
+Step 12: You must download any of following applications on your computer to run head tracking in games or stream your eye gaze. Our Eyeware Beam app only transmits your movements from your iPhone/iPad to your computer. opentrack and/or OBS Studio is what relays these movements into your game or stream.
 
 13a: Download OpenTrac  (free) to enable head-tracking and enter these settings
 or
 
 13b: Download OBS Studio (free) to enable streaming for eye-tracking and enter these settings
 To Play Games
-With OpenTrack
+With opentrack
 
-Step 14: Open the OpenTrack software on your computer and choose the following:
+Step 14: Open the opentrack software on your computer and choose the following:
 
 14a: Select Input = UDP over network, port 4242.
 
 14b: Open your compatible PC gam  in Options > Game Detection, press + button and add the executable of an installed game that supports the Freetrack protocol > Select OK
 
-14c: Press Start in OpenTrack .
-*Note: If tracking is inverted, in OpenTrack go to Options > Output and check to Invert either the *Yaw, Pitch or Roll.
+14c: Press Start in opentrack .
+*Note: If tracking is inverted, in opentrack go to Options > Output and check to Invert either the *Yaw, Pitch or Roll.
 
-Optional: You can download this settings profile and add it as yours for a good selection of head tracking optimized settings. In order to add it to your OpenTrack, you need to:
+Optional: You can download this settings profile and add it as yours for a good selection of head tracking optimized settings. In order to add it to your opentrack, you need to:
 
-Launch OpenTrack.
+Launch opentrack.
 
 Click on Profile > Open configuration directory.
 
