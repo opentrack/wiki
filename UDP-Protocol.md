@@ -23,9 +23,11 @@ In opentrack, select UDP over network as the output method and configure the des
 
 ## Code Examples
 
-The following examples are recievers that you can adapt to your use case.
+You can adapt the receivers and senders below to your use-case.
 
-### Python
+## Receiving
+
+#### Python
 
 A minimal Python client that receives tracking data via UDP:
 
@@ -48,13 +50,13 @@ try:
         out = ""
         for (i, label) in enumerate(["x:", "y:", "z:", "Yaw:", "Pitch", "Roll"]):
             dp: float = struct.unpack('d', data[i*8:(i+1)*8])[0]
-            out += f"{label} {round(dp, 2)}\t"
+            out += f"{label} {dp:.2f}\t"
         print(f"From {addr}: {out}")
 except Exception:
     sock.close()
 ```
 
-### C#
+#### C#
 
 A minimal C# receiver for opentrack UDP output:
 
@@ -100,4 +102,17 @@ class UDPReceiver
         }
     }
 }
+```
+
+## Sending
+
+#### Python
+
+```python
+x = 111; y = 222; z = 333;
+yaw = 11; pitch = 22; roll = 33;
+
+import socket, struct
+sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+sock.sendto(struct.pack("<6d", x, y, z, yaw, pitch, roll), ("127.0.0.1", 4242))
 ```
